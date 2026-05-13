@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nh12wmf52ace"
+path="res://.godot/imported/wind rushing.mp3-2144b5b966fdea9362e2be1a39c761d8.mp3str"
+
+[deps]
+
+source_file="res://assets/sfx/atmospherics/wind rushing.mp3"
+dest_files=["res://.godot/imported/wind rushing.mp3-2144b5b966fdea9362e2be1a39c761d8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

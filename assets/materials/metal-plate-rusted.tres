@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cvik8sg27h7tj"]
+
+[ext_resource type="Texture2D" uid="uid://cdv3p1m5x6stm" path="res://assets/textures/metal-plate-rusted_512.png" id="1_hxt61"]
+
+[resource]
+albedo_texture = ExtResource("1_hxt61")
+metallic = 0.25
+uv1_scale = Vector3(0.5, 0.5, 0.5)
+uv1_triplanar = true
+texture_filter = 2

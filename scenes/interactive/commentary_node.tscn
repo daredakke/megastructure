@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://wru24ktkcd1f"]
+
+[ext_resource type="PackedScene" uid="uid://y3gd5cffdkax" path="res://assets/models/general/speech_bubble.glb" id="1_6k58k"]
+[ext_resource type="Script" uid="uid://bhpl3xq0rfjq3" path="res://scenes/interactive/speech_bubble.gd" id="2_bppwm"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_6k58k"]
+height = 1.347168
+radius = 0.43701172
+
+[node name="CommentaryNode" unique_id=2121275781 instance=ExtResource("1_6k58k")]
+collision_layer = 2
+collision_mask = 2
+
+[node name="speech bubble" parent="." index="0" unique_id=1123386501]
+script = ExtResource("2_bppwm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=882785683]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.673584, 0)
+shape = SubResource("CylinderShape3D_6k58k")

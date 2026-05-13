@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dmbjllm01bad"]
+
+[ext_resource type="Script" uid="uid://droq3b1mggj7" path="res://scripts/NPC.gd" id="1_oh1t7"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_q774s"]
+size = Vector3(0.2, 0.1, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ni7rs"]
+albedo_color = Color(1, 0, 0, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j81ib"]
+size = Vector3(0.2, 0.1, 0.2)
+
+[node name="TestBox" type="Node3D" unique_id=198561014]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=52041167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05, 0)
+mesh = SubResource("BoxMesh_q774s")
+surface_material_override/0 = SubResource("StandardMaterial3D_ni7rs")
+
+[node name="Npc" type="StaticBody3D" parent="MeshInstance3D" unique_id=210387412]
+script = ExtResource("1_oh1t7")
+dialogue_index = 1
+metadata/_custom_type_script = "uid://droq3b1mggj7"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/Npc" unique_id=71800573]
+shape = SubResource("BoxShape3D_j81ib")

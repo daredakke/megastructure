@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://bx8f8fkoe5atb"]
+
+[ext_resource type="Script" uid="uid://c1iwfhbhkuo1" path="res://scenes/levels/level_base.gd" id="1_ah5vd"]
+[ext_resource type="Texture2D" uid="uid://btvo5sst62ufi" path="res://assets/desert-sky-HDRI-2K.exr" id="4_btri8"]
+[ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="5_btri8"]
+[ext_resource type="PackedScene" uid="uid://dmbjllm01bad" path="res://scenes/npcs/test_box.tscn" id="5_qho1y"]
+[ext_resource type="Material" uid="uid://cnq1vq2qgp6f4" path="res://assets/materials/grid_texture_2.tres" id="6_qho1y"]
+[ext_resource type="AudioStream" uid="uid://cwa1baa4fy5pt" path="res://assets/sfx/atmospherics/atmospheric wind and noise.mp3" id="14_lq6h8"]
+[ext_resource type="Script" uid="uid://bwl5f7c7p2hp1" path="res://scripts/atmospherics.gd" id="15_jof07"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_3li6a"]
+panorama = ExtResource("4_btri8")
+
+[sub_resource type="Sky" id="Sky_ym88k"]
+sky_material = SubResource("PanoramaSkyMaterial_3li6a")
+
+[sub_resource type="Environment" id="Environment_m8deo"]
+background_mode = 2
+sky = SubResource("Sky_ym88k")
+tonemap_mode = 2
+ssr_enabled = true
+ssao_enabled = true
+adjustment_enabled = true
+adjustment_contrast = 1.05
+adjustment_saturation = 1.15
+
+[sub_resource type="BoxMesh" id="BoxMesh_0gw7i"]
+lightmap_size_hint = Vector2i(54, 41)
+size = Vector3(5, 1, 5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_btri8"]
+size = Vector3(5, 1, 5)
+
+[node name="LvlTest" type="Node3D" unique_id=745644846]
+script = ExtResource("1_ah5vd")
+metadata/_custom_type_script = "uid://c1iwfhbhkuo1"
+
+[node name="Atmospherics" type="AudioStreamPlayer" parent="." unique_id=1277096129]
+stream = ExtResource("14_lq6h8")
+script = ExtResource("15_jof07")
+metadata/_custom_type_script = "uid://bwl5f7c7p2hp1"
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1382726649]
+environment = SubResource("Environment_m8deo")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1035724686]
+transform = Transform3D(-0.8660254, -0.4893192, 0.10279464, 0, 0.20558926, 0.97863835, -0.50000006, 0.84752566, -0.17804551, 0, 2, 0)
+light_color = Color(1, 0.856, 0.76, 1)
+shadow_enabled = true
+
+[node name="SpawnPoints" type="Node3D" parent="." unique_id=1851208454]
+
+[node name="Start" type="Marker3D" parent="SpawnPoints" unique_id=1330347409]
+
+[node name="Checkpoints" type="Node3D" parent="." unique_id=985372181]
+
+[node name="SceneChangers" type="Node3D" parent="." unique_id=1701530348]
+
+[node name="Interactive" type="Node3D" parent="." unique_id=1086384011]
+
+[node name="NPCs" type="Node3D" parent="Interactive" unique_id=815757479]
+
+[node name="TestBox" parent="Interactive/NPCs" unique_id=198561014 instance=ExtResource("5_qho1y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.97305465, 0, 1.4389131)
+
+[node name="Geometry" type="Node3D" parent="." unique_id=2094550494]
+
+[node name="TestFloor" type="StaticBody3D" parent="Geometry" unique_id=1702259591]
+script = ExtResource("5_btri8")
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Geometry/TestFloor" unique_id=1031050607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+mesh = SubResource("BoxMesh_0gw7i")
+surface_material_override/0 = ExtResource("6_qho1y")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/TestFloor" unique_id=1232199117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("BoxShape3D_btri8")

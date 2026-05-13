@@ -1,0 +1,74 @@
+[gd_scene format=3 uid="uid://crji8m1dgbo6c"]
+
+[ext_resource type="Script" uid="uid://cvqyugv7gevvb" path="res://scripts/level_controller.gd" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://c127dyip631sl" path="res://scenes/main.gd" id="1_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://bsju03f3ux4nv" path="res://scenes/ui/loading_screen.tscn" id="2_0wfyh"]
+[ext_resource type="Script" uid="uid://ehpxiy4cvjbm" path="res://scripts/dialogue_controller.gd" id="3_85g3d"]
+[ext_resource type="PackedScene" uid="uid://be08ey7t5llbe" path="res://scenes/ui/dev_console.tscn" id="4_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://do4bgygpauiuf" path="res://scenes/ui/death_screen.tscn" id="4_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://dtik3o2ymq3tt" path="res://scenes/ui/pause_menu.tscn" id="6_tefeu"]
+[ext_resource type="Script" uid="uid://cyxso31yshucx" path="res://scripts/ui_audio.gd" id="8_85g3d"]
+[ext_resource type="AudioStream" uid="uid://d3sib661m6gts" path="res://assets/sfx/button hover.wav" id="8_tipki"]
+
+[node name="Main" type="Node" unique_id=1187034571]
+script = ExtResource("1_o6xl0")
+
+[node name="LevelController" type="Node" parent="." unique_id=667059501]
+unique_name_in_owner = true
+script = ExtResource("1_o5qli")
+
+[node name="UIAudio" type="Node" parent="." unique_id=930844231]
+script = ExtResource("8_85g3d")
+
+[node name="ButtonHover" type="AudioStreamPlayer" parent="UIAudio" unique_id=176557050]
+stream = ExtResource("8_tipki")
+max_polyphony = 3
+bus = &"SFX"
+
+[node name="ButtonClick" type="AudioStreamPlayer" parent="UIAudio" unique_id=153273490]
+stream = ExtResource("8_tipki")
+pitch_scale = 0.6
+max_polyphony = 3
+bus = &"SFX"
+
+[node name="UI" type="Control" parent="." unique_id=514774194]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="DialogueController" type="Control" parent="UI" unique_id=1878755467]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_85g3d")
+
+[node name="DeathScreen" parent="UI" unique_id=1319536273 instance=ExtResource("4_tbgi4")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+
+[node name="DevConsole" parent="UI" unique_id=36150651 instance=ExtResource("4_jyhfs")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+
+[node name="LoadingScreen" parent="UI" unique_id=2098866449 instance=ExtResource("2_0wfyh")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+
+[node name="PauseMenu" parent="." unique_id=1454508885 instance=ExtResource("6_tefeu")]
+unique_name_in_owner = true
+
+[connection signal="resume_button_pressed" from="PauseMenu" to="." method="handle_pause"]

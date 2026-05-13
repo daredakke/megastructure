@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://cluc81wascul0"]
+
+[ext_resource type="Texture2D" uid="uid://mogjatreekvg" path="res://assets/sprites/test_npc.png" id="1_57735"]
+[ext_resource type="Script" uid="uid://droq3b1mggj7" path="res://scripts/NPC.gd" id="1_qjska"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_57735"]
+radius = 0.2055664
+height = 1.6225586
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_qjska"]
+radius = 0.36921978
+
+[node name="TestNPC" type="StaticBody3D" unique_id=447031272]
+script = ExtResource("1_qjska")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1778415247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8112793, 0)
+shape = SubResource("CapsuleShape3D_57735")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=2014153027]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0250217, 0)
+shape = SubResource("SphereShape3D_qjska")
+
+[node name="Sprite3D" type="Sprite3D" parent="." unique_id=730555963]
+transform = Transform3D(0.65, 0, 0, 0, 0.65, 0, 0, 0, 0.65, 0, 0, 0)
+offset = Vector2(-16, 123.5)
+billboard = 2
+shaded = true
+alpha_cut = 2
+alpha_antialiasing_mode = 1
+texture_filter = 0
+texture = ExtResource("1_57735")

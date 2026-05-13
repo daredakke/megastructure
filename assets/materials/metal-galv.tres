@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d0xfnuspg4pic"]
+
+[ext_resource type="Texture2D" uid="uid://cendbn4fqlxpt" path="res://assets/textures/metal-galvanised_1024.png" id="1_gf24w"]
+
+[resource]
+albedo_texture = ExtResource("1_gf24w")
+metallic = 0.18
+uv1_scale = Vector3(0.25, 0.25, 0.25)
+uv1_triplanar = true
+texture_filter = 2

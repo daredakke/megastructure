@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cqw38xd3xq3va"]
+
+[ext_resource type="Script" uid="uid://btrdyh7xdn18w" path="res://scenes/ui/sfx_button.gd" id="1_gu588"]
+
+[node name="SFXButton" type="Button" unique_id=12283936]
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_gu588")

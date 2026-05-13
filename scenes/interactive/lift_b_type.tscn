@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://cmodbou3ruvh3"]
+
+[ext_resource type="Script" uid="uid://bvv6r4lri0pki" path="res://scenes/interactive/lift.gd" id="1_gtotc"]
+[ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="2_868fl"]
+[ext_resource type="PackedScene" uid="uid://0prw6me85w5" path="res://scenes/interactive/lift_switch.tscn" id="3_868fl"]
+[ext_resource type="AudioStream" uid="uid://c7xatsoblnh5w" path="res://assets/sfx/lift.mp3" id="4_uss1a"]
+[ext_resource type="Material" uid="uid://cvik8sg27h7tj" path="res://assets/materials/metal-plate-rusted.tres" id="4_y53n0"]
+[ext_resource type="AudioStream" uid="uid://c4guvkvadjus2" path="res://assets/sfx/beep.mp3" id="5_y53n0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1arqs"]
+albedo_color = Color(0.48235294, 0.5011491, 0.8980392, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_uss1a"]
+material = SubResource("StandardMaterial3D_1arqs")
+size = Vector3(3, 0.4, 3)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y53n0"]
+size = Vector3(3, 0.4, 3)
+
+[node name="LiftBType" type="Node3D" unique_id=1464102789]
+script = ExtResource("1_gtotc")
+
+[node name="Body" type="StaticBody3D" parent="." unique_id=1028165214]
+script = ExtResource("2_868fl")
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="LiftSwitch" parent="Body" unique_id=280733391 node_paths=PackedStringArray("assigned_lift") instance=ExtResource("3_868fl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0, 0)
+assigned_lift = NodePath("../..")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Body" unique_id=1927822990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20000002, 0)
+mesh = SubResource("BoxMesh_uss1a")
+surface_material_override/0 = ExtResource("4_y53n0")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Body" unique_id=1144872294]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+shape = SubResource("BoxShape3D_y53n0")
+
+[node name="Top" type="Marker3D" parent="." unique_id=793471018]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="Bottom" type="Marker3D" parent="." unique_id=1645352737]
+
+[node name="Drone" type="AudioStreamPlayer" parent="." unique_id=1926981415]
+stream = ExtResource("4_uss1a")
+bus = &"Reverb"
+
+[node name="Beep" type="AudioStreamPlayer" parent="." unique_id=1677514428]
+stream = ExtResource("5_y53n0")
+max_polyphony = 4
+bus = &"Reverb"

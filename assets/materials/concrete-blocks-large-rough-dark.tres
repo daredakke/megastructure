@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c5cv33r5ghgum"]
+
+[ext_resource type="Texture2D" uid="uid://u4gh8xap4x4y" path="res://assets/textures/concrete-blocks-large-rough-dark_1024.png" id="1_8fvt1"]
+
+[resource]
+albedo_texture = ExtResource("1_8fvt1")
+uv1_scale = Vector3(0.2, 0.2, 0.2)
+uv1_triplanar = true
+texture_filter = 2

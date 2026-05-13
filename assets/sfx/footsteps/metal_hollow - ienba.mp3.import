@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d0la0r0il2ww5"
+path="res://.godot/imported/metal_hollow - ienba.mp3-faf5ea8a39c3826cf9407b9fc2351054.mp3str"
+
+[deps]
+
+source_file="res://assets/sfx/footsteps/metal_hollow - ienba.mp3"
+dest_files=["res://.godot/imported/metal_hollow - ienba.mp3-faf5ea8a39c3826cf9407b9fc2351054.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c3cgywsnql0rv"]
+
+[ext_resource type="Texture2D" uid="uid://o14d3qm3xlba" path="res://assets/textures/concrete-smooth-2_1024.png" id="1_2yvu2"]
+
+[resource]
+albedo_texture = ExtResource("1_2yvu2")
+uv1_scale = Vector3(0.2, 0.2, 0.2)
+uv1_triplanar = true
+texture_filter = 2

@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://do4bgygpauiuf"]
+
+[ext_resource type="Script" uid="uid://dknc3k6b47081" path="res://scenes/ui/death_screen.gd" id="1_j0ehl"]
+[ext_resource type="FontVariation" uid="uid://ct3twiho6rffe" path="res://assets/fonts/InterBold.tres" id="2_njuei"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j0ehl"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="DeathScreen" type="Control" unique_id=982290079]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_j0ehl")
+
+[node name="Panel" type="Panel" parent="." unique_id=767803443]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_j0ehl")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=1655813160]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -169.0
+offset_top = -20.0
+offset_right = 169.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="DeadLabel" type="Label" parent="Panel/VBoxContainer" unique_id=13554116]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9963648, 2.7193873e-06, 1.347661e-06, 1)
+theme_override_fonts/font = ExtResource("2_njuei")
+theme_override_font_sizes/font_size = 124
+text = "DEAD"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer" unique_id=110503179]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_njuei")
+theme_override_font_sizes/font_size = 32
+text = "HOLD T TO RESPAWN"
+horizontal_alignment = 1

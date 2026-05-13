@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://dc33q3sta34v"]
+
+[ext_resource type="Script" uid="uid://bvv6r4lri0pki" path="res://scenes/interactive/lift.gd" id="1_r381p"]
+[ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="2_psuf7"]
+[ext_resource type="AudioStream" uid="uid://c7xatsoblnh5w" path="res://assets/sfx/lift.mp3" id="3_2rvjd"]
+[ext_resource type="AudioStream" uid="uid://c4guvkvadjus2" path="res://assets/sfx/beep.mp3" id="4_d84j7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_psuf7"]
+albedo_color = Color(0.8641177, 0.48146996, 0.8973913, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_psuf7"]
+material = SubResource("StandardMaterial3D_psuf7")
+size = Vector3(3, 0.4, 3)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nc438"]
+size = Vector3(3, 0.4, 3)
+
+[node name="Lift" type="Node3D" unique_id=1305797611]
+script = ExtResource("1_r381p")
+
+[node name="Body" type="StaticBody3D" parent="." unique_id=1621327302]
+script = ExtResource("2_psuf7")
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Body" unique_id=696648499]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20000002, 0)
+mesh = SubResource("BoxMesh_psuf7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Body" unique_id=1191209753]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.2, 0)
+shape = SubResource("BoxShape3D_nc438")
+
+[node name="Top" type="Marker3D" parent="." unique_id=1216535020]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="Bottom" type="Marker3D" parent="." unique_id=1077579669]
+
+[node name="Drone" type="AudioStreamPlayer" parent="." unique_id=154903395]
+stream = ExtResource("3_2rvjd")
+bus = &"Reverb"
+
+[node name="Beep" type="AudioStreamPlayer" parent="." unique_id=1305803095]
+stream = ExtResource("4_d84j7")
+max_polyphony = 4
+bus = &"Reverb"

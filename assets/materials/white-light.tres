@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://haksua2tv4fy"]
+
+[resource]
+emission_enabled = true
+emission = Color(0.8423251, 0.76434505, 0.7089551, 1)
+emission_energy_multiplier = 10.0
+uv1_scale = Vector3(0.2, 0.2, 0.2)
+uv1_triplanar = true
+texture_filter = 2

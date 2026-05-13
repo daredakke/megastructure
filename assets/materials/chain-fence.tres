@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bylscwxjvth5b"]
+
+[ext_resource type="Texture2D" uid="uid://wtfldunyqklc" path="res://assets/textures/chain-fence-252.png" id="1_kroyo"]
+
+[resource]
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+cull_mode = 2
+albedo_texture = ExtResource("1_kroyo")
+texture_filter = 2

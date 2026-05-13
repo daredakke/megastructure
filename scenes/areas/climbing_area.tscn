@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://byauvd47dm3iw"]
+
+[ext_resource type="Script" uid="uid://b4tp2k7r5yaoa" path="res://scenes/areas/climbing_area.gd" id="1_fr370"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pvgp0"]
+size = Vector3(0.1, 1.5, 0.1)
+
+[node name="ClimbingArea" type="Area3D" unique_id=358645904]
+script = ExtResource("1_fr370")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1255161402]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75, -0.3)
+shape = SubResource("BoxShape3D_pvgp0")
+
+[node name="Marker3D" type="Marker3D" parent="." unique_id=1292817736]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.49999997)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

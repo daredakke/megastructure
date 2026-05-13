@@ -1,0 +1,241 @@
+[gd_scene format=3 uid="uid://ct1rg4grgbrd6"]
+
+[ext_resource type="Script" uid="uid://daxnnse0vhcit" path="res://scenes/fps_controller.gd" id="1_yvsbt"]
+[ext_resource type="Texture2D" uid="uid://dulifjb646g4k" path="res://assets/sprites/flashlight cookie.jpeg" id="2_57dk1"]
+[ext_resource type="Script" uid="uid://bm1x7oq1qvm5k" path="res://scenes/torch.gd" id="3_laber"]
+[ext_resource type="AudioStream" uid="uid://t38kbo5jaci3" path="res://assets/sfx/torch click.mp3" id="4_qlg3t"]
+[ext_resource type="Texture2D" uid="uid://bbla5c5aenc32" path="res://assets/sprites/base_crosshair.png" id="4_sf0in"]
+[ext_resource type="Texture2D" uid="uid://btj3ltm88ullr" path="res://assets/sprites/turn-arrow.png" id="5_jh1uw"]
+[ext_resource type="Texture2D" uid="uid://cmi7hciywhg3q" path="res://assets/sprites/speech-bubble.png" id="6_lthsy"]
+[ext_resource type="Texture2D" uid="uid://b0qd0kl4p5ly1" path="res://assets/sprites/door-open.png" id="7_21qrq"]
+[ext_resource type="AudioStream" uid="uid://nh12wmf52ace" path="res://assets/sfx/atmospherics/wind rushing.mp3" id="8_lthsy"]
+[ext_resource type="AudioStream" uid="uid://dq6m681msqsm7" path="res://assets/sfx/death-crunch.mp3" id="9_21qrq"]
+[ext_resource type="Script" uid="uid://kledsysceol0" path="res://scripts/footstep_controller.gd" id="11_r3afy"]
+[ext_resource type="Script" uid="uid://hpo3gy64sns4" path="res://scripts/footstep_audio.gd" id="12_8odwi"]
+[ext_resource type="AudioStream" uid="uid://dbdp5mwnwfqji" path="res://assets/sfx/footsteps/concrete - fmaudio.mp3" id="12_dw4de"]
+[ext_resource type="AudioStream" uid="uid://dub6rkt4nfbqg" path="res://assets/sfx/footsteps/metal_dull.mp3" id="14_fcry4"]
+[ext_resource type="AudioStream" uid="uid://d0la0r0il2ww5" path="res://assets/sfx/footsteps/metal_hollow - ienba.mp3" id="15_fffs3"]
+[ext_resource type="AudioStream" uid="uid://b22s1444cbtuc" path="res://assets/sfx/footsteps/sand - fmaudio.mp3" id="16_siunp"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_r46qa"]
+radius = 0.4
+height = 1.75
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r46qa"]
+radius = 0.4
+height = 1.75
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_yvsbt"]
+margin = 0.01
+radius = 0.3
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r46qa"]
+size = Vector3(0.5, 0.25, 0.5)
+
+[node name="FPSController" type="CharacterBody3D" unique_id=1698115500]
+floor_constant_speed = true
+script = ExtResource("1_yvsbt")
+
+[node name="WorldModel" type="Node3D" parent="." unique_id=1166164380]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldModel" unique_id=513386008]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
+cast_shadow = 0
+gi_mode = 0
+mesh = SubResource("CapsuleMesh_r46qa")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=196820048]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.875, 0)
+shape = SubResource("CapsuleShape3D_r46qa")
+
+[node name="HeadOriginalPosition" type="Node3D" parent="." unique_id=836461485]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4000001, 0)
+
+[node name="Head" type="Node3D" parent="HeadOriginalPosition" unique_id=1266036917]
+
+[node name="Camera3D" type="Camera3D" parent="HeadOriginalPosition/Head" unique_id=1550142423]
+
+[node name="SpringArm3D" type="SpringArm3D" parent="HeadOriginalPosition/Head/Camera3D" unique_id=423071151]
+shape = SubResource("SphereShape3D_yvsbt")
+spring_length = -0.2
+
+[node name="Torch" type="SpotLight3D" parent="HeadOriginalPosition/Head/Camera3D/SpringArm3D" unique_id=31211575]
+visible = false
+light_color = Color(0.9982881, 1, 0.75391304, 1)
+light_energy = 2.0
+light_indirect_energy = 1.5
+light_projector = ExtResource("2_57dk1")
+light_size = 1.0
+light_specular = 0.1
+shadow_enabled = true
+spot_range = 25.0
+spot_attenuation = 1.33
+spot_angle = 27.5
+spot_angle_attenuation = 0.5
+script = ExtResource("3_laber")
+
+[node name="TorchFlickerTimer" type="Timer" parent="HeadOriginalPosition/Head/Camera3D/SpringArm3D/Torch" unique_id=1929130017]
+wait_time = 0.05
+autostart = true
+
+[node name="TorchClickSFX" type="AudioStreamPlayer" parent="HeadOriginalPosition/Head/Camera3D/SpringArm3D/Torch" unique_id=1275846537]
+stream = ExtResource("4_qlg3t")
+volume_db = -2.0
+pitch_scale = 1.1
+bus = &"Reverb"
+
+[node name="FloorBelowRayCast" type="RayCast3D" parent="." unique_id=450737970]
+target_position = Vector3(0, -0.2, 0)
+
+[node name="FloorBelowShapeCast" type="ShapeCast3D" parent="." unique_id=1138069333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17, 0)
+shape = SubResource("BoxShape3D_r46qa")
+target_position = Vector3(0, -0.3, 0)
+
+[node name="SpaceAheadRayCast" type="RayCast3D" parent="." unique_id=1633812504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5000001, -0.3)
+target_position = Vector3(0, 0, -0.5)
+
+[node name="LedgeAheadRayCast" type="RayCast3D" parent="." unique_id=1801214390]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4632955, -0.70000005)
+target_position = Vector3(0, -0.5, 0)
+
+[node name="RoomSizeRayCasts" type="Node3D" parent="." unique_id=1075226255]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4000001, 0)
+
+[node name="Up" type="RayCast3D" parent="RoomSizeRayCasts" unique_id=1276779465]
+target_position = Vector3(0, 30, 0)
+
+[node name="Down" type="RayCast3D" parent="RoomSizeRayCasts" unique_id=1899424011]
+target_position = Vector3(0, -30, 0)
+
+[node name="Crosshair" type="Control" parent="." unique_id=2146460937]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Base" type="TextureRect" parent="Crosshair" unique_id=1631491905]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_sf0in")
+stretch_mode = 3
+
+[node name="LedgeGrabIcon" type="TextureRect" parent="Crosshair" unique_id=1193333754]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -25.0
+offset_top = -20.0
+offset_right = 25.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_jh1uw")
+stretch_mode = 3
+
+[node name="SpeechIcon" type="TextureRect" parent="Crosshair" unique_id=792449098]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -25.0
+offset_top = -20.0
+offset_right = 25.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("6_lthsy")
+stretch_mode = 3
+
+[node name="DoorIcon" type="TextureRect" parent="Crosshair" unique_id=297341448]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -25.0
+offset_top = -20.0
+offset_right = 25.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_21qrq")
+stretch_mode = 3
+
+[node name="WindRushingSFX" type="AudioStreamPlayer" parent="." unique_id=2030004302]
+stream = ExtResource("8_lthsy")
+volume_db = 1.0
+pitch_scale = 1.5
+bus = &"Reverb"
+
+[node name="DeathSFX" type="AudioStreamPlayer" parent="." unique_id=262800405]
+stream = ExtResource("9_21qrq")
+volume_db = -1.25
+bus = &"Reverb"
+
+[node name="FootstepController" type="Node" parent="." unique_id=1083495860]
+script = ExtResource("11_r3afy")
+
+[node name="Concrete" type="AudioStreamPlayer" parent="FootstepController" unique_id=919055274]
+stream = ExtResource("12_dw4de")
+max_polyphony = 3
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull" type="AudioStreamPlayer" parent="FootstepController" unique_id=602948504]
+stream = ExtResource("14_fcry4")
+max_polyphony = 3
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow" type="AudioStreamPlayer" parent="FootstepController" unique_id=78598742]
+stream = ExtResource("15_fffs3")
+max_polyphony = 3
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Sand" type="AudioStreamPlayer" parent="FootstepController" unique_id=169151323]
+stream = ExtResource("16_siunp")
+max_polyphony = 3
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 3
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="RoomSizeRayCastTimer" type="Timer" parent="." unique_id=651464048]
+wait_time = 0.1
+autostart = true
+
+[node name="InteractDelayTimer" type="Timer" parent="." unique_id=1592076321]
+wait_time = 0.05
+one_shot = true
+
+[connection signal="visibility_changed" from="HeadOriginalPosition/Head/Camera3D/SpringArm3D/Torch" to="HeadOriginalPosition/Head/Camera3D/SpringArm3D/Torch" method="_on_visibility_changed"]
+[connection signal="timeout" from="HeadOriginalPosition/Head/Camera3D/SpringArm3D/Torch/TorchFlickerTimer" to="HeadOriginalPosition/Head/Camera3D/SpringArm3D/Torch" method="_on_torch_flicker_timer_timeout"]
+[connection signal="finished" from="WindRushingSFX" to="." method="_on_wind_rushing_sfx_finished"]
+[connection signal="timeout" from="InteractDelayTimer" to="." method="_on_interact_delay_timer_timeout"]

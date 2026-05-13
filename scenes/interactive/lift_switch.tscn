@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://0prw6me85w5"]
+
+[ext_resource type="Script" uid="uid://gpj53jn817tj" path="res://scenes/interactive/lift_switch.gd" id="1_b44qh"]
+[ext_resource type="Script" uid="uid://cdk22v0hq8km6" path="res://scenes/interactive/switch_body.gd" id="2_k7sk1"]
+[ext_resource type="Material" uid="uid://cmis1tdoveu38" path="res://assets/materials/metal-galv-dark.tres" id="3_8obot"]
+[ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="3_k7sk1"]
+[ext_resource type="Material" uid="uid://haksua2tv4fy" path="res://assets/materials/white-light.tres" id="5_gbrxs"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_yaxy7"]
+left_to_right = 0.0
+size = Vector3(0.3, 0.3, 0.3)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_k7sk1"]
+data = PackedVector3Array(-0.14999999, 0.14999999, 0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, -0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, -0.14999999, 0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, 0.14999999, 0.14999999, -0.14999999, -0.14999999, -0.14999999, -0.14999999, 0.14999999, 0.14999999, -0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, -0.14999999, -0.14999999, -0.14999999, 0.14999999, 0.14999999, -0.14999999, 0.14999999, -0.14999999, -0.14999999, -0.14999999, 0.14999999, -0.14999999, 0.14999999, 0.14999999, -0.14999999, -0.14999999, -0.14999999, -0.14999999, -0.14999999)
+
+[sub_resource type="BoxMesh" id="BoxMesh_b44qh"]
+size = Vector3(0.2, 0.9, 0.2)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k7sk1"]
+size = Vector3(0.2, 0.9135742, 0.2)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k7sk1"]
+size = Vector3(0.02, 0.2, 0.2)
+
+[node name="LiftSwitch" type="Node3D" unique_id=2088536119]
+script = ExtResource("1_b44qh")
+
+[node name="SwitchBody" type="StaticBody3D" parent="." unique_id=1399673495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.037727833, 0, 0)
+script = ExtResource("2_k7sk1")
+material = 1
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SwitchBody" unique_id=1973221423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("PrismMesh_yaxy7")
+surface_material_override/0 = ExtResource("3_8obot")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SwitchBody" unique_id=1373520363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("ConcavePolygonShape3D_k7sk1")
+
+[node name="SwitchStand" type="StaticBody3D" parent="." unique_id=1080564131]
+script = ExtResource("3_k7sk1")
+material = 1
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SwitchStand" unique_id=154347576]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4215894, 0)
+mesh = SubResource("BoxMesh_b44qh")
+surface_material_override/0 = ExtResource("3_8obot")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SwitchStand" unique_id=1218461539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4432129, 0)
+shape = SubResource("BoxShape3D_k7sk1")
+
+[node name="SwitchLight" type="StaticBody3D" parent="." unique_id=1942502265]
+script = ExtResource("3_k7sk1")
+material = 1
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="SwitchLight" unique_id=653162427]
+transform = Transform3D(0.70710677, -0.70710677, 0, 0.70710677, 0.70710677, 0, 0, 0, 1, 0.020763334, 1.0207633, 0)
+mesh = SubResource("BoxMesh_k7sk1")
+surface_material_override/0 = ExtResource("5_gbrxs")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="SwitchLight/MeshInstance3D" unique_id=1634994585]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08450021, 0.0017605647, 0)
+light_color = Color(0.8993813, 0.8386174, 0.7689557, 1)
+omni_range = 10.0
+omni_attenuation = 1.5

@@ -1,0 +1,539 @@
+[gd_scene format=3 uid="uid://dtik3o2ymq3tt"]
+
+[ext_resource type="Script" uid="uid://dlqmcowocquqt" path="res://scenes/ui/pause_menu.gd" id="1_6tw0m"]
+[ext_resource type="Script" uid="uid://btrdyh7xdn18w" path="res://scenes/ui/sfx_button.gd" id="2_0lmf7"]
+[ext_resource type="FontVariation" uid="uid://ct3twiho6rffe" path="res://assets/fonts/InterBold.tres" id="2_f6eus"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f6eus"]
+bg_color = Color(0, 0, 0, 0.26666668)
+anti_aliasing = false
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pu0qw"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0bnpd"]
+content_margin_top = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0.13333334, 0.13333334, 0.13333334, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4inpj"]
+bg_color = Color(0.2, 0.2, 0.2, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8uki6"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_0lmf7"]
+
+[node name="PauseMenu" type="Control" unique_id=1765956260]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_6tw0m")
+
+[node name="BackgroundPanel" type="Panel" parent="." unique_id=1774845454]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_f6eus")
+
+[node name="MainMenuPanel" type="Panel" parent="." unique_id=1767383379]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -225.0
+offset_right = 200.0
+offset_bottom = 225.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pu0qw")
+
+[node name="MarginContainer" type="MarginContainer" parent="MainMenuPanel" unique_id=907864914]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 64
+theme_override_constants/margin_top = 48
+theme_override_constants/margin_right = 64
+theme_override_constants/margin_bottom = 64
+
+[node name="Label" type="Label" parent="MainMenuPanel/MarginContainer" unique_id=1453355231]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 48
+text = "PAUSED"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainMenuPanel/MarginContainer" unique_id=1313686250]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 16
+
+[node name="ResumeButton" type="Button" parent="MainMenuPanel/MarginContainer/VBoxContainer" unique_id=51309874]
+layout_mode = 2
+size_flags_vertical = 8
+focus_neighbor_top = NodePath("../QuitButton")
+focus_neighbor_bottom = NodePath("../SettingsButton")
+focus_next = NodePath("../SettingsButton")
+focus_previous = NodePath("../QuitButton")
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_0bnpd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4inpj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4inpj")
+text = "CONTINUE"
+script = ExtResource("2_0lmf7")
+metadata/_custom_type_script = "uid://btrdyh7xdn18w"
+
+[node name="SettingsButton" type="Button" parent="MainMenuPanel/MarginContainer/VBoxContainer" unique_id=746616277]
+layout_mode = 2
+size_flags_vertical = 8
+focus_neighbor_top = NodePath("../ResumeButton")
+focus_neighbor_bottom = NodePath("../QuitButton")
+focus_next = NodePath("../QuitButton")
+focus_previous = NodePath("../ResumeButton")
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_0bnpd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4inpj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4inpj")
+text = "SETTINGS"
+script = ExtResource("2_0lmf7")
+metadata/_custom_type_script = "uid://btrdyh7xdn18w"
+
+[node name="QuitButton" type="Button" parent="MainMenuPanel/MarginContainer/VBoxContainer" unique_id=684825682]
+layout_mode = 2
+size_flags_vertical = 8
+focus_neighbor_top = NodePath("../SettingsButton")
+focus_neighbor_bottom = NodePath("../ResumeButton")
+focus_next = NodePath("../ResumeButton")
+focus_previous = NodePath("../SettingsButton")
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_0bnpd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4inpj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4inpj")
+text = "QUIT"
+script = ExtResource("2_0lmf7")
+metadata/_custom_type_script = "uid://btrdyh7xdn18w"
+
+[node name="SettingsPanel" type="Panel" parent="." unique_id=1226464899]
+visible = false
+custom_minimum_size = Vector2(1280, 720)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -640.0
+offset_top = -360.0
+offset_right = 640.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_8uki6")
+
+[node name="MarginContainer" type="MarginContainer" parent="SettingsPanel" unique_id=1721439658]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 64
+theme_override_constants/margin_top = 48
+theme_override_constants/margin_right = 64
+theme_override_constants/margin_bottom = 32
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SettingsPanel/MarginContainer" unique_id=976374556]
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/HBoxContainer" unique_id=458352172]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 48
+text = "SETTINGS"
+
+[node name="BackButton" type="Button" parent="SettingsPanel/MarginContainer/HBoxContainer" unique_id=1885717956]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
+focus_neighbor_top = NodePath("../../MarginContainer/VBoxContainer/HBoxContainer4/SFXVBox/SFXSlider")
+focus_neighbor_bottom = NodePath("../../MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VBoxContainer/ResolutionOption")
+focus_next = NodePath("../../MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10/WindowedCheckBox")
+focus_previous = NodePath("../../MarginContainer/VBoxContainer/HBoxContainer4/SFXVBox/SFXSlider")
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_0bnpd")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4inpj")
+theme_override_styles/hover = SubResource("StyleBoxFlat_4inpj")
+text = "BACK"
+script = ExtResource("2_0lmf7")
+metadata/_custom_type_script = "uid://btrdyh7xdn18w"
+
+[node name="MarginContainer" type="MarginContainer" parent="SettingsPanel/MarginContainer" unique_id=1057420732]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_constants/margin_top = 96
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer" unique_id=2083147157]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 28
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer" unique_id=295046794]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="DisplayModeVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1357736640]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox" unique_id=1498674045]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "DISPLAY MODE"
+
+[node name="VBoxContainer10" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox" unique_id=832612285]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="WindowedCheckBox" type="CheckBox" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10" unique_id=1292010495]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../ResolutionVBox/VBoxContainer/ResolutionOption")
+focus_neighbor_top = NodePath("../../../../HBoxContainer4/MusicVBox/MusicSlider")
+focus_neighbor_right = NodePath("../../../ResolutionVBox/VBoxContainer/ResolutionOption")
+focus_neighbor_bottom = NodePath("../BorderlessCheckBox")
+focus_next = NodePath("../BorderlessCheckBox")
+focus_previous = NodePath("../../../../../../HBoxContainer/BackButton")
+theme_override_font_sizes/font_size = 24
+button_pressed = true
+button_group = SubResource("ButtonGroup_0lmf7")
+text = "WINDOWED"
+
+[node name="BorderlessCheckBox" type="CheckBox" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10" unique_id=1165129815]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../ResolutionVBox/VSyncVBox/VSyncCheckButton")
+focus_neighbor_top = NodePath("../WindowedCheckBox")
+focus_neighbor_right = NodePath("../../../ResolutionVBox/VSyncVBox/VSyncCheckButton")
+focus_neighbor_bottom = NodePath("../FullscreenCheckBox")
+focus_next = NodePath("../FullscreenCheckBox")
+focus_previous = NodePath("../WindowedCheckBox")
+theme_override_font_sizes/font_size = 24
+button_group = SubResource("ButtonGroup_0lmf7")
+text = "BORDERLESS FULLSCREEN"
+
+[node name="FullscreenCheckBox" type="CheckBox" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10" unique_id=1692980132]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../ResolutionVBox/VSyncVBox/VSyncCheckButton")
+focus_neighbor_top = NodePath("../BorderlessCheckBox")
+focus_neighbor_right = NodePath("../../../ResolutionVBox/VSyncVBox/VSyncCheckButton")
+focus_neighbor_bottom = NodePath("../../../ResolutionVBox/VBoxContainer/ResolutionOption")
+focus_next = NodePath("../../../ResolutionVBox/VBoxContainer/ResolutionOption")
+focus_previous = NodePath("../BorderlessCheckBox")
+theme_override_font_sizes/font_size = 24
+button_group = SubResource("ButtonGroup_0lmf7")
+text = "FULLSCREEN"
+
+[node name="ResolutionVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer" unique_id=371636022]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 24
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox" unique_id=1507000706]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VBoxContainer" unique_id=1272193131]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "WINDOW RESOLUTION"
+
+[node name="ResolutionOption" type="OptionButton" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VBoxContainer" unique_id=873506344]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../../DisplayModeVBox/VBoxContainer10/WindowedCheckBox")
+focus_neighbor_top = NodePath("../../../../../../HBoxContainer/BackButton")
+focus_neighbor_right = NodePath("../../../DisplayModeVBox/VBoxContainer10/WindowedCheckBox")
+focus_neighbor_bottom = NodePath("../../VSyncVBox/VSyncCheckButton")
+focus_next = NodePath("../../VSyncVBox/VSyncCheckButton")
+focus_previous = NodePath("../../../DisplayModeVBox/VBoxContainer10/FullscreenCheckBox")
+theme_override_font_sizes/font_size = 24
+flat = true
+
+[node name="VSyncVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox" unique_id=461435851]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VSyncVBox" unique_id=1899286411]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "VSYNC"
+
+[node name="VSyncCheckButton" type="CheckButton" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VSyncVBox" unique_id=160129076]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+focus_neighbor_left = NodePath("../../../DisplayModeVBox/VBoxContainer10/BorderlessCheckBox")
+focus_neighbor_top = NodePath("../../VBoxContainer/ResolutionOption")
+focus_neighbor_right = NodePath("../../../DisplayModeVBox/VBoxContainer10/BorderlessCheckBox")
+focus_neighbor_bottom = NodePath("../../../../HBoxContainer2/AnisotropicFilterVBox/AnisotropicFilterOption")
+focus_next = NodePath("../../../../HBoxContainer2/AntiAliasingVBox/AntiAliasingOption")
+focus_previous = NodePath("../../VBoxContainer/ResolutionOption")
+theme_override_constants/h_separation = 16
+theme_override_font_sizes/font_size = 24
+text = "OFF"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer" unique_id=600037459]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="AntiAliasingVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1637534750]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/AntiAliasingVBox" unique_id=620853077]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "ANTI-ALIASING"
+
+[node name="AntiAliasingOption" type="OptionButton" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/AntiAliasingVBox" unique_id=216348546]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../AnisotropicFilterVBox/AnisotropicFilterOption")
+focus_neighbor_top = NodePath("../../../HBoxContainer/DisplayModeVBox/VBoxContainer10/FullscreenCheckBox")
+focus_neighbor_right = NodePath("../../AnisotropicFilterVBox/AnisotropicFilterOption")
+focus_neighbor_bottom = NodePath("../../../HBoxContainer3/SensitivityVBox/SensitivitySlider")
+focus_next = NodePath("../../AnisotropicFilterVBox/AnisotropicFilterOption")
+focus_previous = NodePath("../../../HBoxContainer/ResolutionVBox/VSyncVBox/VSyncCheckButton")
+theme_override_font_sizes/font_size = 24
+selected = 1
+item_count = 5
+popup/item_0/text = "DISABLED"
+popup/item_0/id = 0
+popup/item_1/text = "FXAA"
+popup/item_1/id = 1
+popup/item_2/text = "MSAA x2"
+popup/item_2/id = 2
+popup/item_3/text = "MSAA x4"
+popup/item_3/id = 3
+popup/item_4/text = "MSAA x8"
+popup/item_4/id = 4
+
+[node name="AnisotropicFilterVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=900588821]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/AnisotropicFilterVBox" unique_id=413742546]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "ANISOTROPIC FILTERING"
+
+[node name="AnisotropicFilterOption" type="OptionButton" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/AnisotropicFilterVBox" unique_id=1924498162]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../AntiAliasingVBox/AntiAliasingOption")
+focus_neighbor_top = NodePath("../../../HBoxContainer/ResolutionVBox/VSyncVBox/VSyncCheckButton")
+focus_neighbor_right = NodePath("../../FOVVBox/FOVSlider")
+focus_neighbor_bottom = NodePath("../../../HBoxContainer3/SensitivityVBox/SensitivitySlider")
+focus_next = NodePath("../../FOVVBox/FOVSlider")
+focus_previous = NodePath("../../AntiAliasingVBox/AntiAliasingOption")
+theme_override_font_sizes/font_size = 24
+selected = 1
+item_count = 5
+popup/item_0/text = "DISABLED"
+popup/item_0/id = 0
+popup/item_1/text = "2x"
+popup/item_1/id = 1
+popup/item_2/text = "4x"
+popup/item_2/id = 2
+popup/item_3/text = "8x"
+popup/item_3/id = 3
+popup/item_4/text = "16x"
+popup/item_4/id = 4
+
+[node name="FOVVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1275989485]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="FOVLabel" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/FOVVBox" unique_id=1054276996]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "FIELD OF VIEW (75)"
+
+[node name="FOVSlider" type="HSlider" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/FOVVBox" unique_id=1471763082]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../AnisotropicFilterVBox/AnisotropicFilterOption")
+focus_neighbor_top = NodePath("../../../HBoxContainer/ResolutionVBox/VSyncVBox/VSyncCheckButton")
+focus_neighbor_right = NodePath("../../AntiAliasingVBox/AntiAliasingOption")
+focus_neighbor_bottom = NodePath("../../../HBoxContainer3/ConSensitivityVBox/ConSensitivitySlider")
+focus_next = NodePath("../../../HBoxContainer3/SensitivityVBox/SensitivitySlider")
+focus_previous = NodePath("../../AnisotropicFilterVBox/AnisotropicFilterOption")
+min_value = 70.0
+max_value = 90.0
+value = 75.0
+rounded = true
+scrollable = false
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer" unique_id=580080593]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="SensitivityVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3" unique_id=935408069]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="SensitivityLabel" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3/SensitivityVBox" unique_id=1315212106]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "MOUSE SENSITIVITY (4.5)"
+
+[node name="SensitivitySlider" type="HSlider" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3/SensitivityVBox" unique_id=570726206]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../ConSensitivityVBox/ConSensitivitySlider")
+focus_neighbor_top = NodePath("../../../HBoxContainer2/AntiAliasingVBox/AntiAliasingOption")
+focus_neighbor_right = NodePath("../../ConSensitivityVBox/ConSensitivitySlider")
+focus_neighbor_bottom = NodePath("../../../HBoxContainer4/MusicVBox/MusicSlider")
+focus_next = NodePath("../../ConSensitivityVBox/ConSensitivitySlider")
+focus_previous = NodePath("../../../HBoxContainer2/FOVVBox/FOVSlider")
+min_value = 2.0
+max_value = 8.0
+step = 0.5
+value = 4.5
+scrollable = false
+
+[node name="ConSensitivityVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3" unique_id=1491084734]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ConSensitivityLabel" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3/ConSensitivityVBox" unique_id=1368811493]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "CONTROLLER SENSITIVITY (3.5)"
+
+[node name="ConSensitivitySlider" type="HSlider" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3/ConSensitivityVBox" unique_id=536362446]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../SensitivityVBox/SensitivitySlider")
+focus_neighbor_top = NodePath("../../../HBoxContainer2/AnisotropicFilterVBox/AnisotropicFilterOption")
+focus_neighbor_right = NodePath("../../SensitivityVBox/SensitivitySlider")
+focus_neighbor_bottom = NodePath("../../../HBoxContainer4/SFXVBox/SFXSlider")
+focus_next = NodePath("../../../HBoxContainer4/MusicVBox/MusicSlider")
+focus_previous = NodePath("../../SensitivityVBox/SensitivitySlider")
+min_value = 2.0
+max_value = 8.0
+step = 0.5
+value = 3.5
+scrollable = false
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer" unique_id=1809827693]
+layout_mode = 2
+theme_override_constants/separation = 40
+
+[node name="MusicVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4" unique_id=1893886055]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="MusicLabel" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4/MusicVBox" unique_id=1689392603]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "MUSIC VOLUME (100%)"
+
+[node name="MusicSlider" type="HSlider" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4/MusicVBox" unique_id=981136409]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../SFXVBox/SFXSlider")
+focus_neighbor_top = NodePath("../../../HBoxContainer3/SensitivityVBox/SensitivitySlider")
+focus_neighbor_right = NodePath("../../SFXVBox/SFXSlider")
+focus_neighbor_bottom = NodePath("../../../HBoxContainer/DisplayModeVBox/VBoxContainer10/WindowedCheckBox")
+focus_next = NodePath("../../SFXVBox/SFXSlider")
+focus_previous = NodePath("../../../HBoxContainer3/ConSensitivityVBox/ConSensitivitySlider")
+max_value = 1.0
+step = 0.05
+value = 1.0
+scrollable = false
+
+[node name="SFXVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4" unique_id=480680364]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="SFXLabel" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4/SFXVBox" unique_id=1390435049]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_f6eus")
+theme_override_font_sizes/font_size = 32
+text = "SFX VOLUME (100%)"
+
+[node name="SFXSlider" type="HSlider" parent="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4/SFXVBox" unique_id=712256216]
+unique_name_in_owner = true
+layout_mode = 2
+focus_neighbor_left = NodePath("../../MusicVBox/MusicSlider")
+focus_neighbor_top = NodePath("../../../HBoxContainer3/ConSensitivityVBox/ConSensitivitySlider")
+focus_neighbor_right = NodePath("../../MusicVBox/MusicSlider")
+focus_neighbor_bottom = NodePath("../../../../../HBoxContainer/BackButton")
+focus_next = NodePath("../../../../../HBoxContainer/BackButton")
+focus_previous = NodePath("../../MusicVBox/MusicSlider")
+max_value = 1.0
+step = 0.05
+value = 1.0
+scrollable = false
+
+[connection signal="pressed" from="MainMenuPanel/MarginContainer/VBoxContainer/ResumeButton" to="." method="_on_resume_button_pressed"]
+[connection signal="pressed" from="MainMenuPanel/MarginContainer/VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="MainMenuPanel/MarginContainer/VBoxContainer/QuitButton" to="." method="_quit_game"]
+[connection signal="pressed" from="SettingsPanel/MarginContainer/HBoxContainer/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="toggled" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10/WindowedCheckBox" to="." method="_on_mode_check_box_toggled"]
+[connection signal="toggled" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10/BorderlessCheckBox" to="." method="_on_mode_check_box_toggled"]
+[connection signal="toggled" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/DisplayModeVBox/VBoxContainer10/FullscreenCheckBox" to="." method="_on_mode_check_box_toggled"]
+[connection signal="item_selected" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VBoxContainer/ResolutionOption" to="." method="_on_resolution_option_selected"]
+[connection signal="toggled" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer/ResolutionVBox/VSyncVBox/VSyncCheckButton" to="." method="_on_v_sync_check_button_toggled"]
+[connection signal="item_selected" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/AntiAliasingVBox/AntiAliasingOption" to="." method="_on_anti_aliasing_option_item_selected"]
+[connection signal="item_selected" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/AnisotropicFilterVBox/AnisotropicFilterOption" to="." method="_on_anisotropic_filter_option_item_selected"]
+[connection signal="value_changed" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer2/FOVVBox/FOVSlider" to="." method="update_fov_slider_label_text"]
+[connection signal="value_changed" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3/SensitivityVBox/SensitivitySlider" to="." method="update_look_sens_label_text"]
+[connection signal="value_changed" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer3/ConSensitivityVBox/ConSensitivitySlider" to="." method="update_controller_look_sens_label_text"]
+[connection signal="value_changed" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4/MusicVBox/MusicSlider" to="." method="update_music_slider_label_text"]
+[connection signal="value_changed" from="SettingsPanel/MarginContainer/MarginContainer/VBoxContainer/HBoxContainer4/SFXVBox/SFXSlider" to="." method="update_sfx_slider_label_text"]

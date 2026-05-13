@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b3utfidegs8xy"]
+
+[ext_resource type="Texture2D" uid="uid://bhvm7ckb0jnv0" path="res://assets/textures/metal-worn-dark_1024.png" id="1_k6xxp"]
+
+[resource]
+albedo_texture = ExtResource("1_k6xxp")
+metallic = 0.15
+uv1_scale = Vector3(0.25, 0.25, 0.25)
+uv1_triplanar = true
+texture_filter = 2
