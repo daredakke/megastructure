@@ -9,7 +9,6 @@ var game_paused: bool = false
 var _loaded_settings = null
 
 @onready var screen_size: Vector2i = DisplayServer.screen_get_size(DisplayServer.window_get_current_screen())
-#@onready var sub_viewport: SubViewport = $SubViewportContainer/SubViewport
 @onready var level_controller: LevelController = %LevelController
 @onready var ui: Control = $UI
 @onready var dialogue_controller: DialogueController = %DialogueController
@@ -96,6 +95,7 @@ func change_resolution(mode: int, resolution_idx: int) -> void:
 		get_viewport().scaling_3d_scale = 1.0
 		return
 	
+	# Fullscreen
 	if mode == 1:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_EXCLUSIVE_FULLSCREEN)
 	else:
