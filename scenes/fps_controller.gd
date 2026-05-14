@@ -99,9 +99,7 @@ func _ready() -> void:
 	EventsBus.dev_console_toggled.connect(freeze_player)
 	EventsBus.dialogue_ended.connect(unfreeze_player)
 	
-	for child in world_model.find_children("*", "VisualInstance3D"):
-		child.set_layer_mask_value(1, false)
-		child.set_layer_mask_value(2, true)
+	mesh_instance.hide()
 	
 	update_camera_fov(Globals.fov)
 	update_mouse_look_sensitivity(Globals.look_sensitivity)
