@@ -17,3 +17,4 @@ func create_dev_console_output_line(text: String) -> void:
 	output_line.text_content = text
 	output_v_box.add_child(output_line)
 	output_line.move_to_front()
+	output_line.shake_screen(100.0, 15.0)

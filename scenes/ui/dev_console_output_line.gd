@@ -1,12 +1,23 @@
 class_name DevConsoleOutputLine
-extends PanelContainer
+extends MarginContainer
 
+
+const SHAKE_DECAY_RATE: float = 10
+
+var _shake_speed: float:
+	set(value):
+		_shake_speed = clampf(value, 0.0, 100.0)
+var _noise_i: float = 0.0
+var _shake_strength: float = 0.0:
+	set(value):
+		_shake_strength = clampf(value, 0.0, 100.0)
 
 var text_content: String = ""
 
-@onready var output_text: RichTextLabel = $MarginContainer/HBoxContainer/OutputText
+@onready var output_text: RichTextLabel = $PanelContainer/MarginContainer/HBoxContainer/OutputText
 @onready var audio_stream_player: AudioStreamPlayer = $AudioStreamPlayer
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var noise = FastNoiseLite.new()
 
 
 func _ready() -> void:
@@ -16,5 +27,30 @@ func _ready() -> void:
 	audio_stream_player.play()
 
 
+func _process(delta: float) -> void:
+	var offset: Vector2 = screen_shake_decay(delta, SHAKE_DECAY_RATE)
+	
+	if int(offset.x) > 0:
+		print(int(offset.x), ", ", int(offset.y))
+
+		self.add_theme_constant_override("margin_left", int(offset.x))
+		self.add_theme_constant_override("margin_top", int(offset.y))
+
+
 func _on_animation_player_animation_finished(_anim_name: StringName) -> void:
 	queue_free()
+
+
+func shake_screen(strength: float, speed: float) -> void:
+	_shake_strength = strength
+	_shake_speed = speed
+
+
+func screen_shake_decay(delta: float, decay_rate: float) -> Vector2:
+	_shake_strength = lerp(_shake_strength, 0.0, decay_rate * delta)
+	_noise_i += delta * _shake_speed
+
+	return Vector2(
+		noise.get_noise_2d(1, _noise_i) * _shake_strength * 10,
+		noise.get_noise_2d(100, _noise_i) * _shake_strength * 10
+	)
