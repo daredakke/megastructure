@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://b6qfj261fbqyt"]
+
+[ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="1_tslcj"]
+[ext_resource type="Material" uid="uid://cnq1vq2qgp6f4" path="res://assets/materials/grid_texture_2.tres" id="2_r447n"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_0gw7i"]
+lightmap_size_hint = Vector2i(54, 41)
+size = Vector3(5, 1, 5)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_btri8"]
+size = Vector3(5, 1, 5)
+
+[node name="TestFloor" type="StaticBody3D" unique_id=1240543253]
+script = ExtResource("1_tslcj")
+metadata/_custom_type_script = "uid://b8gq0a8adq1ag"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=535937300]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+mesh = SubResource("BoxMesh_0gw7i")
+surface_material_override/0 = ExtResource("2_r447n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=245312039]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("BoxShape3D_btri8")
