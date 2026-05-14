@@ -79,12 +79,19 @@ func _get_screen_mode() -> int:
 
 
 func _on_tab_button_pressed(tab_name: String) -> void:
-	EventsBus.notification_submitted.emit("tab_name: " + tab_name)
-	
 	for btn in tabs.get_children():
 		if btn.name == tab_name:
-			btn.button_pressed = true
+			btn.is_active = true
+			
+			var prefix: String = tab_name.split("Tab")[0]
+			
+			for vbox in tab_contents.get_children():
+				if vbox.name == prefix + "VBox":
+					vbox.show()
+				else:
+					vbox.hide()
 		else:
+			btn.is_active = false
 			btn.button_pressed = false
 
 

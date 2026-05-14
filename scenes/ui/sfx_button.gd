@@ -5,6 +5,7 @@ extends Button
 var branch_name: String = ""
 
 @export var is_tab_button: bool = false
+@export var is_active: bool = false
 
 
 func _ready() -> void:
@@ -23,8 +24,8 @@ func _on_pressed() -> void:
 	if not disabled:
 		EventsBus.button_pressed.emit()
 	
-	if is_tab_button and not button_pressed:
-		EventsBus.tab_button_pressed.emit(name)
+		if is_tab_button and not is_active:
+			EventsBus.tab_button_pressed.emit(name)
 	
 	if branch_name != "":
 		EventsBus.choice_made.emit(branch_name)
