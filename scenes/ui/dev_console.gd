@@ -29,6 +29,8 @@ func _toggle_dev_console() -> void:
 
 
 func _on_line_edit_text_submitted(new_text: String) -> void:
+	if new_text == "": return
+	
 	var parts = new_text.split(" ")
 	
 	match parts[0]:

@@ -12,6 +12,7 @@ var text_content: String = ""
 func _ready() -> void:
 	output_text.text = text_content
 	animation_player.play("dev_console_output_fade_out")
+	audio_stream_player.pitch_scale = randf_range(0.9, 1.1)
 	audio_stream_player.play()
 
 
