@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cy4kba3d7w1to"]
+
+[ext_resource type="Script" uid="uid://bdc34v052bnjh" path="res://scenes/ui/dev_console_output.gd" id="1_cfjdb"]
+
+[node name="DevConsoleOutput" type="MarginContainer" unique_id=1077068481]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 48
+theme_override_constants/margin_bottom = 8
+script = ExtResource("1_cfjdb")
+
+[node name="OutputVBox" type="VBoxContainer" parent="." unique_id=710319895]
+layout_mode = 2
+size_flags_vertical = 0

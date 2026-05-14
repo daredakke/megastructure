@@ -14,6 +14,7 @@ signal dialogue_advanced
 signal dialogue_ended
 signal choice_made(choice: String)
 signal dev_console_toggled(is_visible: bool)
+signal dev_console_submitted(text: String)
 signal button_hovered
 signal button_pressed
 signal resolution_changed(mode: int, resolution: String)
@@ -26,4 +27,3 @@ signal controller_look_sens_changed(value: float)
 signal volume_changed(bus: int, value: float)
 signal settings_for_saving(settings: Dictionary)
 signal activate_lift(lift_name: String)
-signal toggle_commentary

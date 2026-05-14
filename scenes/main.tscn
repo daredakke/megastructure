@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dtik3o2ymq3tt" path="res://scenes/ui/pause_menu.tscn" id="6_tefeu"]
 [ext_resource type="Script" uid="uid://cyxso31yshucx" path="res://scripts/ui_audio.gd" id="8_85g3d"]
 [ext_resource type="AudioStream" uid="uid://d3sib661m6gts" path="res://assets/sfx/button hover.wav" id="8_tipki"]
+[ext_resource type="PackedScene" uid="uid://cy4kba3d7w1to" path="res://scenes/ui/dev_console_output.tscn" id="9_choun"]
 
 [node name="Main" type="Node" unique_id=1187034571]
 script = ExtResource("1_o6xl0")
@@ -67,6 +68,8 @@ layout_mode = 1
 unique_name_in_owner = true
 visible = false
 layout_mode = 1
+
+[node name="DevConsoleOutput" parent="." unique_id=1077068481 instance=ExtResource("9_choun")]
 
 [node name="PauseMenu" parent="." unique_id=1454508885 instance=ExtResource("6_tefeu")]
 unique_name_in_owner = true

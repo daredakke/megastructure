@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://5rfe276e3wr8"]
+
+[ext_resource type="Script" uid="uid://dqlue8hc821en" path="res://scenes/ui/dev_console_output_line.gd" id="1_g0r1l"]
+[ext_resource type="AudioStream" uid="uid://lji7l8l16fat" path="res://assets/sfx/vs-pop_5.mp3" id="2_cjush"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dr2yl"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Animation" id="Animation_cfjdb"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_sskiy"]
+resource_name = "dev_console_output_fade_out"
+length = 3.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 3.2, 3.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n2lqx"]
+_data = {
+&"RESET": SubResource("Animation_cfjdb"),
+&"dev_console_output_fade_out": SubResource("Animation_sskiy")
+}
+
+[node name="DevConsoleOutputLine" type="PanelContainer" unique_id=261708447]
+offset_right = 103.0
+offset_bottom = 30.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dr2yl")
+script = ExtResource("1_g0r1l")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1431018761]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=1234312393]
+layout_mode = 2
+
+[node name="Arrow" type="Label" parent="MarginContainer/HBoxContainer" unique_id=1021378324]
+layout_mode = 2
+text = ">"
+
+[node name="OutputText" type="RichTextLabel" parent="MarginContainer/HBoxContainer" unique_id=1681590853]
+layout_mode = 2
+bbcode_enabled = true
+text = "Testing the dev console output"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=686639278]
+libraries/ = SubResource("AnimationLibrary_n2lqx")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=714624721]
+stream = ExtResource("2_cjush")
+volume_db = -2.0
+max_polyphony = 3
+bus = &"Reverb"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

@@ -2,7 +2,8 @@ class_name DevConsole
 extends Control
 
 
-@onready var console_input: LineEdit = $ConsoleInput
+@onready var console_input: LineEdit = $PanelContainer/ConsoleInput
+@onready var output_v_box: VBoxContainer = $MarginContainer/OutputVBox
 
 
 func _ready() -> void:
@@ -34,20 +35,20 @@ func _on_line_edit_text_submitted(new_text: String) -> void:
 		"mute":
 			var enabled := AudioServer.is_bus_mute(AudioServer.get_bus_index("Master"))
 			AudioServer.set_bus_mute(AudioServer.get_bus_index("Master"), !enabled)
-			print("DEV: Master bus mute set to ", !enabled)
+			EventsBus.dev_console_submitted.emit("Master bus mute set to " + str(!enabled))
 		"activate":
 			if parts.size() == 1:
-				print("DEV: Must specify a lift to activate")
+				EventsBus.dev_console_submitted.emit("Must specify a lift to activate")
 			else:
 				EventsBus.activate_lift.emit(parts[1])
-				print("DEV: Activate lift ", parts[1])
+				EventsBus.dev_console_submitted.emit("Activate lift " + parts[1])
 		"commentary":
 			Globals.commentary_enabled = !Globals.commentary_enabled
 			EventsBus.toggle_commentary.emit()
 		_:
-			print("DEV: Unrecognised command")
+			EventsBus.dev_console_submitted.emit("Unrecognised command '" + new_text + "'")
 	
-	_toggle_dev_console()
+	console_input.text = ""
 
 
 func _regain_focus_after_pause(pause_state: bool) -> void:

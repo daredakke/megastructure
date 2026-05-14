@@ -14,20 +14,16 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_gcis2")
 
-[node name="Panel" type="Panel" parent="." unique_id=76075412]
-custom_minimum_size = Vector2(0, 31)
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-grow_horizontal = 2
-theme_override_styles/panel = SubResource("StyleBoxFlat_gcis2")
-
-[node name="ConsoleInput" type="LineEdit" parent="." unique_id=1902175544]
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1419114314]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
 offset_bottom = 31.0
 grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gcis2")
+
+[node name="ConsoleInput" type="LineEdit" parent="PanelContainer" unique_id=1902175544]
+layout_mode = 2
 mouse_filter = 2
 mouse_default_cursor_shape = 0
 max_length = 64
@@ -40,4 +36,19 @@ selecting_enabled = false
 drag_and_drop_selection_enabled = false
 flat = true
 
-[connection signal="text_submitted" from="ConsoleInput" to="." method="_on_line_edit_text_submitted"]
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=143513541]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 48
+theme_override_constants/margin_bottom = 8
+
+[node name="OutputVBox" type="VBoxContainer" parent="MarginContainer" unique_id=452196195]
+layout_mode = 2
+size_flags_vertical = 0
+
+[connection signal="text_submitted" from="PanelContainer/ConsoleInput" to="." method="_on_line_edit_text_submitted"]
