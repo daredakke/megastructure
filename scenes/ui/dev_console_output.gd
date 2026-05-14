@@ -8,7 +8,7 @@ const DEV_CONSOLE_OUTPUT_LINE = preload("uid://5rfe276e3wr8")
 
 
 func _ready() -> void:
-	EventsBus.dev_console_submitted.connect(create_dev_console_output_line)
+	EventsBus.notification_submitted.connect(create_dev_console_output_line)
 
 
 func create_dev_console_output_line(text: String) -> void:

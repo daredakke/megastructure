@@ -14,9 +14,10 @@ signal dialogue_advanced
 signal dialogue_ended
 signal choice_made(choice: String)
 signal dev_console_toggled(is_visible: bool)
-signal dev_console_submitted(text: String)
+signal notification_submitted(text: String)
 signal button_hovered
 signal button_pressed
+signal tab_button_pressed(tab_name: String)
 signal resolution_changed(mode: int, resolution: String)
 signal aa_changed(mode: int)
 signal af_changed(mode: int)

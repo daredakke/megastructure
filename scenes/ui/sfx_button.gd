@@ -4,6 +4,8 @@ extends Button
 
 var branch_name: String = ""
 
+@export var is_tab_button: bool = false
+
 
 func _ready() -> void:
 	mouse_default_cursor_shape = CursorShape.CURSOR_POINTING_HAND
@@ -20,6 +22,9 @@ func _on_mouse_entered() -> void:
 func _on_pressed() -> void:
 	if not disabled:
 		EventsBus.button_pressed.emit()
+	
+	if is_tab_button and not button_pressed:
+		EventsBus.tab_button_pressed.emit(name)
 	
 	if branch_name != "":
 		EventsBus.choice_made.emit(branch_name)

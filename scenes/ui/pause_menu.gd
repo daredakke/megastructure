@@ -28,9 +28,13 @@ var _sfx_bus: int = AudioServer.get_bus_index("SFX")
 @onready var music_slider: HSlider = %MusicSlider
 @onready var sfx_label: Label = %SFXLabel
 @onready var sfx_slider: HSlider = %SFXSlider
+@onready var tabs: HBoxContainer = %Tabs
+@onready var tab_contents: MarginContainer = %TabContents
 
 
 func _ready() -> void:
+	EventsBus.tab_button_pressed.connect(_on_tab_button_pressed)
+	
 	# Add resolutions to dropdown
 	resolution_option.clear()
 	
@@ -72,6 +76,16 @@ func _get_screen_mode() -> int:
 		return 2
 	
 	return 0
+
+
+func _on_tab_button_pressed(tab_name: String) -> void:
+	EventsBus.notification_submitted.emit("tab_name: " + tab_name)
+	
+	for btn in tabs.get_children():
+		if btn.name == tab_name:
+			btn.button_pressed = true
+		else:
+			btn.button_pressed = false
 
 
 func _on_mode_check_box_toggled(_toggled_on: bool) -> void:

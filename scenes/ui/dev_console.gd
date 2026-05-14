@@ -37,18 +37,18 @@ func _on_line_edit_text_submitted(new_text: String) -> void:
 		"mute":
 			var enabled := AudioServer.is_bus_mute(AudioServer.get_bus_index("Master"))
 			AudioServer.set_bus_mute(AudioServer.get_bus_index("Master"), !enabled)
-			EventsBus.dev_console_submitted.emit("Master bus mute set to " + str(!enabled))
+			EventsBus.notification_submitted.emit("Master bus mute set to " + str(!enabled))
 		"activate":
 			if parts.size() == 1:
-				EventsBus.dev_console_submitted.emit("Must specify a lift to activate")
+				EventsBus.notification_submitted.emit("Must specify a lift to activate")
 			else:
 				EventsBus.activate_lift.emit(parts[1])
-				EventsBus.dev_console_submitted.emit("Activate lift " + parts[1])
+				EventsBus.notification_submitted.emit("Activate lift " + parts[1])
 		"commentary":
 			Globals.commentary_enabled = !Globals.commentary_enabled
 			EventsBus.toggle_commentary.emit()
 		_:
-			EventsBus.dev_console_submitted.emit("Unrecognised command '" + new_text + "'")
+			EventsBus.notification_submitted.emit("Unrecognised command '" + new_text + "'")
 	
 	console_input.text = ""
 
