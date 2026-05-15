@@ -28,6 +28,8 @@ func _ready() -> void:
 
 
 func _process(delta: float) -> void:
+	if _shake_strength == 0.0: return
+	
 	var offset: float = screen_shake_decay(delta, SHAKE_DECAY_RATE)
 	
 	if randf() > 0.5:
