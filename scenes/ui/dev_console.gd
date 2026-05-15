@@ -58,6 +58,11 @@ func _on_line_edit_text_submitted(new_text: String) -> void:
 	if new_text == "": return
 	
 	_previous_input.append(new_text)
+	
+	if _previous_input.size() > 50:
+		_previous_input.pop_front()
+	
+	_previous_index = 0
 	var parts = new_text.split(" ")
 	
 	match parts[0]:
