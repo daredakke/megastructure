@@ -2,6 +2,9 @@ class_name DevConsole
 extends Control
 
 
+var _previous_input: Array[String] = []
+var _previous_index: int = 0
+
 @onready var console_input: LineEdit = $PanelContainer/ConsoleInput
 @onready var output_v_box: VBoxContainer = $MarginContainer/OutputVBox
 
@@ -13,6 +16,29 @@ func _ready() -> void:
 func _input(_event: InputEvent) -> void:
 	if Input.is_action_just_pressed("dev"):
 		_toggle_dev_console()
+	
+	if Input.is_action_just_pressed("ui_up") and visible:
+		_previous_index -= 1
+		
+		if abs(_previous_index) > _previous_input.size():
+			_previous_index = -_previous_input.size()
+		
+		_insert_previous_input()
+	
+	if Input.is_action_just_pressed("ui_down") and visible:
+		_previous_index += 1
+		
+		if _previous_index > 0:
+			_previous_index = 0
+		
+		_insert_previous_input()
+
+
+func _insert_previous_input() -> void:
+	if _previous_index == 0:
+		console_input.text = ""
+	else:
+		console_input.text = _previous_input[_previous_index]
 
 
 func _toggle_dev_console() -> void:
@@ -31,6 +57,7 @@ func _toggle_dev_console() -> void:
 func _on_line_edit_text_submitted(new_text: String) -> void:
 	if new_text == "": return
 	
+	_previous_input.append(new_text)
 	var parts = new_text.split(" ")
 	
 	match parts[0]:
