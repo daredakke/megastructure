@@ -32,8 +32,7 @@ func _process(delta: float) -> void:
 	
 	var offset: float = screen_shake_decay(delta, SHAKE_DECAY_RATE)
 	
-	if randf() > 0.5:
-		offset = -offset
+	if randf() > 0.5: offset = -offset
 	
 	self.add_theme_constant_override("margin_left", int(offset))
 
@@ -51,4 +50,4 @@ func screen_shake_decay(delta: float, decay_rate: float) -> float:
 	_shake_strength = lerp(_shake_strength, 0.0, decay_rate * delta)
 	_noise_i += delta * _shake_speed
 
-	return noise.get_noise_2d(1, _noise_i) * _shake_strength * randi_range(25, 75)
+	return noise.get_noise_2d(randf_range(50.0, 75.0), _noise_i) * _shake_strength
