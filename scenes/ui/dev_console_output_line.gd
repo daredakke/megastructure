@@ -28,13 +28,12 @@ func _ready() -> void:
 
 
 func _process(delta: float) -> void:
-	var offset: Vector2 = screen_shake_decay(delta, SHAKE_DECAY_RATE)
+	var offset: float = screen_shake_decay(delta, SHAKE_DECAY_RATE)
 	
-	if int(offset.x) > 0:
-		print(int(offset.x), ", ", int(offset.y))
-
-		self.add_theme_constant_override("margin_left", int(offset.x))
-		self.add_theme_constant_override("margin_top", int(offset.y))
+	if randf() > 0.5:
+		offset = -offset
+	
+	self.add_theme_constant_override("margin_left", int(offset))
 
 
 func _on_animation_player_animation_finished(_anim_name: StringName) -> void:
@@ -46,11 +45,8 @@ func shake_screen(strength: float, speed: float) -> void:
 	_shake_speed = speed
 
 
-func screen_shake_decay(delta: float, decay_rate: float) -> Vector2:
+func screen_shake_decay(delta: float, decay_rate: float) -> float:
 	_shake_strength = lerp(_shake_strength, 0.0, decay_rate * delta)
 	_noise_i += delta * _shake_speed
 
-	return Vector2(
-		noise.get_noise_2d(1, _noise_i) * _shake_strength * 10,
-		noise.get_noise_2d(100, _noise_i) * _shake_strength * 10
-	)
+	return noise.get_noise_2d(1, _noise_i) * _shake_strength * randi_range(25, 75)
