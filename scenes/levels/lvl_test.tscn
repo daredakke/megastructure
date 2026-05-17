@@ -61,6 +61,18 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0269454, 0, -1.5610869)
 [node name="TestFloor" parent="Geometry" unique_id=1240543253 instance=ExtResource("6_btri8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11)
 
+[node name="TestFloor13" parent="Geometry" unique_id=1911033470 instance=ExtResource("6_btri8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -10)
+
+[node name="TestFloor16" parent="Geometry" unique_id=857016139 instance=ExtResource("6_btri8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1.5000001, -5)
+
+[node name="TestFloor14" parent="Geometry" unique_id=1327477786 instance=ExtResource("6_btri8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 2, -10)
+
+[node name="TestFloor15" parent="Geometry" unique_id=1483105447 instance=ExtResource("6_btri8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.963764, 2.490158, 4.493283)
+
 [node name="TestFloor2" parent="Geometry" unique_id=1267947040 instance=ExtResource("6_btri8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, -1, -11)
 

@@ -11,6 +11,7 @@ func _get_footstep_audio_player(material: MaterialConfig.Keys) -> AudioStreamPla
 	return get_children()[0]
 
 
+## Play a footstep sound effect for a given material.
 func play_footstep(material: MaterialConfig.Keys, is_landing: bool) -> void:
 	var player = _get_footstep_audio_player(material)
 	player.modulate_pitch(is_landing)

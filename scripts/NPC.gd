@@ -1,5 +1,7 @@
 class_name Npc
 extends StaticBody3D
+## Provides a reference to a piece of dialogue. Can be set as a dev commentary
+## node that can have its visibility toggled.
 
 
 @export var dialogue_index: Dialogue.Keys
@@ -14,6 +16,7 @@ func _ready() -> void:
 	_toggle_visibility()
 
 
+## Toggles visibility of dev commentary nodes.
 func _toggle_visibility() -> void:
 	if Globals.commentary_enabled:
 		show()

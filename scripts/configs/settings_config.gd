@@ -1,5 +1,6 @@
 class_name SettingsConfig
 extends Node
+## Defines supported resolutions.
 
 
 static var resolutions: Array[Dictionary] = [
@@ -56,7 +57,7 @@ static var resolutions: Array[Dictionary] = [
 ]
 
 
-## Get the array index associated with a given resolution string
+## Get the array index associated with a given resolution string.
 static func get_resolution_idx(resolution_string: String) -> int:
 	var counter: int = 0
 	
@@ -69,11 +70,11 @@ static func get_resolution_idx(resolution_string: String) -> int:
 	return 0
 
 
-## Get the resolution string for its associated array index
+## Get the resolution string for its associated array index.
 static func get_resolution_string(idx: int) -> String:
 	return resolutions[idx]["string"]
 
 
-## Get the resolution vector for its associated array index
+## Get the resolution vector for its associated array index.
 static func get_resolution_vector(idx: int) -> Vector2i:
 	return resolutions[idx]["vector"]

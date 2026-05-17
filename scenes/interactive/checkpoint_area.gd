@@ -1,6 +1,7 @@
 class_name CheckpointArea
 extends Area3D
-
+## Updates the respawn point for the FPSController if it enters this area.
+## If the player dies, they will be placed at the CheckpointArea's marker.
 
 @onready var respawn_point: Marker3D = $RespawnPoint
 

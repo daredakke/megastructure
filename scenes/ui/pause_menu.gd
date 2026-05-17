@@ -78,7 +78,9 @@ func _get_screen_mode() -> int:
 	return 0
 
 
+## Changes the settings contents based on the tab pressed.
 func _on_tab_button_pressed(tab_name: String) -> void:
+	# Find VBox associated with this button
 	for btn in tabs.get_children():
 		if btn.name == tab_name:
 			btn.is_active = true
@@ -130,6 +132,7 @@ func hide_settings_panel() -> void:
 	resume_button.grab_focus()
 
 
+## Send game settings away to be saved.
 func send_game_settings() -> void:
 	EventsBus.settings_for_saving.emit({
 		"mode": _get_screen_mode(),
@@ -154,6 +157,7 @@ func update_display_mode(mode: int) -> void:
 		windowed_check_box.button_pressed = true
 
 
+## Removes resolutions larger than what the system supports.
 func update_resolution_options(screen_height: int) -> void:
 	var idx = 0
 	

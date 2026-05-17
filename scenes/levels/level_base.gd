@@ -6,6 +6,7 @@ const FPS_CONTROLLER = preload("uid://ct1rg4grgbrd6")
 @onready var spawn_points: Node3D = $SpawnPoints
 
 
+## Spawns the player at a named marker, toggling the player's torch as required.
 func spawn_player(spawn_point_name: String, _torch_is_on: bool) -> void:
 	var spawn_point = null
 	

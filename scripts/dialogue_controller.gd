@@ -1,5 +1,7 @@
 class_name DialogueController
 extends Control
+## Handles dialogue interactions, including starting, stopping, moving 
+## between lines and branching paths.
 
 
 const DIALOGUE_LINE = preload("uid://beeudk174oodi")
@@ -17,6 +19,7 @@ func _ready() -> void:
 	EventsBus.choice_made.connect(_change_dialogue_branch)
 
 
+## Start a new dialogue interaction.
 func _begin_new_dialogue(dialogue_index: Dialogue.Keys) -> void:
 	show()
 	
@@ -27,6 +30,7 @@ func _begin_new_dialogue(dialogue_index: Dialogue.Keys) -> void:
 	_show_next_dialogue_line()
 
 
+## Move to the next line of dialogue.
 func _show_next_dialogue_line() -> void:
 	if get_children().size() > 0:
 		get_children()[0].queue_free()
@@ -60,6 +64,7 @@ func _show_next_dialogue_line() -> void:
 		current_index = -1
 
 
+## Move to a different branching path.
 func _change_dialogue_branch(new_branch: String) -> void:
 	current_branch_index = new_branch
 	current_index = -1

@@ -2,6 +2,7 @@ class_name Main
 extends Node
 
 
+# The file user settings are saved in
 const USER_SETTINGS: String = "user://megastructure-settings.dat"
 
 var game_paused: bool = false
@@ -16,6 +17,7 @@ var _loaded_settings = null
 
 
 func _enter_tree() -> void:
+	# Check for saved user settings and load them if it exists
 	if FileAccess.file_exists(USER_SETTINGS):
 		var file = FileAccess.open(USER_SETTINGS, FileAccess.READ)
 		_loaded_settings = file.get_var()
@@ -39,7 +41,8 @@ func _ready() -> void:
 	EventsBus.volume_changed.connect(change_volume)
 	
 	if not _loaded_settings: return
-
+	
+	# Apply loaded user settings
 	pause_menu.update_resolution_options(screen_size.y)
 	pause_menu.update_display_mode(_loaded_settings.mode)
 	pause_menu.update_resolution_value(_loaded_settings.resolution)
@@ -51,7 +54,7 @@ func _ready() -> void:
 	pause_menu.update_controller_look_sens_label_text(_loaded_settings.con_look_sensitivity)
 	pause_menu.update_music_slider_label_text(_loaded_settings.music_volume)
 	pause_menu.update_sfx_slider_label_text(_loaded_settings.sfx_volume)
-
+	
 	change_resolution(_loaded_settings.mode, _loaded_settings.resolution)
 	change_anti_aliasing(_loaded_settings.aa)
 	change_anisotropic_filtering(_loaded_settings.af)
@@ -77,6 +80,7 @@ func handle_pause():
 		level_controller.process_mode = Node.PROCESS_MODE_ALWAYS
 		ui.process_mode = Node.PROCESS_MODE_ALWAYS
 		
+		# Don't capture mouse if unpausing to return to dialogue
 		if dialogue_controller.get_children().size() == 0:
 			Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	

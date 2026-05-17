@@ -1,5 +1,6 @@
 class_name UiAudio
 extends Node
+## Defines the sound effects triggered by SfxButtons.
 
 
 @onready var button_hover: AudioStreamPlayer = $ButtonHover

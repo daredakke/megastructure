@@ -1,5 +1,6 @@
 class_name Torch
 extends SpotLight3D
+## Handles the player's torch that responds to their movements.
 
 
 const DIM_CHANCE: float = 0.03
@@ -25,6 +26,7 @@ func _process(delta: float) -> void:
 	_range_reduction = clampf(_range_reduction - delta, 0.0, 13.0)
 
 
+## Makes the torch flicker.
 func _on_torch_flicker_timer_timeout() -> void:
 	var decrease: float = 0.5 + _energy_reduction
 
@@ -35,12 +37,14 @@ func _on_torch_flicker_timer_timeout() -> void:
 	spot_range = _base_range - _range_reduction
 
 
+## Aggressively dims the torch when the player experiences strong screen shake.
 func impact_dimming(strength: float) -> void:
 	_energy_reduction = 0.3 + strength
 	_add_dim_chance = strength / 2
 	_range_reduction = strength * 10
 
 
+## Clicks the torch on toggle, unless done by the game after changing scenes.
 func _on_visibility_changed() -> void:
 	if is_silent: return
 	

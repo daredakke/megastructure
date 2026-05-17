@@ -1,5 +1,7 @@
 class_name SfxButton
 extends Button
+## Buttons that click on hover or press. Can be set as being part of a 
+## tab group.
 
 
 var branch_name: String = ""

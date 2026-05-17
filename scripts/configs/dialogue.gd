@@ -1,5 +1,6 @@
 class_name Dialogue
 extends Node
+## A place for dialogue of all kinds, including linear, looping and branching.
 
 
 enum PeopleKeys {

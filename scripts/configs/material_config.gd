@@ -1,4 +1,6 @@
 class_name MaterialConfig
+## Defines materials and their reflectiveness. Used for dynamic reverb and
+## footsteps.
 
 
 enum Keys {

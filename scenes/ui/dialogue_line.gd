@@ -22,6 +22,7 @@ func _unhandled_input(_event: InputEvent) -> void:
 		EventsBus.dialogue_advanced.emit()
 
 
+## Repeated timer timeouts make the next line indicator blink.
 func _on_next_line_indicator_timer_timeout() -> void:
 	next_line_indicator.visible = !next_line_indicator.visible
 
@@ -34,6 +35,7 @@ func update_line_label(line: String) -> void:
 	line_label.text = line
 
 
+## Handle the display of choices.
 func create_choices(choices: Array) -> void:
 	for choice in choices:
 		var button = SFX_BUTTON.instantiate() as SfxButton
@@ -58,6 +60,7 @@ func create_choices(choices: Array) -> void:
 	choice_grab_focus(false)
 
 
+## Ensure choices have focus unless the dev console or pause menu are visible.
 func choice_grab_focus(other_ui_visible: bool) -> void:
 	if other_ui_visible: return
 	if choices_v_box.get_children().size() == 0: return
