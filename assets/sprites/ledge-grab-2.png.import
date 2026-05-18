@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cmi7hciywhg3q"
-path="res://.godot/imported/speech-bubble.png-1dd23fb1c80384074610a71147b95ac6.ctex"
+uid="uid://b2xjknqk4yjb3"
+path="res://.godot/imported/ledge-grab-2.png-07ec175be8c4f2bc59b2ca66ccb6abc7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/speech-bubble.png"
-dest_files=["res://.godot/imported/speech-bubble.png-1dd23fb1c80384074610a71147b95ac6.ctex"]
+source_file="res://assets/sprites/ledge-grab-2.png"
+dest_files=["res://.godot/imported/ledge-grab-2.png-07ec175be8c4f2bc59b2ca66ccb6abc7.ctex"]
 
 [params]
 
