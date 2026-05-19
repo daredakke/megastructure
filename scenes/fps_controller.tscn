@@ -5,7 +5,7 @@
 [ext_resource type="Script" uid="uid://bm1x7oq1qvm5k" path="res://scenes/torch.gd" id="3_laber"]
 [ext_resource type="AudioStream" uid="uid://t38kbo5jaci3" path="res://assets/sfx/torch click.mp3" id="4_qlg3t"]
 [ext_resource type="Texture2D" uid="uid://bbla5c5aenc32" path="res://assets/sprites/base_crosshair.png" id="4_sf0in"]
-[ext_resource type="Texture2D" uid="uid://cuf0jyrv1l5au" path="res://assets/sprites/ledge-grab-3.png" id="6_dw4de"]
+[ext_resource type="Texture2D" uid="uid://183v62qq3a12" path="res://assets/sprites/ledge-grab.png" id="6_dw4de"]
 [ext_resource type="Texture2D" uid="uid://bl5baaybtfasi" path="res://assets/sprites/speech-2.png" id="7_dw4de"]
 [ext_resource type="Texture2D" uid="uid://dwrm8u6noeyoj" path="res://assets/sprites/open.png" id="8_dw4de"]
 [ext_resource type="AudioStream" uid="uid://nh12wmf52ace" path="res://assets/sfx/atmospherics/wind rushing.mp3" id="8_lthsy"]

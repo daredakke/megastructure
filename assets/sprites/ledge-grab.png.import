@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cuf0jyrv1l5au"
-path="res://.godot/imported/ledge-grab-3.png-340107f7215b30649f782d74264c7122.ctex"
+uid="uid://183v62qq3a12"
+path="res://.godot/imported/ledge-grab.png-5e90acf63ee4896776dc5ada1fd198c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/ledge-grab-3.png"
-dest_files=["res://.godot/imported/ledge-grab-3.png-340107f7215b30649f782d74264c7122.ctex"]
+source_file="res://assets/sprites/ledge-grab.png"
+dest_files=["res://.godot/imported/ledge-grab.png-5e90acf63ee4896776dc5ada1fd198c8.ctex"]
 
 [params]
 
