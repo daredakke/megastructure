@@ -5,9 +5,7 @@
 [ext_resource type="Script" uid="uid://bm1x7oq1qvm5k" path="res://scenes/torch.gd" id="3_laber"]
 [ext_resource type="AudioStream" uid="uid://t38kbo5jaci3" path="res://assets/sfx/torch click.mp3" id="4_qlg3t"]
 [ext_resource type="Texture2D" uid="uid://bbla5c5aenc32" path="res://assets/sprites/base_crosshair.png" id="4_sf0in"]
-[ext_resource type="Texture2D" uid="uid://183v62qq3a12" path="res://assets/sprites/ledge-grab.png" id="6_dw4de"]
-[ext_resource type="Texture2D" uid="uid://bl5baaybtfasi" path="res://assets/sprites/speech-2.png" id="7_dw4de"]
-[ext_resource type="Texture2D" uid="uid://dwrm8u6noeyoj" path="res://assets/sprites/open.png" id="8_dw4de"]
+[ext_resource type="Texture2D" uid="uid://cphri0vsbudg6" path="res://assets/sprites/speech.png" id="7_dw4de"]
 [ext_resource type="AudioStream" uid="uid://nh12wmf52ace" path="res://assets/sfx/atmospherics/wind rushing.mp3" id="8_lthsy"]
 [ext_resource type="AudioStream" uid="uid://dq6m681msqsm7" path="res://assets/sfx/death-crunch.mp3" id="9_21qrq"]
 [ext_resource type="Script" uid="uid://kledsysceol0" path="res://scripts/footstep_controller.gd" id="11_r3afy"]
@@ -134,23 +132,30 @@ grow_vertical = 2
 texture = ExtResource("4_sf0in")
 stretch_mode = 3
 
-[node name="LedgeGrabIcon" type="TextureRect" parent="Crosshair" unique_id=1193333754]
+[node name="LedgeGrabIcon" type="MarginContainer" parent="Crosshair" unique_id=1547818597]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -25.0
-offset_top = -20.0
-offset_right = 25.0
-offset_bottom = 20.0
+offset_left = -20.0
+offset_top = -31.0
+offset_right = 20.0
+offset_bottom = 31.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("6_dw4de")
-stretch_mode = 3
+theme_override_constants/margin_top = 13
+
+[node name="UpArrow" type="Label" parent="Crosshair/LedgeGrabIcon" unique_id=415856711]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "^"
+horizontal_alignment = 1
 
 [node name="SpeechIcon" type="TextureRect" parent="Crosshair" unique_id=792449098]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -166,21 +171,27 @@ grow_vertical = 2
 texture = ExtResource("7_dw4de")
 stretch_mode = 3
 
-[node name="DoorIcon" type="TextureRect" parent="Crosshair" unique_id=297341448]
+[node name="DoorIcon" type="MarginContainer" parent="Crosshair" unique_id=1901542378]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -25.0
+offset_left = -20.0
 offset_top = -20.0
-offset_right = 25.0
+offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("8_dw4de")
-stretch_mode = 3
+theme_override_constants/margin_bottom = 8
+
+[node name="SideArrows" type="Label" parent="Crosshair/DoorIcon" unique_id=350223054]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "> <"
+horizontal_alignment = 1
 
 [node name="WindRushingSFX" type="AudioStreamPlayer" parent="." unique_id=2030004302]
 stream = ExtResource("8_lthsy")
