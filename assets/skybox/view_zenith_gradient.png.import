@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btvo5sst62ufi"
-path.bptc="res://.godot/imported/desert-sky-HDRI-2K.exr-c2d3e5e419cd7921164ac9c52a9c2bbe.bptc.ctex"
+uid="uid://dgf14xnem7fcm"
+path.s3tc="res://.godot/imported/view_zenith_gradient.png-19e8e7b3873ae7c0da40160c4527dd32.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/desert-sky-HDRI-2K.exr"
-dest_files=["res://.godot/imported/desert-sky-HDRI-2K.exr-c2d3e5e419cd7921164ac9c52a9c2bbe.bptc.ctex"]
+source_file="res://assets/skybox/view_zenith_gradient.png"
+dest_files=["res://.godot/imported/view_zenith_gradient.png-19e8e7b3873ae7c0da40160c4527dd32.s3tc.ctex"]
 
 [params]
 
@@ -24,7 +24,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
