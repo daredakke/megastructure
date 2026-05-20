@@ -1,6 +1,6 @@
-@tool # Make it run in editor (might need to close and reopen scene to work)
+@tool
 class_name SkyboxController
-extends WorldEnvironment # We're modifying the sky material that is on a WorldEnvironment, so extend from there.
+extends WorldEnvironment
 
 
 @onready var sun: DirectionalLight3D = $"../Sun"
