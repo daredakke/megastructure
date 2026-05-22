@@ -22,12 +22,12 @@ shader_parameter/sun_view_gradient = ExtResource("5_m8deo")
 shader_parameter/sun_radius = 0.030000001425
 shader_parameter/sun_color = Color(1, 1, 1, 1)
 
-[sub_resource type="Sky" id="Sky_qho1y"]
+[sub_resource type="Sky" id="Sky_th6vk"]
 sky_material = SubResource("ShaderMaterial_btri8")
 
 [sub_resource type="Environment" id="Environment_0gw7i"]
 background_mode = 2
-sky = SubResource("Sky_qho1y")
+sky = SubResource("Sky_th6vk")
 glow_enabled = true
 glow_intensity = 1.75
 glow_bloom = 0.05
@@ -52,29 +52,37 @@ script = ExtResource("1_ah5vd")
 metadata/_custom_type_script = "uid://c1iwfhbhkuo1"
 
 [node name="Atmospherics" type="AudioStreamPlayer" parent="." unique_id=1277096129]
+unique_name_in_owner = true
 stream = ExtResource("14_lq6h8")
 script = ExtResource("15_jof07")
 metadata/_custom_type_script = "uid://bwl5f7c7p2hp1"
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1382726649]
+unique_name_in_owner = true
 environment = SubResource("Environment_0gw7i")
 script = ExtResource("4_qho1y")
 
 [node name="Sun" type="DirectionalLight3D" parent="." unique_id=1035724686]
+unique_name_in_owner = true
 transform = Transform3D(-0.8660254, -0.4893191, 0.10279502, -0.1876839, 0.5086904, 0.8402436, -0.4634381, 0.7083792, -0.53237575, 0.01998949, 2.985423, 0)
 light_color = Color(1, 0.856, 0.76, 1)
 shadow_enabled = true
 directional_shadow_blend_splits = true
 
 [node name="SpawnPoints" type="Node3D" parent="." unique_id=1851208454]
+unique_name_in_owner = true
 
 [node name="Start" type="Marker3D" parent="SpawnPoints" unique_id=1330347409]
+unique_name_in_owner = true
 
 [node name="Checkpoints" type="Node3D" parent="." unique_id=985372181]
+unique_name_in_owner = true
 
 [node name="SceneChangers" type="Node3D" parent="." unique_id=1701530348]
+unique_name_in_owner = true
 
 [node name="Interactive" type="Node3D" parent="." unique_id=1086384011]
+unique_name_in_owner = true
 
 [node name="NPCs" type="Node3D" parent="Interactive" unique_id=815757479]
 

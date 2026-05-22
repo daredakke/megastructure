@@ -3,7 +3,7 @@ class_name SkyboxController
 extends WorldEnvironment
 
 
-@onready var sun: DirectionalLight3D = $"../Sun"
+@export var sun: DirectionalLight3D
 
 
 func _process(_delta: float) -> void:

@@ -17,6 +17,7 @@ script = ExtResource("1_o6xl0")
 [node name="LevelController" type="Node" parent="." unique_id=667059501]
 unique_name_in_owner = true
 script = ExtResource("1_o5qli")
+initial_scene = 1
 
 [node name="UIAudio" type="Node" parent="." unique_id=930844231]
 script = ExtResource("8_85g3d")

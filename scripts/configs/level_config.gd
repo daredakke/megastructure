@@ -3,10 +3,12 @@ class_name LevelConfig
 
 enum Keys {
 	TestLevel,
+	HoleInGround,
 }
 
 const LEVEL_PATHS := {
 	Keys.TestLevel: "res://scenes/levels/lvl_test.tscn",
+	Keys.HoleInGround: "res://scenes/levels/lvl_hole_in_ground.tscn",
 }
 
 
