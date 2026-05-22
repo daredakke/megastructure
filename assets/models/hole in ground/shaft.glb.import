@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/shaft.glb-12e0fd9a31a87efdd012cbba3c458f88.sc
 
 nodes/root_type="StaticBody3D"
 nodes/root_name=""
-nodes/root_script=null
+nodes/root_script=Resource("uid://b8gq0a8adq1ag", "res://scripts/material_body.gd")
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false

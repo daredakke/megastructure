@@ -8,7 +8,6 @@
 [ext_resource type="PackedScene" uid="uid://61i0xpl4v2qt" path="res://assets/models/hole in ground/base.glb" id="9_ri62n"]
 [ext_resource type="PackedScene" uid="uid://7j1olpogrymt" path="res://assets/models/hole in ground/base_upper.glb" id="10_3m0x6"]
 [ext_resource type="Material" uid="uid://cy5hjm6y15f04" path="res://assets/materials/concrete-smooth-dark.tres" id="10_ufav7"]
-[ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="11_q0ehg"]
 [ext_resource type="PackedScene" uid="uid://by32cwryccpoy" path="res://assets/models/hole in ground/columns.glb" id="12_27kvi"]
 [ext_resource type="PackedScene" uid="uid://bf3pdmqlkbip8" path="res://assets/models/hole in ground/inner_walls_1.glb" id="13_n6xwr"]
 [ext_resource type="PackedScene" uid="uid://d2w23ekk7knvb" path="res://assets/models/hole in ground/inner_walls_2.glb" id="14_f4u5x"]
@@ -117,20 +116,18 @@ surface_material_override/0 = ExtResource("10_ufav7")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/base" unique_id=1185688423]
 shape = SubResource("ConcavePolygonShape3D_js2jr")
 
-[node name="base_upper" parent="Geometry" unique_id=399691905 instance=ExtResource("10_3m0x6")]
-script = ExtResource("11_q0ehg")
+[node name="base_upper" parent="Geometry" unique_id=1868449939 instance=ExtResource("10_3m0x6")]
 
-[node name="base upper" parent="Geometry/base_upper" index="0" unique_id=543444365]
+[node name="base upper" parent="Geometry/base_upper" index="0" unique_id=51178016]
 surface_material_override/0 = ExtResource("10_ufav7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/base_upper" unique_id=415055419]
 shape = SubResource("ConcavePolygonShape3D_yfn7x")
 
-[node name="columns" parent="Geometry" unique_id=498560547 instance=ExtResource("12_27kvi")]
-script = ExtResource("11_q0ehg")
+[node name="columns" parent="Geometry" unique_id=1079312141 instance=ExtResource("12_27kvi")]
 material = 1
 
-[node name="columns" parent="Geometry/columns" index="0" unique_id=704876348]
+[node name="columns" parent="Geometry/columns" index="0" unique_id=1687922524]
 surface_material_override/0 = ExtResource("14_kh4nw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/columns" unique_id=1382191792]
@@ -145,40 +142,36 @@ surface_material_override/0 = ExtResource("16_86aav")
 transform = Transform3D(0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, 0.7071068, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_ufav7")
 
-[node name="inner_walls_2" parent="Geometry" unique_id=891075977 instance=ExtResource("14_f4u5x")]
-script = ExtResource("11_q0ehg")
+[node name="inner_walls_2" parent="Geometry" unique_id=1668406253 instance=ExtResource("14_f4u5x")]
 
-[node name="inner walls 2" parent="Geometry/inner_walls_2" index="0" unique_id=1409042451]
+[node name="inner walls 2" parent="Geometry/inner_walls_2" index="0" unique_id=556115628]
 surface_material_override/0 = ExtResource("16_86aav")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/inner_walls_2" unique_id=1347437018]
 transform = Transform3D(0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, 0.7071068, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_kh4nw")
 
-[node name="sand" parent="Geometry" unique_id=690959730 instance=ExtResource("15_3wl3w")]
-script = ExtResource("11_q0ehg")
+[node name="sand" parent="Geometry" unique_id=1940012968 instance=ExtResource("15_3wl3w")]
 material = 3
 
-[node name="sand" parent="Geometry/sand" index="0" unique_id=2129292539]
+[node name="sand" parent="Geometry/sand" index="0" unique_id=651384923]
 surface_material_override/0 = ExtResource("16_yfn7x")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/sand" unique_id=337985074]
 shape = SubResource("ConcavePolygonShape3D_86aav")
 
-[node name="shaft" parent="Geometry" unique_id=642980599 instance=ExtResource("16_rurya")]
-script = ExtResource("11_q0ehg")
+[node name="shaft" parent="Geometry" unique_id=617704580 instance=ExtResource("16_rurya")]
 
-[node name="shaft" parent="Geometry/shaft" index="0" unique_id=188005551]
+[node name="shaft" parent="Geometry/shaft" index="0" unique_id=432241807]
 surface_material_override/0 = ExtResource("10_ufav7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/shaft" unique_id=1574252534]
 transform = Transform3D(0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, 0.7071068, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_2x55f")
 
-[node name="stopper" parent="Geometry" unique_id=1102875980 instance=ExtResource("17_8u3et")]
-script = ExtResource("11_q0ehg")
+[node name="stopper" parent="Geometry" unique_id=193202700 instance=ExtResource("17_8u3et")]
 
-[node name="stopper" parent="Geometry/stopper" index="0" unique_id=955348842]
+[node name="stopper" parent="Geometry/stopper" index="0" unique_id=601858829]
 surface_material_override/0 = ExtResource("10_ufav7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Geometry/stopper" unique_id=1584755134]

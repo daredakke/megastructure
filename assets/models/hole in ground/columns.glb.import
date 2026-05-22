@@ -15,7 +15,7 @@ dest_files=["res://.godot/imported/columns.glb-1bfd9f0b236c3f397e8f9e586222ec85.
 
 nodes/root_type="StaticBody3D"
 nodes/root_name=""
-nodes/root_script=null
+nodes/root_script=Resource("uid://b8gq0a8adq1ag", "res://scripts/material_body.gd")
 nodes/apply_root_scale=true
 nodes/root_scale=1.0
 nodes/import_as_skeleton_bones=false
