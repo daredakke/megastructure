@@ -18,6 +18,8 @@ const SHAKE_DECAY_RATE: float = 10
 const WIND_RUSH_MIN_VELOCITY: float = 13.5
 const MAX_REVERB_DISTANCE: float = 50
 const INTERACT_DISTANCE: float = 2.0
+const ZOOM_FOV_REDUCTION: float = 40.0
+const ZOOM_LOOK_STRENGTH_REDUCTION: float = 0.5
 
 var _player_is_dead: bool = false
 var _player_is_frozen: bool = false
@@ -190,6 +192,9 @@ func _physics_process(delta: float) -> void:
 		target_fov = base_camera_fov + sprint_fov_amount
 		fov_transition_multiplier = 0.0
 	
+	if Input.is_action_pressed("zoom"):
+		target_fov -= ZOOM_FOV_REDUCTION
+	
 	# Smoothly change camera FOV between running and sprinting states
 	camera.fov = lerp(camera.fov, target_fov, (FOV_TRANSITION_SPEED + fov_transition_multiplier) * delta)
 	
@@ -273,8 +278,13 @@ func _unhandled_input(event: InputEvent) -> void:
 	
 	# Handle mouse look
 	if event is InputEventMouseMotion:
-		rotate_y(-event.relative.x * look_sensitivity)
-		camera.rotate_x(-event.relative.y * look_sensitivity)
+		var look_strength := look_sensitivity
+		
+		if Input.is_action_pressed("zoom"):
+			look_strength *= ZOOM_LOOK_STRENGTH_REDUCTION
+		
+		rotate_y(-event.relative.x * look_strength)
+		camera.rotate_x(-event.relative.y * look_strength)
 		camera.rotation.x = clamp(camera.rotation.x, -PI * 0.5, PI * 0.5)
 	
 	# Scroll to change movement speed when noclipping
@@ -481,6 +491,9 @@ func _handle_controller_look_input(_delta: float) -> void:
 	# Look speed is governed by how much the right analogue stick is moved
 	var look_strength = sqrt(pow(target_look.x, 2.0) + pow(target_look.y, 2.0))
 	_cur_controller_look = target_look
+	
+	if Input.is_action_pressed("zoom"):
+		look_strength *= ZOOM_LOOK_STRENGTH_REDUCTION
 
 	# Turn left and right
 	rotate_y(-_cur_controller_look.x * controller_look_sensitivity * look_strength)

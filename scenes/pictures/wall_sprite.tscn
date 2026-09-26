@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b5tx5sivsg3vf"]
+
+[ext_resource type="Script" uid="uid://by22ovgucgqm6" path="res://scenes/pictures/wall_sprite.gd" id="1_2pkmk"]
+
+[node name="WallSprite" type="Sprite3D" unique_id=1559334517]
+script = ExtResource("1_2pkmk")

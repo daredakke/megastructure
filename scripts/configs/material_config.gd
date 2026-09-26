@@ -25,7 +25,7 @@ static var properties := {
 		"reflect": 0.0,
 	},
 	Keys.Cloth: {
-		"reflect": 0.0,
+		"reflect": 0.4,
 	},
 }
 

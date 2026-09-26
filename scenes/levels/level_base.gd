@@ -1,6 +1,7 @@
 class_name LevelBase
 extends Node3D
 
+
 const FPS_CONTROLLER = preload("uid://ct1rg4grgbrd6")
 
 @onready var spawn_points: Node3D = $SpawnPoints

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bj33w2iyg7qck"]
+
+[ext_resource type="Script" uid="uid://boqtrdw05w5dd" path="res://scenes/pictures/wall_animation.gd" id="1_rqdsm"]
+
+[node name="WallAnimation" type="AnimatedSprite3D" unique_id=928192344]
+script = ExtResource("1_rqdsm")

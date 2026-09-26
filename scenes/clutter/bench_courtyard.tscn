@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://btukwcp4xtg14"]
+
+[ext_resource type="PackedScene" uid="uid://cmdqeehk27s6p" path="res://assets/models/gallery/Bench_courtyard.glb" id="1_w6cng"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kgym7"]
+size = Vector3(3.517334, 0.82526857, 0.78619385)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5nvdd"]
+size = Vector3(3.5114746, 0.9499512, 0.076416016)
+
+[node name="Bench_courtyard" unique_id=607950354 instance=ExtResource("1_w6cng")]
+material = 1
+
+[node name="Bench courtyard" parent="." index="0" unique_id=125569712]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -1.3121994e-08, 0, -0.30019623)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1296195711]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -7.0257706e-09, 0.31263426, -0.23046356)
+shape = SubResource("BoxShape3D_kgym7")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1476692405]
+transform = Transform3D(-1, 2.198359e-08, -8.461361e-08, 0, 0.967867, 0.251463, 8.7422784e-08, 0.251463, -0.967867, 2.0147764e-08, 0.91988647, 0.08036545)
+shape = SubResource("BoxShape3D_5nvdd")

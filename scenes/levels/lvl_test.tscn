@@ -15,7 +15,7 @@
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_btri8"]
 shader = ExtResource("4_0gw7i")
-shader_parameter/sun_dir = Vector3(0.10279514, 0.8402434, -0.5323761)
+shader_parameter/sun_dir = Vector3(-0.23735878, 0.97009915, 0.050679352)
 shader_parameter/sun_zenith_gradient = ExtResource("5_3li6a")
 shader_parameter/view_zenith_gradient = ExtResource("6_ym88k")
 shader_parameter/sun_view_gradient = ExtResource("5_m8deo")
@@ -57,14 +57,15 @@ stream = ExtResource("14_lq6h8")
 script = ExtResource("15_jof07")
 metadata/_custom_type_script = "uid://bwl5f7c7p2hp1"
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1382726649]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1382726649 node_paths=PackedStringArray("sun")]
 unique_name_in_owner = true
 environment = SubResource("Environment_0gw7i")
 script = ExtResource("4_qho1y")
+sun = NodePath("../Sun")
 
 [node name="Sun" type="DirectionalLight3D" parent="." unique_id=1035724686]
 unique_name_in_owner = true
-transform = Transform3D(-0.8660254, -0.4893191, 0.10279502, -0.1876839, 0.5086904, 0.8402436, -0.4634381, 0.7083792, -0.53237575, 0.01998949, 2.985423, 0)
+transform = Transform3D(-0.8660256, -0.44006905, -0.23735888, -0.18768397, -0.15389067, 0.97009933, -0.4634381, 0.8846792, 0.05067976, 0.01998949, 2.985423, 0)
 light_color = Color(1, 0.856, 0.76, 1)
 shadow_enabled = true
 directional_shadow_blend_splits = true
@@ -74,6 +75,7 @@ unique_name_in_owner = true
 
 [node name="Start" type="Marker3D" parent="SpawnPoints" unique_id=1330347409]
 unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 0.99461454, 0.10364318, 0, -0.10364318, 0.99461454, 0, 0, 0)
 
 [node name="Checkpoints" type="Node3D" parent="." unique_id=985372181]
 unique_name_in_owner = true
