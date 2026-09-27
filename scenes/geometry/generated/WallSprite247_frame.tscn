@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="1_d8fyw"]
 [ext_resource type="Material" uid="uid://bm3hyx3nivao" path="res://assets/materials/picture_frame.tres" id="2_b2ac7"]
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_qpfqs"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_d8fyw"]
 _surfaces = [{
 "aabb": AABB(-1, -1, -0.1, 18, 11, 1e-05),
 "attribute_data": PackedByteArray("AAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AACAPwAAgD8AAIA/AACAPw=="),
@@ -96,17 +96,17 @@ _surfaces = [{
 "vertex_data": PackedByteArray("AACAQQAAAAAAAAAAAACIQQAAgL/NzMw+AACAQQAAEEEAAAAAAACIQQAAIEHNzMw+bVv/f9Gg+JZtW/9/0aD4lm1b/3/RoPiWbVv/f9Gg+JY=")
 }]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_i8pxb"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_b2ac7"]
 size = Vector3(18, 11, 0.8)
 
-[node name="WallSprite247Frame" type="StaticBody3D" unique_id=2112044036]
+[node name="WallSprite247Frame2" type="StaticBody3D" unique_id=221656688]
 script = ExtResource("1_d8fyw")
 material = 4
 
-[node name="PictureFrame" type="MeshInstance3D" parent="." unique_id=1943007093]
+[node name="PictureFrame" type="MeshInstance3D" parent="." unique_id=1694522926]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, -4.5, 0)
 material_override = ExtResource("2_b2ac7")
-mesh = SubResource("ArrayMesh_qpfqs")
+mesh = SubResource("ArrayMesh_d8fyw")
 
-[node name="@CollisionShape3D@1534273" type="CollisionShape3D" parent="." unique_id=480946178]
-shape = SubResource("BoxShape3D_i8pxb")
+[node name="@CollisionShape3D@437048" type="CollisionShape3D" parent="." unique_id=636656507]
+shape = SubResource("BoxShape3D_b2ac7")

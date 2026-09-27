@@ -2,12 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://dm2upfacogb3c" path="res://assets/models/gallery/Bench_internal.glb" id="1_aglm3"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_kgym7"]
-size = Vector3(3.9885254, 0.80444336, 0.609375)
+[sub_resource type="BoxShape3D" id="BoxShape3D_5nvdd"]
+size = Vector3(3.9997559, 0.67349243, 0.5966797)
 
 [node name="Bench_internal" unique_id=793848590 instance=ExtResource("1_aglm3")]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=145557406]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34509277, 0)
-shape = SubResource("BoxShape3D_kgym7")
-disabled = true
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1008365459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.31288147, 0)
+shape = SubResource("BoxShape3D_5nvdd")

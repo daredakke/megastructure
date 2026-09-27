@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://1cbg5dk5acgl"]
+
+[ext_resource type="PackedScene" uid="uid://dvukub0hgvcbf" path="res://assets/models/gallery-signs/Guide.glb" id="1_fx3xp"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_2ckyw"]
+data = PackedVector3Array(-0.75, 0, 0.75, -0.75, 3, -0.75, -0.75, 3, 0.75, -0.75, 0, 0.75, -0.75, 0, -0.75, -0.75, 3, -0.75, -0.75, 0, -0.75, 0.75, 3, -0.75, -0.75, 3, -0.75, -0.75, 0, -0.75, 0.75, 0, -0.75, 0.75, 3, -0.75, 0.75, 0, -0.75, 0.75, 3, 0.75, 0.75, 3, -0.75, 0.75, 0, -0.75, 0.75, 0, 0.75, 0.75, 3, 0.75, 0.75, 0, 0.75, -0.75, 3, 0.75, 0.75, 3, 0.75, 0.75, 0, 0.75, -0.75, 0, 0.75, -0.75, 3, 0.75, -0.75, 0, -0.75, 0.75, 0, 0.75, 0.75, 0, -0.75, -0.75, 0, -0.75, -0.75, 0, 0.75, 0.75, 0, 0.75, 0.75, 3, -0.75, -0.75, 3, 0.75, -0.75, 3, -0.75, 0.75, 3, -0.75, 0.75, 3, 0.75, -0.75, 3, 0.75)
+
+[node name="Guide" unique_id=1611186909 instance=ExtResource("1_fx3xp")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1023224859]
+shape = SubResource("ConcavePolygonShape3D_2ckyw")
