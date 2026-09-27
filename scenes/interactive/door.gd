@@ -9,29 +9,39 @@ extends Node3D
 
 var active: bool = false
 
+var _door_body: MaterialBody
+var _body_original_pos: Vector3
 var _is_open: bool = false
 
-@onready var door_body: StaticBody3D = $Body
-@onready var body_original_pos: Vector3 = $Body.position
 @onready var detection_area: Area3D = $DetectionArea
 @onready var door_sfx: AudioStreamPlayer = $Sfx
 
 
+func _ready() -> void:
+	for node in get_children():
+		if node is MaterialBody:
+			print("Found material body")
+			_door_body = node
+			_body_original_pos = node.position
+		
+		break
+
+
 func _process(delta: float) -> void:
-	if not active: return
+	if not active or not _door_body: return
 	
 	# Process door opening or closing
 	if _is_open:
-		door_body.position.x += move_speed * delta
+		_door_body.position.x += move_speed * delta
 		
-		if door_body.position.x >= body_original_pos.x + offset:
-			door_body.position.x = body_original_pos.x + offset
+		if _door_body.position.x >= _body_original_pos.x + offset:
+			_door_body.position.x = _body_original_pos.x + offset
 			active = false
 	else:
-		door_body.position.x -= move_speed * delta
+		_door_body.position.x -= move_speed * delta
 		
-		if door_body.position.x <= body_original_pos.x:
-			door_body.position.x = body_original_pos.x
+		if _door_body.position.x <= _body_original_pos.x:
+			_door_body.position.x = _body_original_pos.x
 			active = false
 
 

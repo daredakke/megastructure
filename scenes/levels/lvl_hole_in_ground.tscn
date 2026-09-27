@@ -4,6 +4,7 @@
 [ext_resource type="AudioStream" uid="uid://cwa1baa4fy5pt" path="res://assets/sfx/atmospherics/atmospheric wind and noise.mp3" id="2_yfn7x"]
 [ext_resource type="Script" uid="uid://bwl5f7c7p2hp1" path="res://scripts/atmospherics.gd" id="3_m1qe5"]
 [ext_resource type="Shader" uid="uid://biit0bgnai4jk" path="res://assets/shaders/skybox.gdshader" id="4_ufav7"]
+[ext_resource type="PackedScene" uid="uid://fp4ginv5vfdv" path="res://scenes/interactive/double_doors.tscn" id="6_gto62"]
 [ext_resource type="PackedScene" uid="uid://m327iidbghkp" path="res://assets/models/gallery/base.glb" id="6_m0a8v"]
 [ext_resource type="Script" uid="uid://b5gn0gjtu7x8q" path="res://scripts/courtyard_benches.gd" id="6_p5qvj"]
 [ext_resource type="PackedScene" uid="uid://btukwcp4xtg14" path="res://scenes/clutter/bench_courtyard.tscn" id="6_w3nxn"]
@@ -495,6 +496,21 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.54301786, 0, 95.507126)
 [node name="Interactive" type="Node3D" parent="." unique_id=267799209]
 
 [node name="NPCs" type="Node3D" parent="Interactive" unique_id=1061301205]
+
+[node name="DoubleDoors" parent="Interactive" unique_id=1127466154 instance=ExtResource("6_gto62")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95309997, 81.3)
+
+[node name="DoubleDoors2" parent="Interactive" unique_id=362205481 instance=ExtResource("6_gto62")]
+transform = Transform3D(0.28727722, 0, 0.9578475, 0, 1, 0, -0.9578475, 0, 0.28727722, 77.79544, 0.95309997, 23.597271)
+
+[node name="DoubleDoors3" parent="Interactive" unique_id=169526767 instance=ExtResource("6_gto62")]
+transform = Transform3D(-0.8344447, 0, 0.5510916, 0, 1, 0, -0.5510916, 0, -0.8344447, 45.167484, 0.95309997, -67.59952)
+
+[node name="DoubleDoors4" parent="Interactive" unique_id=296825263 instance=ExtResource("6_gto62")]
+transform = Transform3D(-0.83099025, 0, -0.5562869, 0, 1, 0, 0.5562869, 0, -0.83099025, -45.157566, 0.95309997, -67.60073)
+
+[node name="DoubleDoors5" parent="Interactive" unique_id=1436767372 instance=ExtResource("6_gto62")]
+transform = Transform3D(0.2903379, 0, -0.9569242, 0, 1, 0, 0.9569242, 0, 0.2903379, -77.79855, 0.95309997, 23.597298)
 
 [node name="Courtyard benches" type="Node3D" parent="." unique_id=388448144]
 script = ExtResource("6_p5qvj")
@@ -1184,7 +1200,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080454e-07, 0.01226309, 0, 0.25, -3.0743583e-06, -0.01226309, 3.0706576e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080455e-07, 0.01226309, 0, 0.25, -3.0743588e-06, -0.01226309, 3.070658e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
@@ -1380,7 +1396,7 @@ picture_scale = 0.3
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite6212" type="Sprite3D" parent="GeneralPicturesWest" unique_id=2106475205]
-transform = Transform3D(-0.10688781, 0, -0.22599778, 0, 0.25, 0, 0.22599778, 0, -0.10688781, -53.06999, 5.3447638, -24.783266)
+transform = Transform3D(-0.1068878, 0, -0.22599779, 0, 0.25, 0, 0.22599779, 0, -0.1068878, -53.06999, 5.3447638, -24.783266)
 texture = ExtResource("104_tmixj")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
@@ -1981,7 +1997,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite227" type="Sprite3D" parent="AbstractPictures" unique_id=70732489]
-transform = Transform3D(-0.06683192, 0, -0.11150558, 0, 0.13, 0, 0.11150558, 0, -0.06683192, -50.875553, 10.590726, -29.047726)
+transform = Transform3D(-0.066831924, 0, -0.111505575, 0, 0.13, 0, 0.111505575, 0, -0.066831924, -50.875553, 10.590726, -29.047726)
 texture = ExtResource("117_vrhvu")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.13
@@ -3276,24 +3292,6 @@ script = ExtResource("11_i7cp0")
 picture_scale = 0.4
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
-[node name="Floor_01" parent="." unique_id=709308898 instance=ExtResource("372_fkaa1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 67)
-
-[node name="Floor_02" parent="." unique_id=2010080793 instance=ExtResource("373_gto62")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 9.099987, 67)
-
-[node name="Floor_03" parent="." unique_id=728970897 instance=ExtResource("374_2gb5t")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 17.199986, 67)
-
-[node name="Guide" parent="." unique_id=1611186909 instance=ExtResource("375_kvfh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 1, 67)
-
-[node name="Guide2" parent="." unique_id=160957078 instance=ExtResource("375_kvfh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 9.100003, 67)
-
-[node name="Guide3" parent="." unique_id=1126162224 instance=ExtResource("375_kvfh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 17.2, 67)
-
 [node name="GallerySigns" type="Node3D" parent="." unique_id=2103584712]
 
 [node name="Sign_general_right" parent="GallerySigns" unique_id=1937119516 instance=ExtResource("372_o7p5e")]
@@ -3337,6 +3335,24 @@ transform = Transform3D(0.80058455, 0, -0.5992198, 0, 1, 0, 0.5992198, 0, 0.8005
 
 [node name="Sign_ss_sketches_right" parent="GallerySigns" unique_id=520003585 instance=ExtResource("385_2lqfp")]
 transform = Transform3D(0.28857803, 0, 0.9574564, 0, 1, 0, -0.9574564, 0, 0.28857803, -66.08747, 18.999996, -20.050335)
+
+[node name="Floor_01" parent="GallerySigns" unique_id=709308898 instance=ExtResource("372_fkaa1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1, 67)
+
+[node name="Floor_02" parent="GallerySigns" unique_id=2010080793 instance=ExtResource("373_gto62")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 9.099987, 67)
+
+[node name="Floor_03" parent="GallerySigns" unique_id=728970897 instance=ExtResource("374_2gb5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 17.199986, 67)
+
+[node name="Guide" parent="GallerySigns" unique_id=1611186909 instance=ExtResource("375_kvfh6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 1, 67)
+
+[node name="Guide2" parent="GallerySigns" unique_id=160957078 instance=ExtResource("375_kvfh6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 9.100003, 67)
+
+[node name="Guide3" parent="GallerySigns" unique_id=1126162224 instance=ExtResource("375_kvfh6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 17.2, 67)
 
 [editable path="Geometry/base"]
 [editable path="Geometry/Level_1"]

@@ -1,27 +1,18 @@
 [gd_scene format=3 uid="uid://udti5byno6r1"]
 
 [ext_resource type="Script" uid="uid://bg0cwofw1g80y" path="res://scenes/interactive/door.gd" id="1_ncpwf"]
-[ext_resource type="PackedScene" uid="uid://bksgowykjamq2" path="res://assets/models/general/door-1.glb" id="2_ii113"]
+[ext_resource type="PackedScene" uid="uid://bcmqgslm4jn6p" path="res://assets/models/interactables/External_door.glb" id="3_n5qj1"]
 [ext_resource type="AudioStream" uid="uid://j871o3hyafyv" path="res://assets/sfx/door.mp3" id="3_wmplv"]
-
-[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ii113"]
-data = PackedVector3Array(-0.51, 0, 0.085, -0.51, 1.6999999, -0.085, -0.51, 1.6999999, 0.085, -0.51, 0, 0.085, -0.51, 0, -0.085, -0.51, 1.6999999, -0.085, -0.51, 0, -0.085, 0.51, 1.6999999, -0.085, -0.51, 1.6999999, -0.085, -0.51, 0, -0.085, 0.51, 0, -0.085, 0.51, 1.6999999, -0.085, 0.51, 0, -0.085, 0.51, 1.6999999, 0.085, 0.51, 1.6999999, -0.085, 0.51, 0, -0.085, 0.51, 0, 0.085, 0.51, 1.6999999, 0.085, 0.51, 0, 0.085, -0.51, 1.6999999, 0.085, 0.51, 1.6999999, 0.085, 0.51, 0, 0.085, -0.51, 0, 0.085, -0.51, 1.6999999, 0.085, -0.51, 0, -0.085, 0.51, 0, 0.085, 0.51, 0, -0.085, -0.51, 0, -0.085, -0.51, 0, 0.085, 0.51, 0, 0.085, 0.51, 1.6999999, -0.085, -0.51, 1.6999999, 0.085, -0.51, 1.6999999, -0.085, 0.51, 1.6999999, -0.085, 0.51, 1.6999999, 0.085, -0.51, 1.6999999, 0.085)
+[ext_resource type="Material" uid="uid://cewmess04a4vx" path="res://assets/materials/glass_window.tres" id="4_n5qj1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ii113"]
 size = Vector3(2.5, 3.4, 3.4042969)
 
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_n5qj1"]
+data = PackedVector3Array(-1.2099999, 0, 0.049999997, -1.2099999, 3.3, -0.049999997, -1.2099999, 3.3, 0.049999997, -1.2099999, 0, 0.049999997, -1.2099999, 0, -0.049999997, -1.2099999, 3.3, -0.049999997, -1.2099999, 0, -0.049999997, 1.2099999, 3.3, -0.049999997, -1.2099999, 3.3, -0.049999997, -1.2099999, 0, -0.049999997, 1.2099999, 0, -0.049999997, 1.2099999, 3.3, -0.049999997, 1.2099999, 0, -0.049999997, 1.2099999, 3.3, 0.049999997, 1.2099999, 3.3, -0.049999997, 1.2099999, 0, -0.049999997, 1.2099999, 0, 0.049999997, 1.2099999, 3.3, 0.049999997, 1.2099999, 0, 0.049999997, -1.2099999, 3.3, 0.049999997, 1.2099999, 3.3, 0.049999997, 1.2099999, 0, 0.049999997, -1.2099999, 0, 0.049999997, -1.2099999, 3.3, 0.049999997, -1.2099999, 0, -0.049999997, 1.2099999, 0, 0.049999997, 1.2099999, 0, -0.049999997, -1.2099999, 0, -0.049999997, -1.2099999, 0, 0.049999997, 1.2099999, 0, 0.049999997, 1.2099999, 3.3, -0.049999997, -1.2099999, 3.3, 0.049999997, -1.2099999, 3.3, -0.049999997, 1.2099999, 3.3, -0.049999997, 1.2099999, 3.3, 0.049999997, -1.2099999, 3.3, 0.049999997)
+
 [node name="Door" type="Node3D" unique_id=1388269462]
 script = ExtResource("1_ncpwf")
-
-[node name="Body" parent="." unique_id=251726687 instance=ExtResource("2_ii113")]
-material = 1
-
-[node name="Cube" parent="Body" index="0" unique_id=1302537689]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Body" unique_id=237519280]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
-shape = SubResource("ConcavePolygonShape3D_ii113")
 
 [node name="DetectionArea" type="Area3D" parent="." unique_id=1893514342]
 
@@ -31,10 +22,17 @@ shape = SubResource("BoxShape3D_ii113")
 
 [node name="Sfx" type="AudioStreamPlayer" parent="." unique_id=1762952101]
 stream = ExtResource("3_wmplv")
-max_polyphony = 4
 bus = &"Reverb"
+
+[node name="External_door" parent="." unique_id=978755172 instance=ExtResource("3_n5qj1")]
+
+[node name="External door" parent="External_door" index="0" unique_id=683187440]
+surface_material_override/0 = ExtResource("4_n5qj1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="External_door" unique_id=1980691433]
+shape = SubResource("ConcavePolygonShape3D_n5qj1")
 
 [connection signal="body_entered" from="DetectionArea" to="." method="_on_detection_area_body_entered"]
 [connection signal="body_exited" from="DetectionArea" to="." method="_on_detection_area_body_exited"]
 
-[editable path="Body"]
+[editable path="External_door"]
