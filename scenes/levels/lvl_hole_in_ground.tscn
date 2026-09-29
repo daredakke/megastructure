@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://c1iwfhbhkuo1" path="res://scenes/levels/level_base.gd" id="1_js2jr"]
 [ext_resource type="AudioStream" uid="uid://v1nnxly3p1r1" path="res://assets/sfx/atmospherics/outdoor atmospherics.mp3" id="2_tsejf"]
 [ext_resource type="Script" uid="uid://bwl5f7c7p2hp1" path="res://scripts/atmospherics.gd" id="3_m1qe5"]
-[ext_resource type="LightmapGIData" uid="uid://ctfeij4bqsxgb" path="res://scenes/lightmaps/lvl_hole_in_ground.lmbake" id="4_2lqfp"]
+[ext_resource type="LightmapGIData" uid="uid://bx3xnt31mgkok" path="res://scenes/lightmaps/lvl_hole_in_ground.lmbake" id="4_2lqfp"]
 [ext_resource type="PackedScene" uid="uid://fp4ginv5vfdv" path="res://scenes/interactive/double_doors.tscn" id="6_gto62"]
 [ext_resource type="PackedScene" uid="uid://m327iidbghkp" path="res://assets/models/gallery/base.glb" id="6_m0a8v"]
 [ext_resource type="Script" uid="uid://b5gn0gjtu7x8q" path="res://scripts/courtyard_benches.gd" id="6_p5qvj"]
@@ -460,6 +460,7 @@ metadata/_custom_type_script = "uid://bwl5f7c7p2hp1"
 
 [node name="LightmapGI" type="LightmapGI" parent="." unique_id=2106506518]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 32, 0)
+quality = 2
 bounces = 4
 light_data = ExtResource("4_2lqfp")
 
@@ -1179,7 +1180,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080475e-07, 0.01226309, 0, 0.25, -3.0743627e-06, -0.01226309, 3.070662e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080477e-07, 0.01226309, 0, 0.25, -3.074363e-06, -0.01226309, 3.0706622e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
