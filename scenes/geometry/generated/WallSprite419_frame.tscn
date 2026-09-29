@@ -99,14 +99,14 @@ _surfaces = [{
 [sub_resource type="BoxShape3D" id="BoxShape3D_u5su3"]
 size = Vector3(18, 11, 0.8)
 
-[node name="WallSprite419Frame" type="StaticBody3D" unique_id=1242415274]
+[node name="WallSprite419Frame2" type="StaticBody3D" unique_id=1010146157]
 script = ExtResource("1_x3hk6")
 material = 4
 
-[node name="PictureFrame" type="MeshInstance3D" parent="." unique_id=1215222837]
+[node name="PictureFrame" type="MeshInstance3D" parent="." unique_id=695347272]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, -4.5, 0)
 material_override = ExtResource("2_u5su3")
 mesh = SubResource("ArrayMesh_x3hk6")
 
-[node name="@CollisionShape3D@1412772" type="CollisionShape3D" parent="." unique_id=273485408]
+[node name="@CollisionShape3D@75803" type="CollisionShape3D" parent="." unique_id=418760121]
 shape = SubResource("BoxShape3D_u5su3")

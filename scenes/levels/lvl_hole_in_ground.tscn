@@ -2737,7 +2737,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite528" type="Sprite3D" parent="ShimSimPictures" unique_id=636583884]
-transform = Transform3D(-0.2510633, 0, -0.16421703, 0, 0.3, 0, 0.16421703, 0, -0.2510633, -55.77764, 19.037127, 36.2683)
+transform = Transform3D(-0.25106332, 0, -0.16421698, 0, 0.3, 0, 0.16421698, 0, -0.25106332, -55.70648, 19.037127, 36.3771)
 texture = ExtResource("292_wp4is")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.3
@@ -3190,7 +3190,7 @@ script = ExtResource("11_i7cp0")
 picture_scale = 0.21
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
-[node name="WallSprite433" type="Sprite3D" parent="SSRPictures" unique_id=1822189835]
+[node name="WallSprite4331" type="Sprite3D" parent="SSRPictures" unique_id=1822189835]
 transform = Transform3D(0.089789174, 0, 0.18983652, 0, 0.21, 0, -0.18983652, 0, 0.089789174, 53.139023, 18.834377, 24.637405)
 texture = ExtResource("277_62f2u")
 script = ExtResource("11_i7cp0")

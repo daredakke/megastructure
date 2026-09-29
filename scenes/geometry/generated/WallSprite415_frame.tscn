@@ -1,4 +1,4 @@
-[gd_scene format=4 uid="uid://ck1turv0yrugd"]
+[gd_scene format=4 uid="uid://dw8bu4o68wh7s"]
 
 [ext_resource type="Script" uid="uid://b8gq0a8adq1ag" path="res://scripts/material_body.gd" id="1_3bwm0"]
 [ext_resource type="Material" uid="uid://bm3hyx3nivao" path="res://assets/materials/picture_frame.tres" id="2_4fvw5"]
@@ -99,14 +99,14 @@ _surfaces = [{
 [sub_resource type="BoxShape3D" id="BoxShape3D_4fvw5"]
 size = Vector3(21.2, 12.8, 0.8)
 
-[node name="WallSprite415Frame" type="StaticBody3D" unique_id=1686454206]
+[node name="WallSprite415Frame2" type="StaticBody3D" unique_id=348342236]
 script = ExtResource("1_3bwm0")
 material = 4
 
-[node name="PictureFrame" type="MeshInstance3D" parent="." unique_id=1224634968]
+[node name="PictureFrame" type="MeshInstance3D" parent="." unique_id=1086008800]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.6, -5.4, 0)
 material_override = ExtResource("2_4fvw5")
 mesh = SubResource("ArrayMesh_3bwm0")
 
-[node name="@CollisionShape3D@1412736" type="CollisionShape3D" parent="." unique_id=1559880910]
+[node name="@CollisionShape3D@75776" type="CollisionShape3D" parent="." unique_id=638639529]
 shape = SubResource("BoxShape3D_4fvw5")

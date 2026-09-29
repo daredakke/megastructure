@@ -396,6 +396,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow2" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=1532399579]
@@ -404,6 +405,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow3" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=794836345]
@@ -412,6 +414,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow4" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=529907748]
@@ -420,6 +423,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow5" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=301135260]
@@ -428,6 +432,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow6" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=358926151]
@@ -436,6 +441,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow7" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=287658117]
@@ -444,6 +450,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow8" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=914159882]
@@ -452,6 +459,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="MetalHollow9" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=19583644]
@@ -460,6 +468,7 @@ max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
+volume_reduction = 0.05
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="RoomSizeRayCastTimer" type="Timer" parent="." unique_id=651464048]
