@@ -557,6 +557,9 @@ func _set_reverb_parameters() -> void:
 			
 			# Default to concrete if unknown material encountered
 			if ray.get_collider() is MaterialBody:
+				if ray.get_collider().material == MaterialConfig.Keys.Empty:
+					continue
+				
 				material_props = MaterialConfig.get_material_property(ray.get_collider().material)
 			else:
 				material_props = MaterialConfig.get_material_property(MaterialConfig.Keys.Concrete)

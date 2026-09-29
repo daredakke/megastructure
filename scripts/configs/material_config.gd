@@ -8,7 +8,8 @@ enum Keys {
 	MetalDull,
 	MetalHollow,
 	Sand,
-	Cloth
+	Cloth,
+	Empty,
 }
 
 static var properties := {
@@ -26,6 +27,9 @@ static var properties := {
 	},
 	Keys.Cloth: {
 		"reflect": 0.4,
+	},
+	Keys.Empty: {
+		"reflect": 0.0,
 	},
 }
 
