@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dni3muvtwr5g2"]
+
+[ext_resource type="PackedScene" uid="uid://dhql5gq7ktrln" path="res://assets/models/general/Ground_blocks.glb" id="1_o1glq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kgym7"]
+size = Vector3(720, 19.7, 720)
+
+[node name="Ground_blocks" unique_id=228668608 instance=ExtResource("1_o1glq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1824906649]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -10.25, 0)
+shape = SubResource("BoxShape3D_kgym7")
