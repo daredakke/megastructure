@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bcmqgslm4jn6p" path="res://assets/models/interactables/External_door.glb" id="1_62a4c"]
 [ext_resource type="Script" uid="uid://bnq70wlhjuja5" path="res://scenes/interactive/double_doors.gd" id="1_wsrlg"]
 [ext_resource type="Material" uid="uid://cewmess04a4vx" path="res://assets/materials/glass_window.tres" id="2_wsrlg"]
-[ext_resource type="AudioStream" uid="uid://j871o3hyafyv" path="res://assets/sfx/door.mp3" id="3_c7l6a"]
+[ext_resource type="AudioStream" uid="uid://cjh2pq6x5v1fn" path="res://assets/sfx/door_open.mp3" id="4_wsrlg"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_f34nj"]
 size = Vector3(5, 3.4, 3.4042969)
@@ -40,7 +40,7 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_c7l6a"]
 resource_name = "open"
-length = 0.39999999999999997
+length = 0.4
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -100,7 +100,7 @@ surface_material_override/0 = ExtResource("2_wsrlg")
 shape = SubResource("ConcavePolygonShape3D_uv4r2")
 
 [node name="Sfx" type="AudioStreamPlayer" parent="." unique_id=1262270883]
-stream = ExtResource("3_c7l6a")
+stream = ExtResource("4_wsrlg")
 bus = &"Reverb"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1000185212]

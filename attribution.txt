@@ -5,3 +5,6 @@ https://kelvinvanhoorn.com/tutorials/godot_skybox_shader/
 
 Light textures
 Raffaele Picca - raffaelepicca.com
+
+Door slide SFX
+https://freesound.org/people/RandomRecord19/sounds/739824/
