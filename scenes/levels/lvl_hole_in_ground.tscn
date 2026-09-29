@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dgbv8qr5prewi"]
 
 [ext_resource type="Script" uid="uid://c1iwfhbhkuo1" path="res://scenes/levels/level_base.gd" id="1_js2jr"]
-[ext_resource type="AudioStream" uid="uid://cwa1baa4fy5pt" path="res://assets/sfx/atmospherics/atmospheric wind and noise.mp3" id="2_yfn7x"]
+[ext_resource type="AudioStream" uid="uid://v1nnxly3p1r1" path="res://assets/sfx/atmospherics/outdoor atmospherics.mp3" id="2_tsejf"]
 [ext_resource type="Script" uid="uid://bwl5f7c7p2hp1" path="res://scripts/atmospherics.gd" id="3_m1qe5"]
 [ext_resource type="LightmapGIData" uid="uid://ctfeij4bqsxgb" path="res://scenes/lightmaps/lvl_hole_in_ground.lmbake" id="4_2lqfp"]
 [ext_resource type="PackedScene" uid="uid://fp4ginv5vfdv" path="res://scenes/interactive/double_doors.tscn" id="6_gto62"]
@@ -453,8 +453,9 @@ metadata/_custom_type_script = "uid://c1iwfhbhkuo1"
 environment = SubResource("Environment_kgym7")
 
 [node name="Atmospherics" type="AudioStreamPlayer" parent="." unique_id=1089324714]
-stream = ExtResource("2_yfn7x")
+stream = ExtResource("2_tsejf")
 script = ExtResource("3_m1qe5")
+default_volume = -5.0
 metadata/_custom_type_script = "uid://bwl5f7c7p2hp1"
 
 [node name="LightmapGI" type="LightmapGI" parent="." unique_id=2106506518]
@@ -1178,7 +1179,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080474e-07, 0.01226309, 0, 0.25, -3.0743624e-06, -0.01226309, 3.0706617e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080475e-07, 0.01226309, 0, 0.25, -3.0743627e-06, -0.01226309, 3.070662e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
@@ -2737,7 +2738,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite528" type="Sprite3D" parent="ShimSimPictures" unique_id=636583884]
-transform = Transform3D(-0.25106332, 0, -0.16421698, 0, 0.3, 0, 0.16421698, 0, -0.25106332, -55.70648, 19.037127, 36.3771)
+transform = Transform3D(-0.25106335, 0, -0.16421697, 0, 0.3, 0, 0.16421697, 0, -0.25106335, -55.70648, 19.037127, 36.3771)
 texture = ExtResource("292_wp4is")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.3
