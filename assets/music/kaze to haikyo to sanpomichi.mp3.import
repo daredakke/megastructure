@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgeqg8207ey0m"
+path="res://.godot/imported/kaze to haikyo to sanpomichi.mp3-3d63072f73ef5546246d3d91c4a6384f.mp3str"
+
+[deps]
+
+source_file="res://assets/music/kaze to haikyo to sanpomichi.mp3"
+dest_files=["res://.godot/imported/kaze to haikyo to sanpomichi.mp3-3d63072f73ef5546246d3d91c4a6384f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

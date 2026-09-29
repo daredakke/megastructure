@@ -7,7 +7,7 @@ enum Keys {
 	Concrete,
 	MetalDull,
 	MetalHollow,
-	Sand,
+	#Sand,
 	Cloth,
 	Empty,
 }
@@ -22,9 +22,9 @@ static var properties := {
 	Keys.MetalHollow: {
 		"reflect": 0.7,
 	},
-	Keys.Sand: {
-		"reflect": 0.0,
-	},
+	#Keys.Sand: {
+		#"reflect": 0.0,
+	#},
 	Keys.Cloth: {
 		"reflect": 0.4,
 	},

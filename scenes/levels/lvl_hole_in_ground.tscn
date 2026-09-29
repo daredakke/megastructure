@@ -387,10 +387,8 @@
 [ext_resource type="PackedScene" uid="uid://dcl2kaueg55v6" path="res://assets/models/gallery-signs/Sign_gloomy_right.glb" id="377_xueeb"]
 [ext_resource type="PackedScene" uid="uid://pl0edrjs7ruk" path="res://assets/models/gallery-signs/Sign_sketches_left.glb" id="378_fkaa1"]
 [ext_resource type="PackedScene" uid="uid://dcw7nm7e3qr7h" path="res://assets/models/gallery-signs/Sign_sketches_right.glb" id="379_gto62"]
-[ext_resource type="PackedScene" uid="uid://cjsh5nupfbv66" path="res://assets/models/gallery-signs/Sign_ssr_left.glb" id="380_2gb5t"]
 [ext_resource type="PackedScene" uid="uid://cpnq47boewf5l" path="res://assets/models/gallery-signs/Sign_ssr_right.glb" id="381_kvfh6"]
 [ext_resource type="PackedScene" uid="uid://hlq5iynfn6x6" path="res://assets/models/gallery-signs/Sign_ss_left.glb" id="382_s5k7c"]
-[ext_resource type="PackedScene" uid="uid://dwrys2u3vdnjt" path="res://assets/models/gallery-signs/Sign_ss_right.glb" id="383_tsejf"]
 [ext_resource type="PackedScene" uid="uid://bxfhs3roa2jel" path="res://assets/models/gallery-signs/Sign_ss_sketches_left.glb" id="384_pgerh"]
 [ext_resource type="PackedScene" uid="uid://b6sbkp5fhfmbh" path="res://assets/models/gallery-signs/Sign_ss_sketches_right.glb" id="385_2lqfp"]
 [ext_resource type="PackedScene" uid="uid://dni3muvtwr5g2" path="res://scenes/geometry/ground/ground_blocks.tscn" id="394_2lqfp"]
@@ -3298,17 +3296,17 @@ transform = Transform3D(-0.9543546, 0, -0.2986759, 0, 1, 0, 0.2986759, 0, -0.954
 [node name="Sign_sketches_right" parent="GallerySigns" unique_id=1216612324 instance=ExtResource("379_gto62")]
 transform = Transform3D(-0.2995342, 0, -0.9540856, 0, 1, 0, 0.9540856, 0, -0.2995342, 65.86637, 11, 20.689093)
 
-[node name="Sign_ssr_left" parent="GallerySigns" unique_id=1394398084 instance=ExtResource("380_2gb5t")]
-transform = Transform3D(-0.47355172, 0, 0.88076603, 0, 1, 0, -0.88076603, 0, -0.47355172, 58.15523, 18.999996, -31.088068)
-
 [node name="Sign_ssr_right" parent="GallerySigns" unique_id=2041785147 instance=ExtResource("381_kvfh6")]
 transform = Transform3D(-0.8033434, 0, -0.595516, 0, 1, 0, 0.595516, 0, -0.8033434, 40.615856, 18.999996, 55.181187)
+
+[node name="Sign_ssr_right2" parent="GallerySigns" unique_id=223707695 instance=ExtResource("381_kvfh6")]
+transform = Transform3D(-0.47415662, 0, 0.8804406, 0, 1, 0, -0.8804406, 0, -0.47415662, 58.156277, 18.999996, -31.08465)
 
 [node name="Sign_ss_left" parent="GallerySigns" unique_id=923326912 instance=ExtResource("382_s5k7c")]
 transform = Transform3D(-0.2802306, 0, -0.9599326, 0, 1, 0, 0.9599326, 0, -0.2802306, -66.25436, 18.999996, -19.396763)
 
-[node name="Sign_ss_right" parent="GallerySigns" unique_id=1202181087 instance=ExtResource("383_tsejf")]
-transform = Transform3D(0.4643946, 0, -0.8856284, 0, 1, 0, 0.8856284, 0, 0.4643946, 58.438587, 18.999996, -30.503775)
+[node name="Sign_ss_left2" parent="GallerySigns" unique_id=1253939312 instance=ExtResource("382_s5k7c")]
+transform = Transform3D(0.46787965, 0, -0.8837921, 0, 1, 0, 0.8837921, 0, 0.46787965, 58.439194, 18.999996, -30.503366)
 
 [node name="Sign_ss_sketches_left" parent="GallerySigns" unique_id=774374302 instance=ExtResource("384_pgerh")]
 transform = Transform3D(0.80058455, 0, -0.5992198, 0, 1, 0, 0.5992198, 0, 0.80058455, -40.652336, 18.999996, 55.155476)

@@ -8,12 +8,37 @@
 [ext_resource type="Texture2D" uid="uid://cphri0vsbudg6" path="res://assets/sprites/speech.png" id="7_dw4de"]
 [ext_resource type="AudioStream" uid="uid://nh12wmf52ace" path="res://assets/sfx/atmospherics/wind rushing.mp3" id="8_lthsy"]
 [ext_resource type="AudioStream" uid="uid://dq6m681msqsm7" path="res://assets/sfx/death-crunch.mp3" id="9_21qrq"]
+[ext_resource type="AudioStream" uid="uid://27ocayywltm2" path="res://assets/sfx/footsteps/concrete1.mp3" id="10_8wr65"]
 [ext_resource type="Script" uid="uid://kledsysceol0" path="res://scripts/footstep_controller.gd" id="11_r3afy"]
 [ext_resource type="Script" uid="uid://hpo3gy64sns4" path="res://scripts/footstep_audio.gd" id="12_8odwi"]
-[ext_resource type="AudioStream" uid="uid://dbdp5mwnwfqji" path="res://assets/sfx/footsteps/concrete - fmaudio.mp3" id="12_dw4de"]
-[ext_resource type="AudioStream" uid="uid://dub6rkt4nfbqg" path="res://assets/sfx/footsteps/metal_dull.mp3" id="14_fcry4"]
-[ext_resource type="AudioStream" uid="uid://d0la0r0il2ww5" path="res://assets/sfx/footsteps/metal_hollow - ienba.mp3" id="15_fffs3"]
-[ext_resource type="AudioStream" uid="uid://b22s1444cbtuc" path="res://assets/sfx/footsteps/sand - fmaudio.mp3" id="16_siunp"]
+[ext_resource type="AudioStream" uid="uid://s523mxttm4rp" path="res://assets/sfx/footsteps/concrete2.mp3" id="12_clrd6"]
+[ext_resource type="AudioStream" uid="uid://ec4jals3yi7q" path="res://assets/sfx/footsteps/concrete3.mp3" id="13_3j2la"]
+[ext_resource type="AudioStream" uid="uid://bashgja63co6b" path="res://assets/sfx/footsteps/concrete4.mp3" id="14_v0hqj"]
+[ext_resource type="AudioStream" uid="uid://c6v0hvfsc3yiy" path="res://assets/sfx/footsteps/concrete5.mp3" id="15_rechf"]
+[ext_resource type="AudioStream" uid="uid://dgm7vm41k30c8" path="res://assets/sfx/footsteps/concrete6.mp3" id="16_1o3lc"]
+[ext_resource type="AudioStream" uid="uid://c8xj4wn1ihs76" path="res://assets/sfx/footsteps/concrete7.mp3" id="17_vyvyh"]
+[ext_resource type="AudioStream" uid="uid://dg321b6r7c10r" path="res://assets/sfx/footsteps/concrete8.mp3" id="18_ox1jx"]
+[ext_resource type="AudioStream" uid="uid://cg7xb2ksw3d5l" path="res://assets/sfx/footsteps/concrete9.mp3" id="19_xtu47"]
+[ext_resource type="AudioStream" uid="uid://s1yrsd100287" path="res://assets/sfx/footsteps/concrete10.mp3" id="20_ipxh4"]
+[ext_resource type="AudioStream" uid="uid://bm2yt62ti8owx" path="res://assets/sfx/footsteps/metaldull1.mp3" id="21_coh05"]
+[ext_resource type="AudioStream" uid="uid://2ojctfombfyi" path="res://assets/sfx/footsteps/metaldull2.mp3" id="22_bd1ng"]
+[ext_resource type="AudioStream" uid="uid://d22ekisqsbylc" path="res://assets/sfx/footsteps/metaldull3.mp3" id="23_81844"]
+[ext_resource type="AudioStream" uid="uid://bekf46i4piwau" path="res://assets/sfx/footsteps/metaldull4.mp3" id="24_6ofn0"]
+[ext_resource type="AudioStream" uid="uid://di73o3nqsuky8" path="res://assets/sfx/footsteps/metaldull5.mp3" id="25_okmha"]
+[ext_resource type="AudioStream" uid="uid://cxqaj5xfkwth" path="res://assets/sfx/footsteps/metaldull6.mp3" id="26_c4m7w"]
+[ext_resource type="AudioStream" uid="uid://brjkpqd8gbq4t" path="res://assets/sfx/footsteps/metaldull7.mp3" id="27_r14dy"]
+[ext_resource type="AudioStream" uid="uid://1mw0cbvis2im" path="res://assets/sfx/footsteps/metaldull8.mp3" id="28_h7n6m"]
+[ext_resource type="AudioStream" uid="uid://dj1aermnsey2g" path="res://assets/sfx/footsteps/metaldull9.mp3" id="29_6bqe5"]
+[ext_resource type="AudioStream" uid="uid://cou5tnp6uosa7" path="res://assets/sfx/footsteps/metaldull10.mp3" id="30_clrd6"]
+[ext_resource type="AudioStream" uid="uid://d4fbu3k57iqyj" path="res://assets/sfx/footsteps/metalhollow1.mp3" id="30_ktt84"]
+[ext_resource type="AudioStream" uid="uid://bi1bppd6gyf42" path="res://assets/sfx/footsteps/metalhollow2.mp3" id="31_rhkrm"]
+[ext_resource type="AudioStream" uid="uid://cci70268pro2g" path="res://assets/sfx/footsteps/metalhollow3.mp3" id="32_6uklg"]
+[ext_resource type="AudioStream" uid="uid://v8rgcafp3o76" path="res://assets/sfx/footsteps/metalhollow4.mp3" id="33_e8785"]
+[ext_resource type="AudioStream" uid="uid://2s4mmjembpg" path="res://assets/sfx/footsteps/metalhollow5.mp3" id="34_ereu3"]
+[ext_resource type="AudioStream" uid="uid://bcmqkghucwifo" path="res://assets/sfx/footsteps/metalhollow6.mp3" id="35_n10hf"]
+[ext_resource type="AudioStream" uid="uid://el345djrfbpb" path="res://assets/sfx/footsteps/metalhollow7.mp3" id="36_t3jb8"]
+[ext_resource type="AudioStream" uid="uid://b5avb8w0uhtdx" path="res://assets/sfx/footsteps/metalhollow8.mp3" id="37_sf81m"]
+[ext_resource type="AudioStream" uid="uid://bpe2jt8lb1ldd" path="res://assets/sfx/footsteps/metalhollow9.mp3" id="38_vn26v"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_r46qa"]
 radius = 0.4
@@ -209,35 +234,232 @@ bus = &"Reverb"
 [node name="FootstepController" type="Node" parent="." unique_id=1083495860]
 script = ExtResource("11_r3afy")
 
-[node name="Concrete" type="AudioStreamPlayer" parent="FootstepController" unique_id=919055274]
-stream = ExtResource("12_dw4de")
-max_polyphony = 3
+[node name="Concrete" type="Node" parent="FootstepController" unique_id=368992194]
+
+[node name="Concrete1" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=919055274]
+stream = ExtResource("10_8wr65")
+max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
-[node name="MetalDull" type="AudioStreamPlayer" parent="FootstepController" unique_id=602948504]
-stream = ExtResource("14_fcry4")
-max_polyphony = 3
+[node name="Concrete2" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=1544193304]
+stream = ExtResource("12_clrd6")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete3" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=1700272101]
+stream = ExtResource("13_3j2la")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete4" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=1024187213]
+stream = ExtResource("14_v0hqj")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete5" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=245487950]
+stream = ExtResource("15_rechf")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete6" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=293949352]
+stream = ExtResource("16_1o3lc")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete7" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=1200358983]
+stream = ExtResource("17_vyvyh")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete8" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=249880543]
+stream = ExtResource("18_ox1jx")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete9" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=352022822]
+stream = ExtResource("19_xtu47")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="Concrete10" type="AudioStreamPlayer" parent="FootstepController/Concrete" unique_id=543909110]
+stream = ExtResource("20_ipxh4")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull" type="Node" parent="FootstepController" unique_id=1416998096]
+
+[node name="MetalDull1" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=602948504]
+stream = ExtResource("21_coh05")
+max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 1
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
-[node name="MetalHollow" type="AudioStreamPlayer" parent="FootstepController" unique_id=78598742]
-stream = ExtResource("15_fffs3")
-max_polyphony = 3
+[node name="MetalDull2" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=843114461]
+stream = ExtResource("22_bd1ng")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull3" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=1491719260]
+stream = ExtResource("23_81844")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull4" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=1568744648]
+stream = ExtResource("24_6ofn0")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull5" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=2143023761]
+stream = ExtResource("25_okmha")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull6" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=1065818939]
+stream = ExtResource("26_c4m7w")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull7" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=767106038]
+stream = ExtResource("27_r14dy")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull8" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=592705548]
+stream = ExtResource("28_h7n6m")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull9" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=358308069]
+stream = ExtResource("29_6bqe5")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalDull10" type="AudioStreamPlayer" parent="FootstepController/MetalDull" unique_id=104665812]
+stream = ExtResource("30_clrd6")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 1
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow" type="Node" parent="FootstepController" unique_id=2083693208]
+
+[node name="MetalHollow1" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=78598742]
+stream = ExtResource("30_ktt84")
+max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
 material = 2
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
-[node name="Sand" type="AudioStreamPlayer" parent="FootstepController" unique_id=169151323]
-stream = ExtResource("16_siunp")
-max_polyphony = 3
+[node name="MetalHollow2" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=1532399579]
+stream = ExtResource("31_rhkrm")
+max_polyphony = 2
 bus = &"Footsteps"
 script = ExtResource("12_8odwi")
-material = 3
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow3" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=794836345]
+stream = ExtResource("32_6uklg")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow4" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=529907748]
+stream = ExtResource("33_e8785")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow5" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=301135260]
+stream = ExtResource("34_ereu3")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow6" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=358926151]
+stream = ExtResource("35_n10hf")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow7" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=287658117]
+stream = ExtResource("36_t3jb8")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow8" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=914159882]
+stream = ExtResource("37_sf81m")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
+metadata/_custom_type_script = "uid://hpo3gy64sns4"
+
+[node name="MetalHollow9" type="AudioStreamPlayer" parent="FootstepController/MetalHollow" unique_id=19583644]
+stream = ExtResource("38_vn26v")
+max_polyphony = 2
+bus = &"Footsteps"
+script = ExtResource("12_8odwi")
+material = 2
 metadata/_custom_type_script = "uid://hpo3gy64sns4"
 
 [node name="RoomSizeRayCastTimer" type="Timer" parent="." unique_id=651464048]

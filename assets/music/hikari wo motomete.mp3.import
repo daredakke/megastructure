@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cdef375xs3mht"
+path="res://.godot/imported/hikari wo motomete.mp3-fc7d8390e69a8e8e581a5535bd35663b.mp3str"
+
+[deps]
+
+source_file="res://assets/music/hikari wo motomete.mp3"
+dest_files=["res://.godot/imported/hikari wo motomete.mp3-fc7d8390e69a8e8e581a5535bd35663b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
