@@ -17,6 +17,7 @@
 [ext_resource type="AudioStream" uid="uid://d3sib661m6gts" path="res://assets/sfx/button hover.wav" id="8_tipki"]
 [ext_resource type="PackedScene" uid="uid://cy4kba3d7w1to" path="res://scenes/ui/dev_console_output.tscn" id="9_choun"]
 [ext_resource type="AudioStream" uid="uid://bdrk2wivl7o65" path="res://assets/music/kettenkrad.mp3" id="9_muem4"]
+[ext_resource type="AudioStream" uid="uid://dcbagw67ha1l3" path="res://assets/music/hazumu kokoro.mp3" id="10_dp3eg"]
 
 [node name="Main" type="Node" unique_id=1187034571]
 script = ExtResource("1_o6xl0")
@@ -51,6 +52,10 @@ bus = &"Music"
 
 [node name="Kettenkrad" type="AudioStreamPlayer" parent="MusicController" unique_id=1878636098]
 stream = ExtResource("9_muem4")
+bus = &"Music"
+
+[node name="HazumuKokoro" type="AudioStreamPlayer" parent="MusicController" unique_id=1373459890]
+stream = ExtResource("10_dp3eg")
 bus = &"Music"
 
 [node name="MusicTimer" type="Timer" parent="MusicController" unique_id=1552773274]
@@ -119,5 +124,6 @@ unique_name_in_owner = true
 [connection signal="finished" from="MusicController/OwariNoUta" to="MusicController" method="_on_track_finished"]
 [connection signal="finished" from="MusicController/HikariWoMotomete" to="MusicController" method="_on_track_finished"]
 [connection signal="finished" from="MusicController/Kettenkrad" to="MusicController" method="_on_track_finished"]
+[connection signal="finished" from="MusicController/HazumuKokoro" to="MusicController" method="_on_track_finished"]
 [connection signal="timeout" from="MusicController/MusicTimer" to="MusicController" method="_on_music_timer_timeout"]
 [connection signal="resume_button_pressed" from="PauseMenu" to="." method="handle_pause"]

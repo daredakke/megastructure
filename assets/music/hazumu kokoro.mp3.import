@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dcbagw67ha1l3"
+path="res://.godot/imported/hazumu kokoro.mp3-46d46c6da34e3194a6fc09e4577b89ba.mp3str"
+
+[deps]
+
+source_file="res://assets/music/hazumu kokoro.mp3"
+dest_files=["res://.godot/imported/hazumu kokoro.mp3-46d46c6da34e3194a6fc09e4577b89ba.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
