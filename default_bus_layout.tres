@@ -23,6 +23,14 @@ hipass = 0.15
 resource_name = "LowPassFilter"
 cutoff_hz = 4000.0
 
+[sub_resource type="AudioEffectReverb" id="AudioEffectReverb_n8wo2"]
+resource_name = "Reverb"
+room_size = 1.0
+damping = 0.4
+hipass = 0.25
+dry = 0.95
+wet = 0.1
+
 [resource]
 bus/1/name = &"SFX"
 bus/1/solo = false
@@ -76,3 +84,5 @@ bus/7/mute = false
 bus/7/bypass_fx = false
 bus/7/volume_db = 0.0
 bus/7/send = &"Master"
+bus/7/effect/0/effect = SubResource("AudioEffectReverb_n8wo2")
+bus/7/effect/0/enabled = true
