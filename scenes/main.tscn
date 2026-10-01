@@ -19,6 +19,7 @@
 [ext_resource type="AudioStream" uid="uid://bdrk2wivl7o65" path="res://assets/music/kettenkrad.mp3" id="9_muem4"]
 [ext_resource type="AudioStream" uid="uid://dcbagw67ha1l3" path="res://assets/music/hazumu kokoro.mp3" id="10_dp3eg"]
 [ext_resource type="AudioStream" uid="uid://xx5b18ltqdmv" path="res://assets/music/kimi wo omou.mp3" id="11_0ld40"]
+[ext_resource type="AudioStream" uid="uid://bisddv3w4rvve" path="res://assets/music/chito to yuuri.mp3" id="12_gqmmt"]
 
 [node name="Main" type="Node" unique_id=1187034571]
 script = ExtResource("1_o6xl0")
@@ -61,6 +62,10 @@ bus = &"Music"
 
 [node name="KimiWoOmou" type="AudioStreamPlayer" parent="MusicController" unique_id=899987262]
 stream = ExtResource("11_0ld40")
+bus = &"Music"
+
+[node name="ChitoToYuuri" type="AudioStreamPlayer" parent="MusicController" unique_id=2089681938]
+stream = ExtResource("12_gqmmt")
 bus = &"Music"
 
 [node name="MusicTimer" type="Timer" parent="MusicController" unique_id=1552773274]
@@ -131,5 +136,6 @@ unique_name_in_owner = true
 [connection signal="finished" from="MusicController/Kettenkrad" to="MusicController" method="_on_track_finished"]
 [connection signal="finished" from="MusicController/HazumuKokoro" to="MusicController" method="_on_track_finished"]
 [connection signal="finished" from="MusicController/KimiWoOmou" to="MusicController" method="_on_track_finished"]
+[connection signal="finished" from="MusicController/ChitoToYuuri" to="MusicController" method="_on_track_finished"]
 [connection signal="timeout" from="MusicController/MusicTimer" to="MusicController" method="_on_music_timer_timeout"]
 [connection signal="resume_button_pressed" from="PauseMenu" to="." method="handle_pause"]
