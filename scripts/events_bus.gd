@@ -15,6 +15,7 @@ signal dialogue_ended
 signal choice_made(choice: String)
 signal dev_console_toggled(is_visible: bool)
 signal notification_submitted(text: String)
+signal toggle_commentary
 signal button_hovered
 signal button_pressed
 signal tab_button_pressed(tab_name: String)

@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://dulifjb646g4k" path="res://assets/sprites/flashlight cookie.jpeg" id="2_57dk1"]
 [ext_resource type="Script" uid="uid://bm1x7oq1qvm5k" path="res://scenes/torch.gd" id="3_laber"]
 [ext_resource type="AudioStream" uid="uid://t38kbo5jaci3" path="res://assets/sfx/torch click.mp3" id="4_qlg3t"]
-[ext_resource type="Texture2D" uid="uid://bbla5c5aenc32" path="res://assets/sprites/base_crosshair.png" id="4_sf0in"]
-[ext_resource type="Texture2D" uid="uid://cphri0vsbudg6" path="res://assets/sprites/speech.png" id="7_dw4de"]
+[ext_resource type="Texture2D" uid="uid://icigif1htsim" path="res://assets/sprites/blank.png" id="5_clrd6"]
+[ext_resource type="Texture2D" uid="uid://bnnlbsahs8rl0" path="res://assets/sprites/speech-icon-48.png" id="6_clrd6"]
 [ext_resource type="AudioStream" uid="uid://nh12wmf52ace" path="res://assets/sfx/atmospherics/wind rushing.mp3" id="8_lthsy"]
 [ext_resource type="AudioStream" uid="uid://dq6m681msqsm7" path="res://assets/sfx/death-crunch.mp3" id="9_21qrq"]
 [ext_resource type="AudioStream" uid="uid://27ocayywltm2" path="res://assets/sfx/footsteps/concrete1.mp3" id="10_8wr65"]
@@ -133,7 +133,6 @@ target_position = Vector3(0, 30, 0)
 target_position = Vector3(0, -30, 0)
 
 [node name="Crosshair" type="Control" parent="." unique_id=2146460937]
-visible = false
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -143,7 +142,7 @@ grow_vertical = 2
 mouse_filter = 2
 
 [node name="Base" type="TextureRect" parent="Crosshair" unique_id=1631491905]
-visible = false
+self_modulate = Color(1, 1, 1, 0)
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -156,7 +155,7 @@ offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("4_sf0in")
+texture = ExtResource("5_clrd6")
 stretch_mode = 3
 
 [node name="LedgeGrabIcon" type="MarginContainer" parent="Crosshair" unique_id=1547818597]
@@ -182,20 +181,19 @@ text = "^"
 horizontal_alignment = 1
 
 [node name="SpeechIcon" type="TextureRect" parent="Crosshair" unique_id=792449098]
-visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -25.0
-offset_top = -25.0
-offset_right = 25.0
-offset_bottom = 25.0
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("7_dw4de")
+texture = ExtResource("6_clrd6")
 stretch_mode = 3
 
 [node name="DoorIcon" type="MarginContainer" parent="Crosshair" unique_id=1901542378]

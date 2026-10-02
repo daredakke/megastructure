@@ -4,6 +4,7 @@
 [ext_resource type="AudioStream" uid="uid://v1nnxly3p1r1" path="res://assets/sfx/atmospherics/outdoor atmospherics.mp3" id="2_tsejf"]
 [ext_resource type="Script" uid="uid://bwl5f7c7p2hp1" path="res://scripts/atmospherics.gd" id="3_m1qe5"]
 [ext_resource type="LightmapGIData" uid="uid://bx3xnt31mgkok" path="res://scenes/lightmaps/lvl_hole_in_ground.lmbake" id="4_2lqfp"]
+[ext_resource type="PackedScene" uid="uid://wru24ktkcd1f" path="res://scenes/interactive/commentary_node.tscn" id="5_pgerh"]
 [ext_resource type="PackedScene" uid="uid://fp4ginv5vfdv" path="res://scenes/interactive/double_doors.tscn" id="6_gto62"]
 [ext_resource type="PackedScene" uid="uid://m327iidbghkp" path="res://assets/models/gallery/base.glb" id="6_m0a8v"]
 [ext_resource type="Script" uid="uid://b5gn0gjtu7x8q" path="res://scripts/courtyard_benches.gd" id="6_p5qvj"]
@@ -476,6 +477,121 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4569821, 0, 102.507126)
 [node name="Interactive" type="Node3D" parent="." unique_id=267799209]
 
 [node name="NPCs" type="Node3D" parent="Interactive" unique_id=1061301205]
+
+[node name="ViewingOrder" parent="Interactive/NPCs" unique_id=2121275781 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.059619874, 0.9999976, 71.177216)
+dialogue_index = 2
+is_commentary = true
+
+[node name="ExhibitChoice" parent="Interactive/NPCs" unique_id=1986342762 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2105985, 0.9999976, 66.99661)
+dialogue_index = 3
+is_commentary = true
+
+[node name="FlyingCatGirl" parent="Interactive/NPCs" unique_id=530804774 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.209015, 0.9999976, 11.786311)
+dialogue_index = 4
+is_commentary = true
+
+[node name="Eels" parent="Interactive/NPCs" unique_id=1484794325 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.501137, 0.9999981, -6.3190813)
+dialogue_index = 5
+is_commentary = true
+
+[node name="SharedThemes" parent="Interactive/NPCs" unique_id=448660028 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.29768, 0.9999981, -6.887882)
+dialogue_index = 6
+is_commentary = true
+
+[node name="SecretShimeji" parent="Interactive/NPCs" unique_id=1775311531 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.007572, 0.9999974, -12.8852625)
+dialogue_index = 7
+is_commentary = true
+
+[node name="Interpretation" parent="Interactive/NPCs" unique_id=2084399877 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.84073, 0.9999974, -42.89841)
+dialogue_index = 8
+is_commentary = true
+
+[node name="FishCount" parent="Interactive/NPCs" unique_id=1422383801 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.35219, 0.99999785, -47.907505)
+dialogue_index = 9
+is_commentary = true
+
+[node name="GloomyCandidate" parent="Interactive/NPCs" unique_id=1043114178 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3274593, 0.99999785, -59.75604)
+dialogue_index = 10
+is_commentary = true
+
+[node name="BalancedComposition" parent="Interactive/NPCs" unique_id=1847917814 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.04499, 0.9999981, -22.011658)
+dialogue_index = 11
+is_commentary = true
+
+[node name="OLSuicide" parent="Interactive/NPCs" unique_id=875337479 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -74.8862, 0.9999981, -7.4921246)
+dialogue_index = 12
+is_commentary = true
+
+[node name="LonelyOctopus" parent="Interactive/NPCs" unique_id=1366418927 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70.15982, 0.9999981, 28.13598)
+dialogue_index = 13
+is_commentary = true
+
+[node name="KaniHat" parent="Interactive/NPCs" unique_id=436964057 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -47.019936, 0.9999981, 36.931255)
+dialogue_index = 14
+is_commentary = true
+
+[node name="Fishiles" parent="Interactive/NPCs" unique_id=719586147 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.43272, 0.99999785, 46.497635)
+dialogue_index = 15
+is_commentary = true
+
+[node name="AboutGloomy" parent="Interactive/NPCs" unique_id=1003024450 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.830093, 9.100003, 37.630245)
+dialogue_index = 16
+is_commentary = true
+
+[node name="CastellaNightRain" parent="Interactive/NPCs" unique_id=1378063830 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.463295, 9.100003, 47.873528)
+dialogue_index = 17
+is_commentary = true
+
+[node name="Despair" parent="Interactive/NPCs" unique_id=1070583388 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.58293, 9.100003, 47.82434)
+dialogue_index = 18
+is_commentary = true
+
+[node name="AnotherStory" parent="Interactive/NPCs" unique_id=1518352529 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.761185, 9.100003, 36.598217)
+dialogue_index = 19
+is_commentary = true
+
+[node name="NudeDrinking" parent="Interactive/NPCs" unique_id=224716113 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.56957, 9.100003, 1.0501893)
+dialogue_index = 20
+is_commentary = true
+
+[node name="Graduation" parent="Interactive/NPCs" unique_id=2119937796 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 75.02478, 9.100003, 1.6400089)
+dialogue_index = 21
+is_commentary = true
+
+[node name="EtchASketch" parent="Interactive/NPCs" unique_id=596696864 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.027836, 9.100003, -46.72462)
+dialogue_index = 22
+is_commentary = true
+
+[node name="SmugTuna" parent="Interactive/NPCs" unique_id=1205327397 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.638592, 9.100003, -56.963375)
+dialogue_index = 23
+is_commentary = true
+
+[node name="CloseUp" parent="Interactive/NPCs" unique_id=1683276267 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7027183, 9.100003, -75.57574)
+dialogue_index = 24
+is_commentary = true
 
 [node name="DoubleDoors" parent="Interactive" unique_id=1127466154 instance=ExtResource("6_gto62")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95309997, 81.3)
@@ -1180,7 +1296,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080477e-07, 0.01226309, 0, 0.25, -3.074363e-06, -0.01226309, 3.0706622e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080481e-07, 0.01226309, 0, 0.25, -3.0743638e-06, -0.01226309, 3.070663e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
