@@ -33,6 +33,13 @@ enum Keys {
 	EtchASketch,
 	SmugTuna,
 	CloseUp,
+	Sashimi,
+	Relatable,
+	LobsterGirl,
+	Painful,
+	Ideas,
+	SSSegue,
+	MusicBox
 }
 
 static var char_names := {
@@ -340,7 +347,7 @@ static var lines := {
 		"start": [
 			{
 				"speaker": "",
-				"line": "I suppose I'd be smug too if I was a tuna dual-wielder.",
+				"line": "You'd be smug too if you had two tuna.",
 			},
 		],
 	},
@@ -353,6 +360,106 @@ static var lines := {
 			{
 				"speaker": "",
 				"line": "If you focus on her face, you almost don't notice how crude the desks look.",
+			},
+		],
+	},
+	Keys.Sashimi: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "One of several examples of girls pondering fish. It says 'sashimi', so I guess that clears up her intentions.",
+			},
+		],
+	},
+	Keys.Relatable: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "Possibly one of the comfiest images in this gallery.",
+			},
+			{
+				"speaker": "",
+				"line": "I think I relate to it since I usually do most of my work at home on a laptop while dressed in something comfortable.",
+			},
+		],
+	},
+	Keys.LobsterGirl: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "I've always been struck by how well this one was drawn.",
+			},
+			{
+				"speaker": "",
+				"line": "The moon is interesting, though the starless sky is a little unsettling.",
+			},
+		],
+	},
+	Keys.Painful: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "Despite how much pain and suffering is depicted here, a fish manages to make an appearance.",
+			},
+			{
+				"speaker": "",
+				"line": "As always, the face in one of the lenses hints at a greater story. It's nice to stare and ponder what that might be.",
+			},
+		],
+	},
+	Keys.Ideas: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "Images like this make me wonder where tkmiz gets his ideas from. This one's so strange, yet also kinda funny.",
+			},
+			{
+				"speaker": "",
+				"line": "I like her smug facial expression while the beer can amusingly diminishes the seriousness of the scene.",
+			},
+		],
+	},
+	Keys.SSSegue: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "I could have placed these in the SS collection, especially the one in the middle, but I like to have a loose connection to the next level.",
+			},
+			{
+				"speaker": "",
+				"line": "Though it only works if you're going counter-clockwise.",
+			},
+			{
+				"speaker": "",
+				"line": "Incidentally, the one in the middle is a favourite. The colours and the way she appears to move lends a very carefree feeling to it that I like.",
+			},
+		],
+	},
+	Keys.MusicBox: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "There are ten tracks I put together for this gallery, all arrangements of pieces from the SSR soundtrack.",
+			},
+			{
+				"speaker": "",
+				"line": "Some are relatively faithful to their sources, others are slower or shorter. The playlist is randomised at game launch.",
+			},
+			{
+				"speaker": "",
+				"line": "I went with a music box as the only instrument for sake of simplicity which allowed me to produce enough tracks to keep things varied.",
+			},
+			{
+				"speaker": "",
+				"line": "Also, I felt something on the quieter, less busy side would make for a nicer viewing experience while not being too distracting. Of course, you can just turn it off or play something else if you want.",
+			},
+			{
+				"speaker": "",
+				"line": "I did consider trying to make original music, but that would have required a lot more time and energy which I didn't have. Work keeps me quite busy in September.",
+			},
+			{
+				"speaker": "",
+				"line": "Tracklist (in no particular order): Amadare no Uta, Chito to Yuuri, Futaribocchi, Hazumu Kokoro, Hikari wo Motomete, Kaze to Haikyo to Sanpomichi, Kettenkrad, Kimi to Sugosu Hibi, Kimi wo Omou, Owari no Uta.",
 			},
 		],
 	},
