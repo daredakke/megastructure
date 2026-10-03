@@ -468,7 +468,7 @@ light_data = ExtResource("4_2lqfp")
 [node name="SpawnPoints" type="Node3D" parent="." unique_id=420242606]
 
 [node name="Start" type="Marker3D" parent="SpawnPoints" unique_id=2121778208]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4569821, 0, 102.507126)
+transform = Transform3D(0.97758627, 0, -0.21053527, 0, 1, 0, 0.21053527, 0, 0.97758627, -7.0381026, 0, 105.05735)
 
 [node name="Checkpoints" type="Node3D" parent="." unique_id=845163598]
 
@@ -696,6 +696,21 @@ is_commentary = true
 [node name="ThankYou" parent="Interactive/NPCs" unique_id=412750602 instance=ExtResource("5_pgerh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.024836063, 17.873493, 69.92235)
 dialogue_index = 45
+is_commentary = true
+
+[node name="AboutProject" parent="Interactive/NPCs" unique_id=1083386894 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.303585, 0, 99.96493)
+dialogue_index = 46
+is_commentary = true
+
+[node name="Reverb" parent="Interactive/NPCs" unique_id=1217938513 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9969444, 0, 86.80583)
+dialogue_index = 48
+is_commentary = true
+
+[node name="Outside" parent="Interactive/NPCs" unique_id=1381095518 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6653376, 0, 107.95714)
+dialogue_index = 47
 is_commentary = true
 
 [node name="DoubleDoors" parent="Interactive" unique_id=1127466154 instance=ExtResource("6_gto62")]
@@ -1401,7 +1416,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080482e-07, 0.01226309, 0, 0.25, -3.0743643e-06, -0.01226309, 3.0706635e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080484e-07, 0.01226309, 0, 0.25, -3.0743645e-06, -0.01226309, 3.0706638e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25

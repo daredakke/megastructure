@@ -54,6 +54,9 @@ enum Keys {
 	CloseUpTwo,
 	Touhou,
 	ThankYou,
+	AboutProject,
+	Outside,
+	Reverb
 }
 
 static var char_names := {
@@ -137,7 +140,11 @@ static var lines := {
 		"start": [
 			{
 				"speaker": "",
-				"line": "I went with a bunch of rough themes to determine what collections to display. Some pictures easily belong to multiple collections and I've placed some of these close to collection transitions.",
+				"line": "There are 355 images in this gallery organised into seven collections based around a few rough themes I was noticing.",
+			},
+			{
+				"speaker": "",
+				"line": "Some pictures easily belong to multiple collections and I've placed some of these close to collection transitions.",
 			},
 			{
 				"speaker": "",
@@ -646,6 +653,54 @@ static var lines := {
 			{
 				"speaker": "",
 				"line": "Whether I make more stuff like this remains to be seen. There's a chance I'll never touch game dev ever again after this. It's really tiresome.",
+			},
+		],
+	},
+	Keys.AboutProject: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "Hello. Thank you for taking a look at this odd project I put together over 3-4 weeks.",
+			},
+			{
+				"speaker": "",
+				"line": "I wanted to make some kind of diorama in advance of the sixth SSR rewatch, sort of like the drainage thing I put together two years ago.",
+			},
+			{
+				"speaker": "",
+				"line": "I toyed with a few ideas before settling on the art gallery from SSR chapter 35. I figured it'd be nice to have a space you could move through to view tkmiz's art instead of just browsing a file explorer.",
+			},
+			{
+				"speaker": "",
+				"line": "Plus it meant I didn't have to do so much 3D modelling as it can get rather dull.",
+			},
+		],
+	},
+	Keys.Outside: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "The environment beyond the art gallery is a bit sparse. This reflects how things are in chapter 35 and is one of the reasons why I went with this idea over, say, the pipe maze before the factory that Ishii points the girls to.",
+			},
+			{
+				"speaker": "",
+				"line": "I got a bit lazy with this part and my official justification is that the art gallery is the primary focus, though I was really just got worn out.",
+			},
+		],
+	},
+	Keys.Reverb: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "There is a simple dynamic reverb system that tries to make moving between exterior and interior spaces a bit more convincing. It doesn't really work in all cases though and would require more work to get right.",
+			},
+			{
+				"speaker": "",
+				"line": "It came about after I made the drainage diorama. I wanted to add footsteps and felt they should sound different when you move into larger or smaller spaces.",
+			},
+			{
+				"speaker": "",
+				"line": "For more serious projects (like that'll ever happen), I'd probably go with how it was done in Half Life 2 or use FMod or something.",
 			},
 		],
 	},
