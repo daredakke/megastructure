@@ -29,3 +29,4 @@ signal controller_look_sens_changed(value: float)
 signal volume_changed(bus: int, value: float)
 signal settings_for_saving(settings: Dictionary)
 signal activate_lift(lift_name: String)
+signal music_started

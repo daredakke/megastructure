@@ -26,6 +26,7 @@ func _process(_delta: float) -> void:
 		new_scene.spawn_player(_spawn_location, _torch_is_on)
 		_next_scene = null
 		EventsBus.loading_screen_hidden.emit()
+		EventsBus.music_started.emit()
 
 
 func change_scene(key: LevelConfig.Keys, spawn_location: String, torch_is_on: bool) -> void:

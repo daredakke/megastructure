@@ -9,12 +9,13 @@ var _next_track: int = 0
 
 
 func _ready() -> void:
+	EventsBus.music_started.connect(_on_track_finished)
+	
 	for node in get_children():
 		if node is AudioStreamPlayer:
 			_tracks.push_back(node)
 	
 	_tracks.shuffle()
-	music_timer.start()
 
 
 func _on_music_timer_timeout() -> void:
