@@ -504,7 +504,7 @@ func _handle_controller_look_input(_delta: float) -> void:
 
 
 func _handle_noclip(delta: float, input_dir: Vector2) -> bool:
-	if Input.is_action_just_pressed("noclip") and OS.has_feature("debug"):
+	if Input.is_action_just_pressed("noclip"):# and OS.has_feature("debug"):
 		noclipping = !noclipping
 		noclip_speed_multiplier = NOCLIP_SPEED_MULTIPLIER_DEFAULT
 

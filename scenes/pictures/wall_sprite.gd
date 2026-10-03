@@ -16,12 +16,12 @@ const PICTURE_FRAME_MATERIAL := preload("uid://bm3hyx3nivao")
 		scale = Vector3(picture_scale, picture_scale, picture_scale)
 
 
-func _ready() -> void:
+#func _ready() -> void:
 	#if Engine.is_editor_hint():
 		#EditorInterface.get_inspector().property_edited.connect(_on_property_changed)
 	
-	if texture != null:
-		add_picture_frame()
+	#if texture != null:
+		#add_picture_frame()
 
 
 func place_against_surface() -> void:
