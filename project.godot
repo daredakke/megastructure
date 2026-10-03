@@ -14,7 +14,6 @@ config/name="art gallery"
 run/main_scene="uid://crji8m1dgbo6c"
 config/features=PackedStringArray("4.7", "Forward Plus")
 boot_splash/show_image=false
-config/icon="res://icon.svg"
 
 [audio]
 
@@ -188,4 +187,5 @@ zoom={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=3
+environment/defaults/default_clear_color=Color(0, 0, 0, 1)
 occlusion_culling/use_occlusion_culling=true

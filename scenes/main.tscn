@@ -28,7 +28,7 @@ script = ExtResource("1_o6xl0")
 [node name="LevelController" type="Node" parent="." unique_id=667059501]
 unique_name_in_owner = true
 script = ExtResource("1_o5qli")
-initial_scene = 1
+initial_scene = 2
 
 [node name="MusicController" type="Node" parent="." unique_id=1888473922]
 script = ExtResource("3_jkv2x")
@@ -74,7 +74,7 @@ stream = ExtResource("13_yc10j")
 bus = &"Music"
 
 [node name="MusicTimer" type="Timer" parent="MusicController" unique_id=1552773274]
-wait_time = 15.0
+wait_time = 20.0
 one_shot = true
 
 [node name="UIAudio" type="Node" parent="." unique_id=930844231]

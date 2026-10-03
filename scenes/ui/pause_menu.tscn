@@ -384,236 +384,236 @@ step = 0.5
 value = 3.5
 scrollable = false
 
-[node name="ControlsHBox" type="HBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents" unique_id=1159171195]
+[node name="ControlsVBox" type="HBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents" unique_id=1159171195]
 visible = false
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox" unique_id=22434208]
+[node name="VBoxContainer" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox" unique_id=22434208]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_constants/separation = 12
 
-[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer" unique_id=1458122387]
+[node name="Label" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer" unique_id=1458122387]
 layout_mode = 2
 size_flags_horizontal = 0
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 32
 text = "INPUT"
 
-[node name="InputVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer" unique_id=1765707051]
+[node name="InputVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer" unique_id=1765707051]
 layout_mode = 2
 
-[node name="Label9" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=1974142639]
+[node name="Label9" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=1974142639]
 layout_mode = 2
 size_flags_horizontal = 0
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "MOVE"
 
-[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=741922324]
+[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=741922324]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "LOOK"
 
-[node name="Label6" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=1595899690]
+[node name="Label6" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=1595899690]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "ZOOM"
 
-[node name="Label11" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=115150786]
+[node name="Label11" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=115150786]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "INTERACT"
 
-[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=684869125]
+[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=684869125]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "SPRINT"
 
-[node name="Label4" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=1459161158]
+[node name="Label4" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=1459161158]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "JUMP"
 
-[node name="Label5" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=263869136]
+[node name="Label5" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=263869136]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "CROUCH"
 
-[node name="Label8" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=128482645]
+[node name="Label8" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=128482645]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "TORCH"
 
-[node name="Label10" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=969510246]
+[node name="Label10" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=969510246]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "RESPAWN"
 
-[node name="Label7" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer/InputVBox" unique_id=1165156370]
+[node name="Label7" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer/InputVBox" unique_id=1165156370]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "MENU"
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox" unique_id=273671530]
+[node name="VBoxContainer2" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox" unique_id=273671530]
 layout_mode = 2
 size_flags_horizontal = 2
 size_flags_vertical = 3
 theme_override_constants/separation = 12
 
-[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2" unique_id=342267070]
+[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2" unique_id=342267070]
 layout_mode = 2
 size_flags_horizontal = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 32
 text = "KEYBOARD"
 
-[node name="KeyboardVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2" unique_id=714177505]
+[node name="KeyboardVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2" unique_id=714177505]
 layout_mode = 2
 
-[node name="Label9" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=1369449128]
+[node name="Label9" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=1369449128]
 layout_mode = 2
 size_flags_horizontal = 0
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "WASD"
 
-[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=606224855]
+[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=606224855]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "MOUSE"
 
-[node name="Label6" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=383284522]
+[node name="Label6" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=383284522]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "RMB"
 
-[node name="Label11" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=2105938421]
+[node name="Label11" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=2105938421]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "E"
 
-[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=1001965741]
+[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=1001965741]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "SHIFT"
 
-[node name="Label4" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=893550640]
+[node name="Label4" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=893550640]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "SPACE"
 
-[node name="Label5" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=2129914861]
+[node name="Label5" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=2129914861]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "CTRL"
 
-[node name="Label8" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=1837833379]
+[node name="Label8" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=1837833379]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "F"
 
-[node name="Label10" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=158645313]
+[node name="Label10" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=158645313]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "T (HOLD)"
 
-[node name="Label7" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer2/KeyboardVBox" unique_id=2131510760]
+[node name="Label7" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer2/KeyboardVBox" unique_id=2131510760]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "ESCAPE"
 
-[node name="VBoxContainer3" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox" unique_id=339548075]
+[node name="VBoxContainer3" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox" unique_id=339548075]
 layout_mode = 2
 size_flags_horizontal = 2
 size_flags_vertical = 3
 theme_override_constants/separation = 12
 
-[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3" unique_id=1973045101]
+[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3" unique_id=1973045101]
 layout_mode = 2
 size_flags_horizontal = 0
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 32
 text = "CONTROLLER"
 
-[node name="ControllerVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3" unique_id=485921338]
+[node name="ControllerVBox" type="VBoxContainer" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3" unique_id=485921338]
 layout_mode = 2
 
-[node name="Label9" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=2018445917]
+[node name="Label9" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=2018445917]
 layout_mode = 2
 size_flags_horizontal = 0
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "LEFT STICK"
 
-[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1443928061]
+[node name="Label2" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1443928061]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "RIGHT STICK"
 
-[node name="Label6" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=10603509]
+[node name="Label6" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=10603509]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "LEFT TRIGGER"
 
-[node name="Label11" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1717166295]
+[node name="Label11" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1717166295]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "A"
 
-[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1355277796]
+[node name="Label3" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1355277796]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "LEFT BUMPER"
 
-[node name="Label4" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1794543040]
+[node name="Label4" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1794543040]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "X / RIGHT TRIGGER"
 
-[node name="Label5" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1292069649]
+[node name="Label5" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1292069649]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "RIGHT BUMPER"
 
-[node name="Label8" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1468996417]
+[node name="Label8" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1468996417]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "Y"
 
-[node name="Label10" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1301223244]
+[node name="Label10" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1301223244]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
 text = "D-PAD UP (HOLD)"
 
-[node name="Label7" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsHBox/VBoxContainer3/ControllerVBox" unique_id=1833775707]
+[node name="Label7" type="Label" parent="SettingsPanel/MarginContainer/MarginContainer/TabContents/ControlsVBox/VBoxContainer3/ControllerVBox" unique_id=1833775707]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_f6eus")
 theme_override_font_sizes/font_size = 24
