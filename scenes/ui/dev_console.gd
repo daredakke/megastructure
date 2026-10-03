@@ -96,7 +96,14 @@ func _on_line_edit_text_submitted(new_text: String) -> void:
 		# Reveal dev commentary nodes throughout the game
 		"commentary":
 			Globals.commentary_enabled = !Globals.commentary_enabled
+			
+			var state: String = "revealed" if Globals.commentary_enabled else "hidden"
+			
 			EventsBus.toggle_commentary.emit()
+			EventsBus.notification_submitted.emit("Commentary nodes '" + state + "'")
+		
+		"help":
+			EventsBus.notification_submitted.emit("Available commands: commentary, help, mute")
 		
 		# All other input
 		_:
