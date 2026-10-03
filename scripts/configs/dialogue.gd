@@ -39,7 +39,21 @@ enum Keys {
 	Painful,
 	Ideas,
 	SSSegue,
-	MusicBox
+	MusicBox,
+	EndCards,
+	Choice,
+	SpinOff,
+	Sadness,
+	DrunkPicnic,
+	WashedOut,
+	FakeShimeji,
+	OctopusGirl,
+	Egg,
+	CharacterDesign,
+	SisDrunk,
+	CloseUpTwo,
+	Touhou,
+	ThankYou,
 }
 
 static var char_names := {
@@ -460,6 +474,178 @@ static var lines := {
 			{
 				"speaker": "",
 				"line": "Tracklist (in no particular order): Amadare no Uta, Chito to Yuuri, Futaribocchi, Hazumu Kokoro, Hikari wo Motomete, Kaze to Haikyo to Sanpomichi, Kettenkrad, Kimi to Sugosu Hibi, Kimi wo Omou, Owari no Uta.",
+			},
+		],
+	},
+	Keys.EndCards: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "It's nice seeing all these end cards lined up next to each other.",
+			},
+			{
+				"speaker": "",
+				"line": "A shame we'll never see the final two SSR volumes animated. Especially the AI chapter.",
+			},
+		],
+	},
+	Keys.Choice: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "I was spoiled for choice regarding images for this level, hence why everything might feel a bit crammed in. I did the best I could to fit in what I felt to be most important.",
+			},
+		],
+	},
+	Keys.SpinOff: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "These ones of Chito and Yuuri at university would make for a great slice of life spin off I feel. It's just fun watching them interact, especially if the setting was more down to earth.",
+			},
+		],
+	},
+	Keys.Sadness: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "This one just makes me feel sad, it should be obvious if you know why. A fitting end to this collection.",
+			},
+		],
+	},
+	Keys.DrunkPicnic: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "This one I've always found really comfy. Chito is particulary cute here.",
+			},
+			{
+				"speaker": "",
+				"line": "I like the idea that she's weaker to alcohol than Yuuri. Maybe that's wishful thinking.",
+			},
+			{
+				"speaker": "",
+				"line": "It's also relatable in how alcohol tends to make me quite sleepy these days, more so than when I was younger.",
+			},
+		],
+	},
+	Keys.WashedOut: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "The brightness and the washed out look this scene has really makes it feel hot. Days like this are nice every once in a while.",
+			},
+			{
+				"speaker": "",
+				"line": "It seems like we'll be having a lot more of them in years to come.",
+			},
+		],
+	},
+	Keys.FakeShimeji: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "I don't even know if this is Shijima or not. It sure feels like her, but her eyes are red while everywhere else it's blue or black.",
+			},
+		],
+	},
+	Keys.OctopusGirl: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "It's nice to know that these sisters got a small collection of their own.",
+			},
+			{
+				"speaker": "",
+				"line": "Right: caption reads 'Desire to show off octopus' while she invites you to look at the octopus.",
+			},
+			{
+				"speaker": "",
+				"line": "Top-right: caption reads 'Octopus, feeling of affirmation' while she is impressed. Admittedly I'm not quite sure what a better translation of the caption would be.",
+			},
+			{
+				"speaker": "",
+				"line": "Left: 'Human rights for octopi!",
+			},
+		],
+	},
+	Keys.Egg: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "Egg.",
+			},
+			{
+				"speaker": "",
+				"line": "Pls don't scramble or omelette.",
+			},
+		],
+	},
+	Keys.CharacterDesign: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "It's nice when a character's design reflects their personality.",
+			},
+			{
+				"speaker": "",
+				"line": "Even if you don't know these two, you can at least make a good guess as to what they're like to be around.",
+			},
+		],
+	},
+	Keys.SisDrunk: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "/sisdrunk/",
+			},
+			{
+				"speaker": "",
+				"line": "A relatable image.",
+			},
+		],
+	},
+	Keys.CloseUpTwo: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "I'm pretty sure this is Shijima, though I realise now that it's hard to tell.",
+			},
+			{
+				"speaker": "",
+				"line": "Still, there's something amusing to me about such a close-up. Her displeasure with whatever's in front of her is emphasised considerably.",
+			},
+		],
+	},
+	Keys.Touhou: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "All roads lead to Touhou Project it seems.",
+			},
+			{
+				"speaker": "",
+				"line": "This pleases me as a big fan of Touhou, though unfortunately it doesn't seem like tkmiz has drawn Youmu, Kogasa or Nazrin.",
+			},
+		],
+	},
+	Keys.ThankYou: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "Thank you for taking the time to wander through this gallery.",
+			},
+			{
+				"speaker": "",
+				"line": "I know it isn't much, but I hope it was interesting at least for a little while.",
+			},
+			{
+				"speaker": "",
+				"line": "I've been working on 3D projects here and there over the past few years with little direction, so it's nice to finally create something cohesive, even if it isn't all that interactive.",
+			},
+			{
+				"speaker": "",
+				"line": "Whether I make more stuff like this remains to be seen. There's a chance I'll never touch game dev ever again after this. It's really tiresome.",
 			},
 		],
 	},

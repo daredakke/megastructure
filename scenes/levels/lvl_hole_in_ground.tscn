@@ -628,6 +628,76 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.04449296, 9.100004, 69.370
 dialogue_index = 31
 is_commentary = true
 
+[node name="EndCards" parent="Interactive/NPCs" unique_id=1828101159 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.726128, 17.2, 53.68008)
+dialogue_index = 32
+is_commentary = true
+
+[node name="Choice" parent="Interactive/NPCs" unique_id=1902780593 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.549213, 17.2, 41.628437)
+dialogue_index = 33
+is_commentary = true
+
+[node name="SpinOff" parent="Interactive/NPCs" unique_id=1331153782 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.81994, 17.2, 32.465477)
+dialogue_index = 34
+is_commentary = true
+
+[node name="Sadness" parent="Interactive/NPCs" unique_id=1011655056 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.43821, 17.2, -30.105118)
+dialogue_index = 35
+is_commentary = true
+
+[node name="DrunkPicnic" parent="Interactive/NPCs" unique_id=1858240476 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.33556, 17.2, -0.29028273)
+dialogue_index = 36
+is_commentary = true
+
+[node name="WashedOut" parent="Interactive/NPCs" unique_id=728254423 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 48.512203, 17.2, -57.40089)
+dialogue_index = 37
+is_commentary = true
+
+[node name="FakeShimeji" parent="Interactive/NPCs" unique_id=395927246 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.49946, 17.2, -65.378006)
+dialogue_index = 38
+is_commentary = true
+
+[node name="OctopusGirl" parent="Interactive/NPCs" unique_id=891231210 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.080103, 17.2, -70.15729)
+dialogue_index = 39
+is_commentary = true
+
+[node name="Egg" parent="Interactive/NPCs" unique_id=1076858139 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1417646, 17.2, -59.166595)
+dialogue_index = 40
+is_commentary = true
+
+[node name="CharacterDesign" parent="Interactive/NPCs" unique_id=1401282150 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.062439, 17.2, -55.349052)
+dialogue_index = 41
+is_commentary = true
+
+[node name="SisDrunk" parent="Interactive/NPCs" unique_id=559816431 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.257256, 17.2, -63.63249)
+dialogue_index = 42
+is_commentary = true
+
+[node name="CloseUpTwo" parent="Interactive/NPCs" unique_id=113314339 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.22442, 17.2, 21.715237)
+dialogue_index = 43
+is_commentary = true
+
+[node name="Touhou" parent="Interactive/NPCs" unique_id=471337131 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.605625, 17.873493, 45.64271)
+dialogue_index = 44
+is_commentary = true
+
+[node name="ThankYou" parent="Interactive/NPCs" unique_id=412750602 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.024836063, 17.873493, 69.92235)
+dialogue_index = 45
+is_commentary = true
+
 [node name="DoubleDoors" parent="Interactive" unique_id=1127466154 instance=ExtResource("6_gto62")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95309997, 81.3)
 
@@ -1331,7 +1401,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080481e-07, 0.01226309, 0, 0.25, -3.074364e-06, -0.01226309, 3.0706633e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080482e-07, 0.01226309, 0, 0.25, -3.0743643e-06, -0.01226309, 3.0706635e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
@@ -2547,7 +2617,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite495" type="Sprite3D" parent="ShimSimPictures" unique_id=1102502432]
-transform = Transform3D(-0.18079835, 0, -0.08550998, 0, 0.2, 0, 0.08550998, 0, -0.18079835, -25.259161, 19.510847, -52.8449)
+transform = Transform3D(-0.18079835, 0, -0.08550998, 0, 0.2, 0, 0.08550998, 0, -0.18079835, -24.9347, 19.510847, -52.998356)
 texture = ExtResource("238_d5osj")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.2
@@ -2638,14 +2708,14 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite457" type="Sprite3D" parent="ShimSimPictures" unique_id=2011223177]
-transform = Transform3D(-0.19400689, 0, -0.048593517, 0, 0.2, 0, 0.048593517, 0, -0.19400689, -13.101169, 19.241514, -57.098785)
+transform = Transform3D(-0.19400689, 0, -0.048593517, 0, 0.2, 0, 0.048593517, 0, -0.19400689, -12.376961, 19.241514, -57.280178)
 texture = ExtResource("248_b12j2")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite458" type="Sprite3D" parent="ShimSimPictures" unique_id=864029993]
-transform = Transform3D(-0.19400685, 0, -0.048593704, 0, 0.2, 0, 0.048593704, 0, -0.19400685, -16.65366, 19.241514, -56.208973)
+transform = Transform3D(-0.19400685, 0, -0.048593704, 0, 0.2, 0, 0.048593704, 0, -0.19400685, -16.030344, 19.241514, -56.365097)
 texture = ExtResource("249_tt4qg")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.2
@@ -2855,7 +2925,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite517" type="Sprite3D" parent="ShimSimPictures" unique_id=1830686828]
-transform = Transform3D(-0.18830793, 0, -0.06738043, 0, 0.2, 0, 0.06738043, 0, -0.18830793, -20.319263, 19.202297, -54.93696)
+transform = Transform3D(-0.18830793, 0, -0.06738043, 0, 0.2, 0, 0.06738043, 0, -0.18830793, -19.621382, 19.202297, -55.186676)
 texture = ExtResource("281_ltpcl")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.2
