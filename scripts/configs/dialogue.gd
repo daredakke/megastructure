@@ -56,7 +56,8 @@ enum Keys {
 	ThankYou,
 	AboutProject,
 	Outside,
-	Reverb
+	Reverb,
+	LedgeGrab,
 }
 
 static var char_names := {
@@ -702,6 +703,19 @@ static var lines := {
 				"speaker": "",
 				"line": "For more serious projects (like that'll ever happen), I'd probably go with how it was done in Half Life 2 or use FMod or something.",
 			},
+		],
+	},
+	Keys.LedgeGrab: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "You can ledge grab by jumping towards a ledge and pressing space when the indicator appears. I was going to disable it for this project, but I forgot. I'm not really sure why I added it in the first place.",
+			},
+			{
+				"speaker": "",
+				"line": "It's a quick and dirty solution since it requires you to hold forward to make it, but I don't think it feels that bad.",
+			},
+
 		],
 	},
 }

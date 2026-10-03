@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://wnq74ahv2vfo"]
+
+[ext_resource type="PackedScene" uid="uid://cuclqhmgrp7ak" path="res://assets/models/general/Concrete_block_s.glb" id="1_ukl2y"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_knirh"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, -0.5, 1.5, -0.5, -0.5, 1.5, 0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 1.5, -0.5, -0.5, 0.5, -0.5, 0.5, 1.5, -0.5, -0.5, 1.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, 0.5, 1.5, -0.5, 0.5, 0.5, -0.5, 0.5, 1.5, 0.5, 0.5, 1.5, -0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 1.5, 0.5, 0.5, 0.5, 0.5, -0.5, 1.5, 0.5, 0.5, 1.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, -0.5, 1.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.5, -0.5, -0.5, 1.5, 0.5, -0.5, 1.5, -0.5, 0.5, 1.5, -0.5, 0.5, 1.5, 0.5, -0.5, 1.5, 0.5)
+
+[node name="Concrete_block_s" unique_id=1110741647 instance=ExtResource("1_ukl2y")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1876411588]
+shape = SubResource("ConcavePolygonShape3D_knirh")
