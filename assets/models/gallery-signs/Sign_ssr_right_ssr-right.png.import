@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bu5dj4vdwrqr3"
 path.s3tc="res://.godot/imported/Sign_ssr_right_ssr-right.png-8e82d5e32d9df6c23b23485f7f98b9ce.s3tc.ctex"
+path.etc2="res://.godot/imported/Sign_ssr_right_ssr-right.png-8e82d5e32d9df6c23b23485f7f98b9ce.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery-signs/Sign_ssr_right_ssr-right.png"
-dest_files=["res://.godot/imported/Sign_ssr_right_ssr-right.png-8e82d5e32d9df6c23b23485f7f98b9ce.s3tc.ctex"]
+dest_files=["res://.godot/imported/Sign_ssr_right_ssr-right.png-8e82d5e32d9df6c23b23485f7f98b9ce.s3tc.ctex", "res://.godot/imported/Sign_ssr_right_ssr-right.png-8e82d5e32d9df6c23b23485f7f98b9ce.etc2.ctex"]
 
 [params]
 

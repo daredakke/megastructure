@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://rmbd2k5tqp0v"
 path.s3tc="res://.godot/imported/girl octopus multiple scenes.jpg-2b97199497dfc15fad63837e11abc02a.s3tc.ctex"
+path.etc2="res://.godot/imported/girl octopus multiple scenes.jpg-2b97199497dfc15fad63837e11abc02a.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/girl octopus multiple scenes.jpg"
-dest_files=["res://.godot/imported/girl octopus multiple scenes.jpg-2b97199497dfc15fad63837e11abc02a.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl octopus multiple scenes.jpg-2b97199497dfc15fad63837e11abc02a.s3tc.ctex", "res://.godot/imported/girl octopus multiple scenes.jpg-2b97199497dfc15fad63837e11abc02a.etc2.ctex"]
 
 [params]
 

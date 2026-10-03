@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://8x0o6y8yvnrj"
 path.s3tc="res://.godot/imported/sketch girls under umbrella.jpg-c554a8aa73f57be95cc5c96c7be37f90.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girls under umbrella.jpg-c554a8aa73f57be95cc5c96c7be37f90.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girls under umbrella.jpg"
-dest_files=["res://.godot/imported/sketch girls under umbrella.jpg-c554a8aa73f57be95cc5c96c7be37f90.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girls under umbrella.jpg-c554a8aa73f57be95cc5c96c7be37f90.s3tc.ctex", "res://.godot/imported/sketch girls under umbrella.jpg-c554a8aa73f57be95cc5c96c7be37f90.etc2.ctex"]
 
 [params]
 

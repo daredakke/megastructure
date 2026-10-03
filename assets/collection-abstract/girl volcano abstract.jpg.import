@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://db47muijpowsl"
 path.s3tc="res://.godot/imported/girl volcano abstract.jpg-f1fd9dfc816e744118c8fd4d88b75f2d.s3tc.ctex"
+path.etc2="res://.godot/imported/girl volcano abstract.jpg-f1fd9dfc816e744118c8fd4d88b75f2d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl volcano abstract.jpg"
-dest_files=["res://.godot/imported/girl volcano abstract.jpg-f1fd9dfc816e744118c8fd4d88b75f2d.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl volcano abstract.jpg-f1fd9dfc816e744118c8fd4d88b75f2d.s3tc.ctex", "res://.godot/imported/girl volcano abstract.jpg-f1fd9dfc816e744118c8fd4d88b75f2d.etc2.ctex"]
 
 [params]
 

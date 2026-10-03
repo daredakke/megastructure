@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi8j3fkf3qhou"
 path.s3tc="res://.godot/imported/sis shimeji bed drunk abstract.jpg-cffa4da5d60dc8be16b43ddaa5892cf7.s3tc.ctex"
+path.etc2="res://.godot/imported/sis shimeji bed drunk abstract.jpg-cffa4da5d60dc8be16b43ddaa5892cf7.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/sis shimeji bed drunk abstract.jpg"
-dest_files=["res://.godot/imported/sis shimeji bed drunk abstract.jpg-cffa4da5d60dc8be16b43ddaa5892cf7.s3tc.ctex"]
+dest_files=["res://.godot/imported/sis shimeji bed drunk abstract.jpg-cffa4da5d60dc8be16b43ddaa5892cf7.s3tc.ctex", "res://.godot/imported/sis shimeji bed drunk abstract.jpg-cffa4da5d60dc8be16b43ddaa5892cf7.etc2.ctex"]
 
 [params]
 

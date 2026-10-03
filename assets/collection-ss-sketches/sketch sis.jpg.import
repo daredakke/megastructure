@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwwpik06xxfts"
 path.s3tc="res://.godot/imported/sketch sis.jpg-fe2e5387c8508ba09d7579a25c19897d.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch sis.jpg-fe2e5387c8508ba09d7579a25c19897d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss-sketches/sketch sis.jpg"
-dest_files=["res://.godot/imported/sketch sis.jpg-fe2e5387c8508ba09d7579a25c19897d.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch sis.jpg-fe2e5387c8508ba09d7579a25c19897d.s3tc.ctex", "res://.godot/imported/sketch sis.jpg-fe2e5387c8508ba09d7579a25c19897d.etc2.ctex"]
 
 [params]
 

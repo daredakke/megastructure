@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dydy5it07pcwp"
 path.s3tc="res://.godot/imported/chito yuuri year of the rat drunk.jpg-85dfc32f367178157db082f1392cf5cc.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri year of the rat drunk.jpg-85dfc32f367178157db082f1392cf5cc.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri year of the rat drunk.jpg"
-dest_files=["res://.godot/imported/chito yuuri year of the rat drunk.jpg-85dfc32f367178157db082f1392cf5cc.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri year of the rat drunk.jpg-85dfc32f367178157db082f1392cf5cc.s3tc.ctex", "res://.godot/imported/chito yuuri year of the rat drunk.jpg-85dfc32f367178157db082f1392cf5cc.etc2.ctex"]
 
 [params]
 

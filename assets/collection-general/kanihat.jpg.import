@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4c2n8huya0lc"
 path.s3tc="res://.godot/imported/kanihat.jpg-d6a226820727ea669fa2d45f1e887f43.s3tc.ctex"
+path.etc2="res://.godot/imported/kanihat.jpg-d6a226820727ea669fa2d45f1e887f43.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/kanihat.jpg"
-dest_files=["res://.godot/imported/kanihat.jpg-d6a226820727ea669fa2d45f1e887f43.s3tc.ctex"]
+dest_files=["res://.godot/imported/kanihat.jpg-d6a226820727ea669fa2d45f1e887f43.s3tc.ctex", "res://.godot/imported/kanihat.jpg-d6a226820727ea669fa2d45f1e887f43.etc2.ctex"]
 
 [params]
 

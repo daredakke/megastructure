@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2qnwwgju13l2"
 path.s3tc="res://.godot/imported/bunny girl skeleton.jpg-83a2f7ef421a7beb11f85d1b930f5a31.s3tc.ctex"
+path.etc2="res://.godot/imported/bunny girl skeleton.jpg-83a2f7ef421a7beb11f85d1b930f5a31.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/bunny girl skeleton.jpg"
-dest_files=["res://.godot/imported/bunny girl skeleton.jpg-83a2f7ef421a7beb11f85d1b930f5a31.s3tc.ctex"]
+dest_files=["res://.godot/imported/bunny girl skeleton.jpg-83a2f7ef421a7beb11f85d1b930f5a31.s3tc.ctex", "res://.godot/imported/bunny girl skeleton.jpg-83a2f7ef421a7beb11f85d1b930f5a31.etc2.ctex"]
 
 [params]
 

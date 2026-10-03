@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx075plmca04v"
 path.s3tc="res://.godot/imported/spotlight_1.png-c51c6997f997f9c7b7c82fef5318a70f.s3tc.ctex"
+path.etc2="res://.godot/imported/spotlight_1.png-c51c6997f997f9c7b7c82fef5318a70f.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/sprites/spotlight_1.png"
-dest_files=["res://.godot/imported/spotlight_1.png-c51c6997f997f9c7b7c82fef5318a70f.s3tc.ctex"]
+dest_files=["res://.godot/imported/spotlight_1.png-c51c6997f997f9c7b7c82fef5318a70f.s3tc.ctex", "res://.godot/imported/spotlight_1.png-c51c6997f997f9c7b7c82fef5318a70f.etc2.ctex"]
 
 [params]
 

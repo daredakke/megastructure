@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://kjywp7aqiyth"
 path.s3tc="res://.godot/imported/girls study meet.jpg-5e96b5c8e17d8179c82007f0f1e56364.s3tc.ctex"
+path.etc2="res://.godot/imported/girls study meet.jpg-5e96b5c8e17d8179c82007f0f1e56364.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girls study meet.jpg"
-dest_files=["res://.godot/imported/girls study meet.jpg-5e96b5c8e17d8179c82007f0f1e56364.s3tc.ctex"]
+dest_files=["res://.godot/imported/girls study meet.jpg-5e96b5c8e17d8179c82007f0f1e56364.s3tc.ctex", "res://.godot/imported/girls study meet.jpg-5e96b5c8e17d8179c82007f0f1e56364.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://chjxvwaey7lcp"
 path.s3tc="res://.godot/imported/sketch office lady.jpg-b8f7426eb23e3d4c9886003d8016d070.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch office lady.jpg-b8f7426eb23e3d4c9886003d8016d070.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch office lady.jpg"
-dest_files=["res://.godot/imported/sketch office lady.jpg-b8f7426eb23e3d4c9886003d8016d070.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch office lady.jpg-b8f7426eb23e3d4c9886003d8016d070.s3tc.ctex", "res://.godot/imported/sketch office lady.jpg-b8f7426eb23e3d4c9886003d8016d070.etc2.ctex"]
 
 [params]
 

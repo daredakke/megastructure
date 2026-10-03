@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ph8w8deuwmnj"
 path.s3tc="res://.godot/imported/sis shimeji pajamas spanner.jpg-300c3ceee5a50aa2c9b2c4e5478e6b8c.s3tc.ctex"
+path.etc2="res://.godot/imported/sis shimeji pajamas spanner.jpg-300c3ceee5a50aa2c9b2c4e5478e6b8c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/sis shimeji pajamas spanner.jpg"
-dest_files=["res://.godot/imported/sis shimeji pajamas spanner.jpg-300c3ceee5a50aa2c9b2c4e5478e6b8c.s3tc.ctex"]
+dest_files=["res://.godot/imported/sis shimeji pajamas spanner.jpg-300c3ceee5a50aa2c9b2c4e5478e6b8c.s3tc.ctex", "res://.godot/imported/sis shimeji pajamas spanner.jpg-300c3ceee5a50aa2c9b2c4e5478e6b8c.etc2.ctex"]
 
 [params]
 

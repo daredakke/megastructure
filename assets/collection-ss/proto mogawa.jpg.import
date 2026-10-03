@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2qx47elhnx73"
 path.s3tc="res://.godot/imported/proto mogawa.jpg-b277395d34221d6db1e7a4bbf2f1d6d1.s3tc.ctex"
+path.etc2="res://.godot/imported/proto mogawa.jpg-b277395d34221d6db1e7a4bbf2f1d6d1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/proto mogawa.jpg"
-dest_files=["res://.godot/imported/proto mogawa.jpg-b277395d34221d6db1e7a4bbf2f1d6d1.s3tc.ctex"]
+dest_files=["res://.godot/imported/proto mogawa.jpg-b277395d34221d6db1e7a4bbf2f1d6d1.s3tc.ctex", "res://.godot/imported/proto mogawa.jpg-b277395d34221d6db1e7a4bbf2f1d6d1.etc2.ctex"]
 
 [params]
 

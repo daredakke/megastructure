@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dif7531mdhpj4"
 path.s3tc="res://.godot/imported/girl underwear with flowers.jpg-765141492645f5fd58fc74806e795ce6.s3tc.ctex"
+path.etc2="res://.godot/imported/girl underwear with flowers.jpg-765141492645f5fd58fc74806e795ce6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/girl underwear with flowers.jpg"
-dest_files=["res://.godot/imported/girl underwear with flowers.jpg-765141492645f5fd58fc74806e795ce6.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl underwear with flowers.jpg-765141492645f5fd58fc74806e795ce6.s3tc.ctex", "res://.godot/imported/girl underwear with flowers.jpg-765141492645f5fd58fc74806e795ce6.etc2.ctex"]
 
 [params]
 

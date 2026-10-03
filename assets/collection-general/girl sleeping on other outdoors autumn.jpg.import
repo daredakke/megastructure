@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://csnh3hut65hav"
 path.s3tc="res://.godot/imported/girl sleeping on other outdoors autumn.jpg-0dcadfda6987b1e917595b8adc9938a6.s3tc.ctex"
+path.etc2="res://.godot/imported/girl sleeping on other outdoors autumn.jpg-0dcadfda6987b1e917595b8adc9938a6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl sleeping on other outdoors autumn.jpg"
-dest_files=["res://.godot/imported/girl sleeping on other outdoors autumn.jpg-0dcadfda6987b1e917595b8adc9938a6.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl sleeping on other outdoors autumn.jpg-0dcadfda6987b1e917595b8adc9938a6.s3tc.ctex", "res://.godot/imported/girl sleeping on other outdoors autumn.jpg-0dcadfda6987b1e917595b8adc9938a6.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckrg0g0uswa56"
 path.s3tc="res://.godot/imported/girl despair bright.jpg-3db99aab81b1e2629152f2ec3b473e32.s3tc.ctex"
+path.etc2="res://.godot/imported/girl despair bright.jpg-3db99aab81b1e2629152f2ec3b473e32.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/girl despair bright.jpg"
-dest_files=["res://.godot/imported/girl despair bright.jpg-3db99aab81b1e2629152f2ec3b473e32.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl despair bright.jpg-3db99aab81b1e2629152f2ec3b473e32.s3tc.ctex", "res://.godot/imported/girl despair bright.jpg-3db99aab81b1e2629152f2ec3b473e32.etc2.ctex"]
 
 [params]
 

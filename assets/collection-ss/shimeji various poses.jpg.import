@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://y4pmt4v1amdp"
 path.s3tc="res://.godot/imported/shimeji various poses.jpg-fbbe15551ac29edc59fa6d994af5abce.s3tc.ctex"
+path.etc2="res://.godot/imported/shimeji various poses.jpg-fbbe15551ac29edc59fa6d994af5abce.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimeji various poses.jpg"
-dest_files=["res://.godot/imported/shimeji various poses.jpg-fbbe15551ac29edc59fa6d994af5abce.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimeji various poses.jpg-fbbe15551ac29edc59fa6d994af5abce.s3tc.ctex", "res://.godot/imported/shimeji various poses.jpg-fbbe15551ac29edc59fa6d994af5abce.etc2.ctex"]
 
 [params]
 

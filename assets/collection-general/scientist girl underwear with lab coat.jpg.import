@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmdlca43xhg6c"
 path.s3tc="res://.godot/imported/scientist girl underwear with lab coat.jpg-1a04f7bbfdc2efe9d56e2d8771e941d2.s3tc.ctex"
+path.etc2="res://.godot/imported/scientist girl underwear with lab coat.jpg-1a04f7bbfdc2efe9d56e2d8771e941d2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/scientist girl underwear with lab coat.jpg"
-dest_files=["res://.godot/imported/scientist girl underwear with lab coat.jpg-1a04f7bbfdc2efe9d56e2d8771e941d2.s3tc.ctex"]
+dest_files=["res://.godot/imported/scientist girl underwear with lab coat.jpg-1a04f7bbfdc2efe9d56e2d8771e941d2.s3tc.ctex", "res://.godot/imported/scientist girl underwear with lab coat.jpg-1a04f7bbfdc2efe9d56e2d8771e941d2.etc2.ctex"]
 
 [params]
 

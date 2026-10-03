@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceeiskalwnq80"
 path.s3tc="res://.godot/imported/sketch girl posing with fish.jpg-09ec7a1ad6de4838775ba1fab1f8b819.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girl posing with fish.jpg-09ec7a1ad6de4838775ba1fab1f8b819.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girl posing with fish.jpg"
-dest_files=["res://.godot/imported/sketch girl posing with fish.jpg-09ec7a1ad6de4838775ba1fab1f8b819.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girl posing with fish.jpg-09ec7a1ad6de4838775ba1fab1f8b819.s3tc.ctex", "res://.godot/imported/sketch girl posing with fish.jpg-09ec7a1ad6de4838775ba1fab1f8b819.etc2.ctex"]
 
 [params]
 

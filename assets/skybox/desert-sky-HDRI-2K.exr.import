@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://btvo5sst62ufi"
 path.bptc="res://.godot/imported/desert-sky-HDRI-2K.exr-b015d9a7d3c5086219fcdd07a42a348d.bptc.ctex"
+path.astc="res://.godot/imported/desert-sky-HDRI-2K.exr-b015d9a7d3c5086219fcdd07a42a348d.astc.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/skybox/desert-sky-HDRI-2K.exr"
-dest_files=["res://.godot/imported/desert-sky-HDRI-2K.exr-b015d9a7d3c5086219fcdd07a42a348d.bptc.ctex"]
+dest_files=["res://.godot/imported/desert-sky-HDRI-2K.exr-b015d9a7d3c5086219fcdd07a42a348d.bptc.ctex", "res://.godot/imported/desert-sky-HDRI-2K.exr-b015d9a7d3c5086219fcdd07a42a348d.astc.ctex"]
 
 [params]
 

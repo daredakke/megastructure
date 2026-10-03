@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://3l031hajt01v"
 path.s3tc="res://.godot/imported/girl nosebleed winter abstract.jpg-e29a62c05c1231f4d9b20a2a234220da.s3tc.ctex"
+path.etc2="res://.godot/imported/girl nosebleed winter abstract.jpg-e29a62c05c1231f4d9b20a2a234220da.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl nosebleed winter abstract.jpg"
-dest_files=["res://.godot/imported/girl nosebleed winter abstract.jpg-e29a62c05c1231f4d9b20a2a234220da.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl nosebleed winter abstract.jpg-e29a62c05c1231f4d9b20a2a234220da.s3tc.ctex", "res://.godot/imported/girl nosebleed winter abstract.jpg-e29a62c05c1231f4d9b20a2a234220da.etc2.ctex"]
 
 [params]
 

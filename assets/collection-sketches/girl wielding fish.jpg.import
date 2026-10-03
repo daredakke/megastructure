@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cccwmi233xv4c"
 path.s3tc="res://.godot/imported/girl wielding fish.jpg-7050baf29e5f2906414bbf7fc4dd001e.s3tc.ctex"
+path.etc2="res://.godot/imported/girl wielding fish.jpg-7050baf29e5f2906414bbf7fc4dd001e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/girl wielding fish.jpg"
-dest_files=["res://.godot/imported/girl wielding fish.jpg-7050baf29e5f2906414bbf7fc4dd001e.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl wielding fish.jpg-7050baf29e5f2906414bbf7fc4dd001e.s3tc.ctex", "res://.godot/imported/girl wielding fish.jpg-7050baf29e5f2906414bbf7fc4dd001e.etc2.ctex"]
 
 [params]
 

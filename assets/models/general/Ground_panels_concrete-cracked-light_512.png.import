@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://db3ap1q1atl75"
 path.s3tc="res://.godot/imported/Ground_panels_concrete-cracked-light_512.png-da49a5e7b3c7e8cecccb8bbeb81e26be.s3tc.ctex"
+path.etc2="res://.godot/imported/Ground_panels_concrete-cracked-light_512.png-da49a5e7b3c7e8cecccb8bbeb81e26be.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/general/Ground_panels_concrete-cracked-light_512.png"
-dest_files=["res://.godot/imported/Ground_panels_concrete-cracked-light_512.png-da49a5e7b3c7e8cecccb8bbeb81e26be.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ground_panels_concrete-cracked-light_512.png-da49a5e7b3c7e8cecccb8bbeb81e26be.s3tc.ctex", "res://.godot/imported/Ground_panels_concrete-cracked-light_512.png-da49a5e7b3c7e8cecccb8bbeb81e26be.etc2.ctex"]
 
 [params]
 

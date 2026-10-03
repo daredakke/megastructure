@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://u0wq4n15k3j1"
 path.s3tc="res://.godot/imported/sis wheat stalk.jpg-19fbb066701d1ae0c5cd03b21f1c33a1.s3tc.ctex"
+path.etc2="res://.godot/imported/sis wheat stalk.jpg-19fbb066701d1ae0c5cd03b21f1c33a1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/sis wheat stalk.jpg"
-dest_files=["res://.godot/imported/sis wheat stalk.jpg-19fbb066701d1ae0c5cd03b21f1c33a1.s3tc.ctex"]
+dest_files=["res://.godot/imported/sis wheat stalk.jpg-19fbb066701d1ae0c5cd03b21f1c33a1.s3tc.ctex", "res://.godot/imported/sis wheat stalk.jpg-19fbb066701d1ae0c5cd03b21f1c33a1.etc2.ctex"]
 
 [params]
 

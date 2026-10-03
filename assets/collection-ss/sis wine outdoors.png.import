@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://2svo3c56olbo"
 path.s3tc="res://.godot/imported/sis wine outdoors.png-c1e1a22f3346d0e9c9cdfd93f8f4ce67.s3tc.ctex"
+path.etc2="res://.godot/imported/sis wine outdoors.png-c1e1a22f3346d0e9c9cdfd93f8f4ce67.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/sis wine outdoors.png"
-dest_files=["res://.godot/imported/sis wine outdoors.png-c1e1a22f3346d0e9c9cdfd93f8f4ce67.s3tc.ctex"]
+dest_files=["res://.godot/imported/sis wine outdoors.png-c1e1a22f3346d0e9c9cdfd93f8f4ce67.s3tc.ctex", "res://.godot/imported/sis wine outdoors.png-c1e1a22f3346d0e9c9cdfd93f8f4ce67.etc2.ctex"]
 
 [params]
 

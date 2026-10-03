@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjue28qihjlhh"
 path.s3tc="res://.godot/imported/__kaku_seiga_touhou_drawn_by_tsukumizu_yuu__6fd661569a9a3c299e0efca677bb1a21.jpg-6f70266448d03c782c7f8d739c7d620d.s3tc.ctex"
+path.etc2="res://.godot/imported/__kaku_seiga_touhou_drawn_by_tsukumizu_yuu__6fd661569a9a3c299e0efca677bb1a21.jpg-6f70266448d03c782c7f8d739c7d620d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-touhou/__kaku_seiga_touhou_drawn_by_tsukumizu_yuu__6fd661569a9a3c299e0efca677bb1a21.jpg"
-dest_files=["res://.godot/imported/__kaku_seiga_touhou_drawn_by_tsukumizu_yuu__6fd661569a9a3c299e0efca677bb1a21.jpg-6f70266448d03c782c7f8d739c7d620d.s3tc.ctex"]
+dest_files=["res://.godot/imported/__kaku_seiga_touhou_drawn_by_tsukumizu_yuu__6fd661569a9a3c299e0efca677bb1a21.jpg-6f70266448d03c782c7f8d739c7d620d.s3tc.ctex", "res://.godot/imported/__kaku_seiga_touhou_drawn_by_tsukumizu_yuu__6fd661569a9a3c299e0efca677bb1a21.jpg-6f70266448d03c782c7f8d739c7d620d.etc2.ctex"]
 
 [params]
 

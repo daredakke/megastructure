@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cew3kxvpct56g"
 path.s3tc="res://.godot/imported/girl standing behind plant.jpg-7bd4e363f43e4e4cdfe42e6a35034d1f.s3tc.ctex"
+path.etc2="res://.godot/imported/girl standing behind plant.jpg-7bd4e363f43e4e4cdfe42e6a35034d1f.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl standing behind plant.jpg"
-dest_files=["res://.godot/imported/girl standing behind plant.jpg-7bd4e363f43e4e4cdfe42e6a35034d1f.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl standing behind plant.jpg-7bd4e363f43e4e4cdfe42e6a35034d1f.s3tc.ctex", "res://.godot/imported/girl standing behind plant.jpg-7bd4e363f43e4e4cdfe42e6a35034d1f.etc2.ctex"]
 
 [params]
 

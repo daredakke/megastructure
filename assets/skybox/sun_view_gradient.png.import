@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxiuy5rxkqcr4"
 path.s3tc="res://.godot/imported/sun_view_gradient.png-56b4abb69d77634469be95f588d91bf2.s3tc.ctex"
+path.etc2="res://.godot/imported/sun_view_gradient.png-56b4abb69d77634469be95f588d91bf2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/skybox/sun_view_gradient.png"
-dest_files=["res://.godot/imported/sun_view_gradient.png-56b4abb69d77634469be95f588d91bf2.s3tc.ctex"]
+dest_files=["res://.godot/imported/sun_view_gradient.png-56b4abb69d77634469be95f588d91bf2.s3tc.ctex", "res://.godot/imported/sun_view_gradient.png-56b4abb69d77634469be95f588d91bf2.etc2.ctex"]
 
 [params]
 

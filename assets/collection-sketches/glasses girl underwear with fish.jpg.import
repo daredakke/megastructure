@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://6lhqtflvmcfu"
 path.s3tc="res://.godot/imported/glasses girl underwear with fish.jpg-e6b54a7b138118343c2a160af170f97c.s3tc.ctex"
+path.etc2="res://.godot/imported/glasses girl underwear with fish.jpg-e6b54a7b138118343c2a160af170f97c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/glasses girl underwear with fish.jpg"
-dest_files=["res://.godot/imported/glasses girl underwear with fish.jpg-e6b54a7b138118343c2a160af170f97c.s3tc.ctex"]
+dest_files=["res://.godot/imported/glasses girl underwear with fish.jpg-e6b54a7b138118343c2a160af170f97c.s3tc.ctex", "res://.godot/imported/glasses girl underwear with fish.jpg-e6b54a7b138118343c2a160af170f97c.etc2.ctex"]
 
 [params]
 

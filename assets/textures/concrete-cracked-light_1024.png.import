@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://1ppvs40l7vkw"
 path.s3tc="res://.godot/imported/concrete-cracked-light_1024.png-86a9d45a73508602f25c72569e5c4670.s3tc.ctex"
+path.etc2="res://.godot/imported/concrete-cracked-light_1024.png-86a9d45a73508602f25c72569e5c4670.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/textures/concrete-cracked-light_1024.png"
-dest_files=["res://.godot/imported/concrete-cracked-light_1024.png-86a9d45a73508602f25c72569e5c4670.s3tc.ctex"]
+dest_files=["res://.godot/imported/concrete-cracked-light_1024.png-86a9d45a73508602f25c72569e5c4670.s3tc.ctex", "res://.godot/imported/concrete-cracked-light_1024.png-86a9d45a73508602f25c72569e5c4670.etc2.ctex"]
 
 [params]
 

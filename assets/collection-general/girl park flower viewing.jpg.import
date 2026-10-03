@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg66ek431m3tt"
 path.s3tc="res://.godot/imported/girl park flower viewing.jpg-101edeae28e1ff6bf0e48bd7363a4b4b.s3tc.ctex"
+path.etc2="res://.godot/imported/girl park flower viewing.jpg-101edeae28e1ff6bf0e48bd7363a4b4b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl park flower viewing.jpg"
-dest_files=["res://.godot/imported/girl park flower viewing.jpg-101edeae28e1ff6bf0e48bd7363a4b4b.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl park flower viewing.jpg-101edeae28e1ff6bf0e48bd7363a4b4b.s3tc.ctex", "res://.godot/imported/girl park flower viewing.jpg-101edeae28e1ff6bf0e48bd7363a4b4b.etc2.ctex"]
 
 [params]
 

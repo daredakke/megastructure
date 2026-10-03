@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://u3g0g2hhqnmw"
 path.s3tc="res://.godot/imported/girl underwear street abstract.jpg-91db8fd6db324af9ab7d5f48835c484b.s3tc.ctex"
+path.etc2="res://.godot/imported/girl underwear street abstract.jpg-91db8fd6db324af9ab7d5f48835c484b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl underwear street abstract.jpg"
-dest_files=["res://.godot/imported/girl underwear street abstract.jpg-91db8fd6db324af9ab7d5f48835c484b.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl underwear street abstract.jpg-91db8fd6db324af9ab7d5f48835c484b.s3tc.ctex", "res://.godot/imported/girl underwear street abstract.jpg-91db8fd6db324af9ab7d5f48835c484b.etc2.ctex"]
 
 [params]
 

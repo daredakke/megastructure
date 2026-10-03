@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxlbo3efdkq3x"
 path.s3tc="res://.godot/imported/girl abstract autumn.jpg-2f013d58fe4fbebbe40aac3077444cae.s3tc.ctex"
+path.etc2="res://.godot/imported/girl abstract autumn.jpg-2f013d58fe4fbebbe40aac3077444cae.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl abstract autumn.jpg"
-dest_files=["res://.godot/imported/girl abstract autumn.jpg-2f013d58fe4fbebbe40aac3077444cae.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl abstract autumn.jpg-2f013d58fe4fbebbe40aac3077444cae.s3tc.ctex", "res://.godot/imported/girl abstract autumn.jpg-2f013d58fe4fbebbe40aac3077444cae.etc2.ctex"]
 
 [params]
 

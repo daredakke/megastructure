@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5xtc82vbraat"
 path.s3tc="res://.godot/imported/Window_supports_metal-galvanised-dark_512.png-69844cffd7cc7798e79b42b59c0fdf68.s3tc.ctex"
+path.etc2="res://.godot/imported/Window_supports_metal-galvanised-dark_512.png-69844cffd7cc7798e79b42b59c0fdf68.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery/Window_supports_metal-galvanised-dark_512.png"
-dest_files=["res://.godot/imported/Window_supports_metal-galvanised-dark_512.png-69844cffd7cc7798e79b42b59c0fdf68.s3tc.ctex"]
+dest_files=["res://.godot/imported/Window_supports_metal-galvanised-dark_512.png-69844cffd7cc7798e79b42b59c0fdf68.s3tc.ctex", "res://.godot/imported/Window_supports_metal-galvanised-dark_512.png-69844cffd7cc7798e79b42b59c0fdf68.etc2.ctex"]
 
 [params]
 

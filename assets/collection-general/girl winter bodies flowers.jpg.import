@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cohjyxnkjjwc5"
 path.s3tc="res://.godot/imported/girl winter bodies flowers.jpg-05b3191a9eb54e263facef4faa7dd2cb.s3tc.ctex"
+path.etc2="res://.godot/imported/girl winter bodies flowers.jpg-05b3191a9eb54e263facef4faa7dd2cb.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl winter bodies flowers.jpg"
-dest_files=["res://.godot/imported/girl winter bodies flowers.jpg-05b3191a9eb54e263facef4faa7dd2cb.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl winter bodies flowers.jpg-05b3191a9eb54e263facef4faa7dd2cb.s3tc.ctex", "res://.godot/imported/girl winter bodies flowers.jpg-05b3191a9eb54e263facef4faa7dd2cb.etc2.ctex"]
 
 [params]
 

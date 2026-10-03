@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://baemxcdrv8yox"
 path.s3tc="res://.godot/imported/girl underwear baguette.jpg-9abc913d463e84ef67e2bf506fff7a5e.s3tc.ctex"
+path.etc2="res://.godot/imported/girl underwear baguette.jpg-9abc913d463e84ef67e2bf506fff7a5e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl underwear baguette.jpg"
-dest_files=["res://.godot/imported/girl underwear baguette.jpg-9abc913d463e84ef67e2bf506fff7a5e.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl underwear baguette.jpg-9abc913d463e84ef67e2bf506fff7a5e.s3tc.ctex", "res://.godot/imported/girl underwear baguette.jpg-9abc913d463e84ef67e2bf506fff7a5e.etc2.ctex"]
 
 [params]
 

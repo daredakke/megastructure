@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://3ev2ck4kej3h"
 path.s3tc="res://.godot/imported/metal-galvanised-dark_1024.png-d3a8197fa6a47a3a29605342ab247af0.s3tc.ctex"
+path.etc2="res://.godot/imported/metal-galvanised-dark_1024.png-d3a8197fa6a47a3a29605342ab247af0.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/textures/metal-galvanised-dark_1024.png"
-dest_files=["res://.godot/imported/metal-galvanised-dark_1024.png-d3a8197fa6a47a3a29605342ab247af0.s3tc.ctex"]
+dest_files=["res://.godot/imported/metal-galvanised-dark_1024.png-d3a8197fa6a47a3a29605342ab247af0.s3tc.ctex", "res://.godot/imported/metal-galvanised-dark_1024.png-d3a8197fa6a47a3a29605342ab247af0.etc2.ctex"]
 
 [params]
 

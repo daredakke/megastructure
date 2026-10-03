@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://7ertb6gd11p"
 path.s3tc="res://.godot/imported/girl buried in desert night.jpg-497e0ada598de8a1f85592eb18a214b1.s3tc.ctex"
+path.etc2="res://.godot/imported/girl buried in desert night.jpg-497e0ada598de8a1f85592eb18a214b1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl buried in desert night.jpg"
-dest_files=["res://.godot/imported/girl buried in desert night.jpg-497e0ada598de8a1f85592eb18a214b1.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl buried in desert night.jpg-497e0ada598de8a1f85592eb18a214b1.s3tc.ctex", "res://.godot/imported/girl buried in desert night.jpg-497e0ada598de8a1f85592eb18a214b1.etc2.ctex"]
 
 [params]
 

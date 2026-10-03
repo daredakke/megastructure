@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4ohrel4jcpl1"
 path.s3tc="res://.godot/imported/shimajime classroom serious.png-f8cf0925f225fd162c96ece27bbbbd82.s3tc.ctex"
+path.etc2="res://.godot/imported/shimajime classroom serious.png-f8cf0925f225fd162c96ece27bbbbd82.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimajime classroom serious.png"
-dest_files=["res://.godot/imported/shimajime classroom serious.png-f8cf0925f225fd162c96ece27bbbbd82.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimajime classroom serious.png-f8cf0925f225fd162c96ece27bbbbd82.s3tc.ctex", "res://.godot/imported/shimajime classroom serious.png-f8cf0925f225fd162c96ece27bbbbd82.etc2.ctex"]
 
 [params]
 

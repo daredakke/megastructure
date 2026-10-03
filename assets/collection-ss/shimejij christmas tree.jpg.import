@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://daog0drresbu0"
 path.s3tc="res://.godot/imported/shimejij christmas tree.jpg-2d00897b377526f4f7381293ae94757c.s3tc.ctex"
+path.etc2="res://.godot/imported/shimejij christmas tree.jpg-2d00897b377526f4f7381293ae94757c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimejij christmas tree.jpg"
-dest_files=["res://.godot/imported/shimejij christmas tree.jpg-2d00897b377526f4f7381293ae94757c.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimejij christmas tree.jpg-2d00897b377526f4f7381293ae94757c.s3tc.ctex", "res://.godot/imported/shimejij christmas tree.jpg-2d00897b377526f4f7381293ae94757c.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cavhyxtf2nqkh"
 path.s3tc="res://.godot/imported/chito yuuri cactus desert.jpg-c1f0992966fbf52b5787e846b88ac798.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri cactus desert.jpg-c1f0992966fbf52b5787e846b88ac798.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri cactus desert.jpg"
-dest_files=["res://.godot/imported/chito yuuri cactus desert.jpg-c1f0992966fbf52b5787e846b88ac798.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri cactus desert.jpg-c1f0992966fbf52b5787e846b88ac798.s3tc.ctex", "res://.godot/imported/chito yuuri cactus desert.jpg-c1f0992966fbf52b5787e846b88ac798.etc2.ctex"]
 
 [params]
 

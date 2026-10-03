@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwyr0sxreuqvi"
 path.s3tc="res://.godot/imported/concrete-smooth-dark_1024.png-b1c73587e6d2b86492254684d382557f.s3tc.ctex"
+path.etc2="res://.godot/imported/concrete-smooth-dark_1024.png-b1c73587e6d2b86492254684d382557f.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/textures/concrete-smooth-dark_1024.png"
-dest_files=["res://.godot/imported/concrete-smooth-dark_1024.png-b1c73587e6d2b86492254684d382557f.s3tc.ctex"]
+dest_files=["res://.godot/imported/concrete-smooth-dark_1024.png-b1c73587e6d2b86492254684d382557f.s3tc.ctex", "res://.godot/imported/concrete-smooth-dark_1024.png-b1c73587e6d2b86492254684d382557f.etc2.ctex"]
 
 [params]
 

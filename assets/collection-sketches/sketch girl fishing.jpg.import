@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://crye2sjwt41yi"
 path.s3tc="res://.godot/imported/sketch girl fishing.jpg-a7ee07258f5023693c6674e1719a5b80.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girl fishing.jpg-a7ee07258f5023693c6674e1719a5b80.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girl fishing.jpg"
-dest_files=["res://.godot/imported/sketch girl fishing.jpg-a7ee07258f5023693c6674e1719a5b80.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girl fishing.jpg-a7ee07258f5023693c6674e1719a5b80.s3tc.ctex", "res://.godot/imported/sketch girl fishing.jpg-a7ee07258f5023693c6674e1719a5b80.etc2.ctex"]
 
 [params]
 

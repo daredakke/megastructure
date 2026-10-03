@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwcwmgkyj1ftl"
 path.s3tc="res://.godot/imported/girl fish skewer.jpg-5b8b3a0e35571cf29685e6f8abb1f364.s3tc.ctex"
+path.etc2="res://.godot/imported/girl fish skewer.jpg-5b8b3a0e35571cf29685e6f8abb1f364.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl fish skewer.jpg"
-dest_files=["res://.godot/imported/girl fish skewer.jpg-5b8b3a0e35571cf29685e6f8abb1f364.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl fish skewer.jpg-5b8b3a0e35571cf29685e6f8abb1f364.s3tc.ctex", "res://.godot/imported/girl fish skewer.jpg-5b8b3a0e35571cf29685e6f8abb1f364.etc2.ctex"]
 
 [params]
 

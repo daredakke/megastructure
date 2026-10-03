@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://djl8rlqniqtpv"
 path.s3tc="res://.godot/imported/sketch girls sleeping one standing.jpg-dfb6063fb213a0f9b954f75b1f60501c.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girls sleeping one standing.jpg-dfb6063fb213a0f9b954f75b1f60501c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girls sleeping one standing.jpg"
-dest_files=["res://.godot/imported/sketch girls sleeping one standing.jpg-dfb6063fb213a0f9b954f75b1f60501c.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girls sleeping one standing.jpg-dfb6063fb213a0f9b954f75b1f60501c.s3tc.ctex", "res://.godot/imported/sketch girls sleeping one standing.jpg-dfb6063fb213a0f9b954f75b1f60501c.etc2.ctex"]
 
 [params]
 

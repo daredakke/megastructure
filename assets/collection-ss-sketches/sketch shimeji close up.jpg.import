@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdeu6uoiutbpd"
 path.s3tc="res://.godot/imported/sketch shimeji close up.jpg-05fed97f5ef3f42f0766a8986639f6e3.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch shimeji close up.jpg-05fed97f5ef3f42f0766a8986639f6e3.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss-sketches/sketch shimeji close up.jpg"
-dest_files=["res://.godot/imported/sketch shimeji close up.jpg-05fed97f5ef3f42f0766a8986639f6e3.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch shimeji close up.jpg-05fed97f5ef3f42f0766a8986639f6e3.s3tc.ctex", "res://.godot/imported/sketch shimeji close up.jpg-05fed97f5ef3f42f0766a8986639f6e3.etc2.ctex"]
 
 [params]
 

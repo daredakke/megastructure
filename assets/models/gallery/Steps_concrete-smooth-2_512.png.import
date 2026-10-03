@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://gxb1iaax4emi"
 path.s3tc="res://.godot/imported/Steps_concrete-smooth-2_512.png-52737a9327d724772a4a63e858631722.s3tc.ctex"
+path.etc2="res://.godot/imported/Steps_concrete-smooth-2_512.png-52737a9327d724772a4a63e858631722.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery/Steps_concrete-smooth-2_512.png"
-dest_files=["res://.godot/imported/Steps_concrete-smooth-2_512.png-52737a9327d724772a4a63e858631722.s3tc.ctex"]
+dest_files=["res://.godot/imported/Steps_concrete-smooth-2_512.png-52737a9327d724772a4a63e858631722.s3tc.ctex", "res://.godot/imported/Steps_concrete-smooth-2_512.png-52737a9327d724772a4a63e858631722.etc2.ctex"]
 
 [params]
 

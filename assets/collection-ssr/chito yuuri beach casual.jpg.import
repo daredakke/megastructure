@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dydlo5hqu0gtx"
 path.s3tc="res://.godot/imported/chito yuuri beach casual.jpg-a626b617fa8694434c4cb0b3bf9b275e.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri beach casual.jpg-a626b617fa8694434c4cb0b3bf9b275e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri beach casual.jpg"
-dest_files=["res://.godot/imported/chito yuuri beach casual.jpg-a626b617fa8694434c4cb0b3bf9b275e.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri beach casual.jpg-a626b617fa8694434c4cb0b3bf9b275e.s3tc.ctex", "res://.godot/imported/chito yuuri beach casual.jpg-a626b617fa8694434c4cb0b3bf9b275e.etc2.ctex"]
 
 [params]
 

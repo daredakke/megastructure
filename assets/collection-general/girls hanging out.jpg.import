@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://16wrouakkcva"
 path.s3tc="res://.godot/imported/girls hanging out.jpg-0391148c7fc360e978e85c5e41b2968f.s3tc.ctex"
+path.etc2="res://.godot/imported/girls hanging out.jpg-0391148c7fc360e978e85c5e41b2968f.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girls hanging out.jpg"
-dest_files=["res://.godot/imported/girls hanging out.jpg-0391148c7fc360e978e85c5e41b2968f.s3tc.ctex"]
+dest_files=["res://.godot/imported/girls hanging out.jpg-0391148c7fc360e978e85c5e41b2968f.s3tc.ctex", "res://.godot/imported/girls hanging out.jpg-0391148c7fc360e978e85c5e41b2968f.etc2.ctex"]
 
 [params]
 

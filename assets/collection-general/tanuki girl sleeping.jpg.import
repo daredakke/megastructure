@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://du6g33w46b1es"
 path.s3tc="res://.godot/imported/tanuki girl sleeping.jpg-6f7de90c56971322bf2663b27d6f3f28.s3tc.ctex"
+path.etc2="res://.godot/imported/tanuki girl sleeping.jpg-6f7de90c56971322bf2663b27d6f3f28.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/tanuki girl sleeping.jpg"
-dest_files=["res://.godot/imported/tanuki girl sleeping.jpg-6f7de90c56971322bf2663b27d6f3f28.s3tc.ctex"]
+dest_files=["res://.godot/imported/tanuki girl sleeping.jpg-6f7de90c56971322bf2663b27d6f3f28.s3tc.ctex", "res://.godot/imported/tanuki girl sleeping.jpg-6f7de90c56971322bf2663b27d6f3f28.etc2.ctex"]
 
 [params]
 

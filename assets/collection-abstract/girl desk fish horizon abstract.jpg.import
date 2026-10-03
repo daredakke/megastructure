@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccix6x6wx24ap"
 path.s3tc="res://.godot/imported/girl desk fish horizon abstract.jpg-4b39ae340cc65a7a6e0a22943c1948ab.s3tc.ctex"
+path.etc2="res://.godot/imported/girl desk fish horizon abstract.jpg-4b39ae340cc65a7a6e0a22943c1948ab.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl desk fish horizon abstract.jpg"
-dest_files=["res://.godot/imported/girl desk fish horizon abstract.jpg-4b39ae340cc65a7a6e0a22943c1948ab.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl desk fish horizon abstract.jpg-4b39ae340cc65a7a6e0a22943c1948ab.s3tc.ctex", "res://.godot/imported/girl desk fish horizon abstract.jpg-4b39ae340cc65a7a6e0a22943c1948ab.etc2.ctex"]
 
 [params]
 

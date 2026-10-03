@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6003lp4e3dem"
 path.s3tc="res://.godot/imported/girl strange flowers abstract.jpg-ee4ccd1a2878abceb2df759c9b852ea0.s3tc.ctex"
+path.etc2="res://.godot/imported/girl strange flowers abstract.jpg-ee4ccd1a2878abceb2df759c9b852ea0.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl strange flowers abstract.jpg"
-dest_files=["res://.godot/imported/girl strange flowers abstract.jpg-ee4ccd1a2878abceb2df759c9b852ea0.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl strange flowers abstract.jpg-ee4ccd1a2878abceb2df759c9b852ea0.s3tc.ctex", "res://.godot/imported/girl strange flowers abstract.jpg-ee4ccd1a2878abceb2df759c9b852ea0.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ber3y4imm6y3r"
 path.s3tc="res://.godot/imported/shimeji amongst dark blocks.jpg-5366a3f6d5e6802fd1fb4a5cdffec3d8.s3tc.ctex"
+path.etc2="res://.godot/imported/shimeji amongst dark blocks.jpg-5366a3f6d5e6802fd1fb4a5cdffec3d8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimeji amongst dark blocks.jpg"
-dest_files=["res://.godot/imported/shimeji amongst dark blocks.jpg-5366a3f6d5e6802fd1fb4a5cdffec3d8.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimeji amongst dark blocks.jpg-5366a3f6d5e6802fd1fb4a5cdffec3d8.s3tc.ctex", "res://.godot/imported/shimeji amongst dark blocks.jpg-5366a3f6d5e6802fd1fb4a5cdffec3d8.etc2.ctex"]
 
 [params]
 

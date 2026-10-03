@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c14f76gam1n4p"
 path.s3tc="res://.godot/imported/eel does not want to bend.jpg-1dc70b5dbfdaae183e14a49fd4f55de1.s3tc.ctex"
+path.etc2="res://.godot/imported/eel does not want to bend.jpg-1dc70b5dbfdaae183e14a49fd4f55de1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/eel does not want to bend.jpg"
-dest_files=["res://.godot/imported/eel does not want to bend.jpg-1dc70b5dbfdaae183e14a49fd4f55de1.s3tc.ctex"]
+dest_files=["res://.godot/imported/eel does not want to bend.jpg-1dc70b5dbfdaae183e14a49fd4f55de1.s3tc.ctex", "res://.godot/imported/eel does not want to bend.jpg-1dc70b5dbfdaae183e14a49fd4f55de1.etc2.ctex"]
 
 [params]
 

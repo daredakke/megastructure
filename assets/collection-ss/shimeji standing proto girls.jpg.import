@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://jtuem1biwejp"
 path.s3tc="res://.godot/imported/shimeji standing proto girls.jpg-e534846d521ea7e80b670d67f5ed3aeb.s3tc.ctex"
+path.etc2="res://.godot/imported/shimeji standing proto girls.jpg-e534846d521ea7e80b670d67f5ed3aeb.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimeji standing proto girls.jpg"
-dest_files=["res://.godot/imported/shimeji standing proto girls.jpg-e534846d521ea7e80b670d67f5ed3aeb.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimeji standing proto girls.jpg-e534846d521ea7e80b670d67f5ed3aeb.s3tc.ctex", "res://.godot/imported/shimeji standing proto girls.jpg-e534846d521ea7e80b670d67f5ed3aeb.etc2.ctex"]
 
 [params]
 

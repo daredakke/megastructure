@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjaxkbgh47n81"
 path.s3tc="res://.godot/imported/shimeji tanabata.jpg-a34d44e761b2aadf2f1a1cde33eeacfd.s3tc.ctex"
+path.etc2="res://.godot/imported/shimeji tanabata.jpg-a34d44e761b2aadf2f1a1cde33eeacfd.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimeji tanabata.jpg"
-dest_files=["res://.godot/imported/shimeji tanabata.jpg-a34d44e761b2aadf2f1a1cde33eeacfd.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimeji tanabata.jpg-a34d44e761b2aadf2f1a1cde33eeacfd.s3tc.ctex", "res://.godot/imported/shimeji tanabata.jpg-a34d44e761b2aadf2f1a1cde33eeacfd.etc2.ctex"]
 
 [params]
 

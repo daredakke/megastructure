@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfn356anh3f30"
 path.s3tc="res://.godot/imported/Courtyard_railing_metal-galvanised-dark_512.png-1ee8aff1b7ecd1d7ce03a70233a21183.s3tc.ctex"
+path.etc2="res://.godot/imported/Courtyard_railing_metal-galvanised-dark_512.png-1ee8aff1b7ecd1d7ce03a70233a21183.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery/Courtyard_railing_metal-galvanised-dark_512.png"
-dest_files=["res://.godot/imported/Courtyard_railing_metal-galvanised-dark_512.png-1ee8aff1b7ecd1d7ce03a70233a21183.s3tc.ctex"]
+dest_files=["res://.godot/imported/Courtyard_railing_metal-galvanised-dark_512.png-1ee8aff1b7ecd1d7ce03a70233a21183.s3tc.ctex", "res://.godot/imported/Courtyard_railing_metal-galvanised-dark_512.png-1ee8aff1b7ecd1d7ce03a70233a21183.etc2.ctex"]
 
 [params]
 

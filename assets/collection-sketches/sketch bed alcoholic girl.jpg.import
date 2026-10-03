@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4xwb2v3tkh0x"
 path.s3tc="res://.godot/imported/sketch bed alcoholic girl.jpg-25247b25f0095968369f972c3d483681.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch bed alcoholic girl.jpg-25247b25f0095968369f972c3d483681.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch bed alcoholic girl.jpg"
-dest_files=["res://.godot/imported/sketch bed alcoholic girl.jpg-25247b25f0095968369f972c3d483681.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch bed alcoholic girl.jpg-25247b25f0095968369f972c3d483681.s3tc.ctex", "res://.godot/imported/sketch bed alcoholic girl.jpg-25247b25f0095968369f972c3d483681.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://pkj2u646o4g7"
 path.s3tc="res://.godot/imported/chito yuuri beach night.jpg-d64500fbdfb60c36f016e8354401f13c.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri beach night.jpg-d64500fbdfb60c36f016e8354401f13c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri beach night.jpg"
-dest_files=["res://.godot/imported/chito yuuri beach night.jpg-d64500fbdfb60c36f016e8354401f13c.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri beach night.jpg-d64500fbdfb60c36f016e8354401f13c.s3tc.ctex", "res://.godot/imported/chito yuuri beach night.jpg-d64500fbdfb60c36f016e8354401f13c.etc2.ctex"]
 
 [params]
 

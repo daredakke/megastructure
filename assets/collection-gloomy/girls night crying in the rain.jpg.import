@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bd6a8ayr6x7tq"
 path.s3tc="res://.godot/imported/girls night crying in the rain.jpg-83270255d8360bb8433219a47a5a9b36.s3tc.ctex"
+path.etc2="res://.godot/imported/girls night crying in the rain.jpg-83270255d8360bb8433219a47a5a9b36.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/girls night crying in the rain.jpg"
-dest_files=["res://.godot/imported/girls night crying in the rain.jpg-83270255d8360bb8433219a47a5a9b36.s3tc.ctex"]
+dest_files=["res://.godot/imported/girls night crying in the rain.jpg-83270255d8360bb8433219a47a5a9b36.s3tc.ctex", "res://.godot/imported/girls night crying in the rain.jpg-83270255d8360bb8433219a47a5a9b36.etc2.ctex"]
 
 [params]
 

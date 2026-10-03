@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvyc1hj75n0by"
 path.s3tc="res://.godot/imported/ssr game screenshot 2.jpg-871f141c9348ba41957990ddb4835eb4.s3tc.ctex"
+path.etc2="res://.godot/imported/ssr game screenshot 2.jpg-871f141c9348ba41957990ddb4835eb4.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/ssr game screenshot 2.jpg"
-dest_files=["res://.godot/imported/ssr game screenshot 2.jpg-871f141c9348ba41957990ddb4835eb4.s3tc.ctex"]
+dest_files=["res://.godot/imported/ssr game screenshot 2.jpg-871f141c9348ba41957990ddb4835eb4.s3tc.ctex", "res://.godot/imported/ssr game screenshot 2.jpg-871f141c9348ba41957990ddb4835eb4.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj7er6ogtoxwu"
 path.s3tc="res://.godot/imported/glasses girl amongst flowers.jpg-1ca7a60893e9434bf69009f38fd08d72.s3tc.ctex"
+path.etc2="res://.godot/imported/glasses girl amongst flowers.jpg-1ca7a60893e9434bf69009f38fd08d72.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/glasses girl amongst flowers.jpg"
-dest_files=["res://.godot/imported/glasses girl amongst flowers.jpg-1ca7a60893e9434bf69009f38fd08d72.s3tc.ctex"]
+dest_files=["res://.godot/imported/glasses girl amongst flowers.jpg-1ca7a60893e9434bf69009f38fd08d72.s3tc.ctex", "res://.godot/imported/glasses girl amongst flowers.jpg-1ca7a60893e9434bf69009f38fd08d72.etc2.ctex"]
 
 [params]
 

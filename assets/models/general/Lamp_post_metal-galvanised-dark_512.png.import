@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvk7g7mrimlmx"
 path.s3tc="res://.godot/imported/Lamp_post_metal-galvanised-dark_512.png-f633210125f913d14e405020a77971ee.s3tc.ctex"
+path.etc2="res://.godot/imported/Lamp_post_metal-galvanised-dark_512.png-f633210125f913d14e405020a77971ee.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/general/Lamp_post_metal-galvanised-dark_512.png"
-dest_files=["res://.godot/imported/Lamp_post_metal-galvanised-dark_512.png-f633210125f913d14e405020a77971ee.s3tc.ctex"]
+dest_files=["res://.godot/imported/Lamp_post_metal-galvanised-dark_512.png-f633210125f913d14e405020a77971ee.s3tc.ctex", "res://.godot/imported/Lamp_post_metal-galvanised-dark_512.png-f633210125f913d14e405020a77971ee.etc2.ctex"]
 
 [params]
 

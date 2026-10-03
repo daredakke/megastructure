@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpioci477l0ds"
 path.s3tc="res://.godot/imported/girl sleeping fish.jpg-05eba6c7b949b6826035965821999cfb.s3tc.ctex"
+path.etc2="res://.godot/imported/girl sleeping fish.jpg-05eba6c7b949b6826035965821999cfb.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/girl sleeping fish.jpg"
-dest_files=["res://.godot/imported/girl sleeping fish.jpg-05eba6c7b949b6826035965821999cfb.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl sleeping fish.jpg-05eba6c7b949b6826035965821999cfb.s3tc.ctex", "res://.godot/imported/girl sleeping fish.jpg-05eba6c7b949b6826035965821999cfb.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhvm7ckb0jnv0"
 path.s3tc="res://.godot/imported/metal-worn-dark_1024.png-0a3bb108e521d2d1a522379478090965.s3tc.ctex"
+path.etc2="res://.godot/imported/metal-worn-dark_1024.png-0a3bb108e521d2d1a522379478090965.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/textures/metal-worn-dark_1024.png"
-dest_files=["res://.godot/imported/metal-worn-dark_1024.png-0a3bb108e521d2d1a522379478090965.s3tc.ctex"]
+dest_files=["res://.godot/imported/metal-worn-dark_1024.png-0a3bb108e521d2d1a522379478090965.s3tc.ctex", "res://.godot/imported/metal-worn-dark_1024.png-0a3bb108e521d2d1a522379478090965.etc2.ctex"]
 
 [params]
 

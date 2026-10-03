@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj87fk7nc8jej"
 path.s3tc="res://.godot/imported/sketch scientist girl smoking.jpg-5f64c6f65fecb7aa58763b326b89006e.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch scientist girl smoking.jpg-5f64c6f65fecb7aa58763b326b89006e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch scientist girl smoking.jpg"
-dest_files=["res://.godot/imported/sketch scientist girl smoking.jpg-5f64c6f65fecb7aa58763b326b89006e.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch scientist girl smoking.jpg-5f64c6f65fecb7aa58763b326b89006e.s3tc.ctex", "res://.godot/imported/sketch scientist girl smoking.jpg-5f64c6f65fecb7aa58763b326b89006e.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d5btwnb3etb3"
 path.s3tc="res://.godot/imported/sis shimeji table oranges.jpg-7b03661cbbbfb6709c24e352ec642d21.s3tc.ctex"
+path.etc2="res://.godot/imported/sis shimeji table oranges.jpg-7b03661cbbbfb6709c24e352ec642d21.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/sis shimeji table oranges.jpg"
-dest_files=["res://.godot/imported/sis shimeji table oranges.jpg-7b03661cbbbfb6709c24e352ec642d21.s3tc.ctex"]
+dest_files=["res://.godot/imported/sis shimeji table oranges.jpg-7b03661cbbbfb6709c24e352ec642d21.s3tc.ctex", "res://.godot/imported/sis shimeji table oranges.jpg-7b03661cbbbfb6709c24e352ec642d21.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsha5ape1umlu"
 path.s3tc="res://.godot/imported/proto shimeji.jpg-9f031c2e5f78dc35e76f265bf82100c4.s3tc.ctex"
+path.etc2="res://.godot/imported/proto shimeji.jpg-9f031c2e5f78dc35e76f265bf82100c4.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/proto shimeji.jpg"
-dest_files=["res://.godot/imported/proto shimeji.jpg-9f031c2e5f78dc35e76f265bf82100c4.s3tc.ctex"]
+dest_files=["res://.godot/imported/proto shimeji.jpg-9f031c2e5f78dc35e76f265bf82100c4.s3tc.ctex", "res://.godot/imported/proto shimeji.jpg-9f031c2e5f78dc35e76f265bf82100c4.etc2.ctex"]
 
 [params]
 

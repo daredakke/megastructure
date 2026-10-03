@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://0h4x3yvgg0gd"
 path.s3tc="res://.godot/imported/n9.jpg-62d1112ef6d5f4cc9d3ed08fc0c0e991.s3tc.ctex"
+path.etc2="res://.godot/imported/n9.jpg-62d1112ef6d5f4cc9d3ed08fc0c0e991.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/n9.jpg"
-dest_files=["res://.godot/imported/n9.jpg-62d1112ef6d5f4cc9d3ed08fc0c0e991.s3tc.ctex"]
+dest_files=["res://.godot/imported/n9.jpg-62d1112ef6d5f4cc9d3ed08fc0c0e991.s3tc.ctex", "res://.godot/imported/n9.jpg-62d1112ef6d5f4cc9d3ed08fc0c0e991.etc2.ctex"]
 
 [params]
 

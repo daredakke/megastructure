@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7wab0at2yj5g"
 path.s3tc="res://.godot/imported/girls flowers at a funeral.jpg-2cd85674454420964787588f7f0f50d7.s3tc.ctex"
+path.etc2="res://.godot/imported/girls flowers at a funeral.jpg-2cd85674454420964787588f7f0f50d7.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/girls flowers at a funeral.jpg"
-dest_files=["res://.godot/imported/girls flowers at a funeral.jpg-2cd85674454420964787588f7f0f50d7.s3tc.ctex"]
+dest_files=["res://.godot/imported/girls flowers at a funeral.jpg-2cd85674454420964787588f7f0f50d7.s3tc.ctex", "res://.godot/imported/girls flowers at a funeral.jpg-2cd85674454420964787588f7f0f50d7.etc2.ctex"]
 
 [params]
 

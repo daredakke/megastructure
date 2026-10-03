@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cttv8orcedulr"
 path.s3tc="res://.godot/imported/Guide_floor-guide.png-5141e8031ed98d86e1e3181ba2b514b8.s3tc.ctex"
+path.etc2="res://.godot/imported/Guide_floor-guide.png-5141e8031ed98d86e1e3181ba2b514b8.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery-signs/Guide_floor-guide.png"
-dest_files=["res://.godot/imported/Guide_floor-guide.png-5141e8031ed98d86e1e3181ba2b514b8.s3tc.ctex"]
+dest_files=["res://.godot/imported/Guide_floor-guide.png-5141e8031ed98d86e1e3181ba2b514b8.s3tc.ctex", "res://.godot/imported/Guide_floor-guide.png-5141e8031ed98d86e1e3181ba2b514b8.etc2.ctex"]
 
 [params]
 

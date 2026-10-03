@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c816ghegij8ej"
 path.s3tc="res://.godot/imported/chito yuuri university.jpg-18678c7abc1adb18e8fb8ee397f5cdcd.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri university.jpg-18678c7abc1adb18e8fb8ee397f5cdcd.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri university.jpg"
-dest_files=["res://.godot/imported/chito yuuri university.jpg-18678c7abc1adb18e8fb8ee397f5cdcd.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri university.jpg-18678c7abc1adb18e8fb8ee397f5cdcd.s3tc.ctex", "res://.godot/imported/chito yuuri university.jpg-18678c7abc1adb18e8fb8ee397f5cdcd.etc2.ctex"]
 
 [params]
 

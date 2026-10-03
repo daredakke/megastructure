@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba26g2q3m1oeg"
 path.s3tc="res://.godot/imported/sketch girls.jpg-4aec08968511fe3782a7759edaa2e550.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girls.jpg-4aec08968511fe3782a7759edaa2e550.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girls.jpg"
-dest_files=["res://.godot/imported/sketch girls.jpg-4aec08968511fe3782a7759edaa2e550.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girls.jpg-4aec08968511fe3782a7759edaa2e550.s3tc.ctex", "res://.godot/imported/sketch girls.jpg-4aec08968511fe3782a7759edaa2e550.etc2.ctex"]
 
 [params]
 

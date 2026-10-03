@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxq6exgh3pbb7"
 path.s3tc="res://.godot/imported/chito yuuri morning.jpg-79fb88024ccba6f79f7ff701c2e9309c.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri morning.jpg-79fb88024ccba6f79f7ff701c2e9309c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri morning.jpg"
-dest_files=["res://.godot/imported/chito yuuri morning.jpg-79fb88024ccba6f79f7ff701c2e9309c.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri morning.jpg-79fb88024ccba6f79f7ff701c2e9309c.s3tc.ctex", "res://.godot/imported/chito yuuri morning.jpg-79fb88024ccba6f79f7ff701c2e9309c.etc2.ctex"]
 
 [params]
 

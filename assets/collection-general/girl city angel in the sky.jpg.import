@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ka7ojvj2jntu"
 path.s3tc="res://.godot/imported/girl city angel in the sky.jpg-ba9dd4cb3c579b55b340198688435b52.s3tc.ctex"
+path.etc2="res://.godot/imported/girl city angel in the sky.jpg-ba9dd4cb3c579b55b340198688435b52.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl city angel in the sky.jpg"
-dest_files=["res://.godot/imported/girl city angel in the sky.jpg-ba9dd4cb3c579b55b340198688435b52.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl city angel in the sky.jpg-ba9dd4cb3c579b55b340198688435b52.s3tc.ctex", "res://.godot/imported/girl city angel in the sky.jpg-ba9dd4cb3c579b55b340198688435b52.etc2.ctex"]
 
 [params]
 

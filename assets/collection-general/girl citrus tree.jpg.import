@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://br6lw03law1i3"
 path.s3tc="res://.godot/imported/girl citrus tree.jpg-9eff617ef2cf8b25bcf6ede81ab6e052.s3tc.ctex"
+path.etc2="res://.godot/imported/girl citrus tree.jpg-9eff617ef2cf8b25bcf6ede81ab6e052.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl citrus tree.jpg"
-dest_files=["res://.godot/imported/girl citrus tree.jpg-9eff617ef2cf8b25bcf6ede81ab6e052.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl citrus tree.jpg-9eff617ef2cf8b25bcf6ede81ab6e052.s3tc.ctex", "res://.godot/imported/girl citrus tree.jpg-9eff617ef2cf8b25bcf6ede81ab6e052.etc2.ctex"]
 
 [params]
 

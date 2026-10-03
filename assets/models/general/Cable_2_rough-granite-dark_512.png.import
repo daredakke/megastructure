@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://msr60gt20gk"
 path.s3tc="res://.godot/imported/Cable_2_rough-granite-dark_512.png-08caecb8d93e898b66be9232331a1364.s3tc.ctex"
+path.etc2="res://.godot/imported/Cable_2_rough-granite-dark_512.png-08caecb8d93e898b66be9232331a1364.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/general/Cable_2_rough-granite-dark_512.png"
-dest_files=["res://.godot/imported/Cable_2_rough-granite-dark_512.png-08caecb8d93e898b66be9232331a1364.s3tc.ctex"]
+dest_files=["res://.godot/imported/Cable_2_rough-granite-dark_512.png-08caecb8d93e898b66be9232331a1364.s3tc.ctex", "res://.godot/imported/Cable_2_rough-granite-dark_512.png-08caecb8d93e898b66be9232331a1364.etc2.ctex"]
 
 [params]
 

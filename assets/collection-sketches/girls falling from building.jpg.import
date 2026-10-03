@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://car7wqt5a2exl"
 path.s3tc="res://.godot/imported/girls falling from building.jpg-531c499b2af7ee606645639b7363b499.s3tc.ctex"
+path.etc2="res://.godot/imported/girls falling from building.jpg-531c499b2af7ee606645639b7363b499.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/girls falling from building.jpg"
-dest_files=["res://.godot/imported/girls falling from building.jpg-531c499b2af7ee606645639b7363b499.s3tc.ctex"]
+dest_files=["res://.godot/imported/girls falling from building.jpg-531c499b2af7ee606645639b7363b499.s3tc.ctex", "res://.godot/imported/girls falling from building.jpg-531c499b2af7ee606645639b7363b499.etc2.ctex"]
 
 [params]
 

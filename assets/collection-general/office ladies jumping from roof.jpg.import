@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c40ehrw34wb5t"
 path.s3tc="res://.godot/imported/office ladies jumping from roof.jpg-a5035cf02402ae1f9e7e14d672199529.s3tc.ctex"
+path.etc2="res://.godot/imported/office ladies jumping from roof.jpg-a5035cf02402ae1f9e7e14d672199529.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/office ladies jumping from roof.jpg"
-dest_files=["res://.godot/imported/office ladies jumping from roof.jpg-a5035cf02402ae1f9e7e14d672199529.s3tc.ctex"]
+dest_files=["res://.godot/imported/office ladies jumping from roof.jpg-a5035cf02402ae1f9e7e14d672199529.s3tc.ctex", "res://.godot/imported/office ladies jumping from roof.jpg-a5035cf02402ae1f9e7e14d672199529.etc2.ctex"]
 
 [params]
 

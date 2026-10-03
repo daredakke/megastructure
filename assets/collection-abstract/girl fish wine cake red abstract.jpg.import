@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5cn054feuvlb"
 path.s3tc="res://.godot/imported/girl fish wine cake red abstract.jpg-c6b53b1049a6b57c2838f984f7ddbf5b.s3tc.ctex"
+path.etc2="res://.godot/imported/girl fish wine cake red abstract.jpg-c6b53b1049a6b57c2838f984f7ddbf5b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl fish wine cake red abstract.jpg"
-dest_files=["res://.godot/imported/girl fish wine cake red abstract.jpg-c6b53b1049a6b57c2838f984f7ddbf5b.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl fish wine cake red abstract.jpg-c6b53b1049a6b57c2838f984f7ddbf5b.s3tc.ctex", "res://.godot/imported/girl fish wine cake red abstract.jpg-c6b53b1049a6b57c2838f984f7ddbf5b.etc2.ctex"]
 
 [params]
 

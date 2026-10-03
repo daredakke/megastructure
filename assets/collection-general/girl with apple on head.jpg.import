@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvj8077ljlk2a"
 path.s3tc="res://.godot/imported/girl with apple on head.jpg-0d64b6a7aa0c08a0f91dbf0a9b577c31.s3tc.ctex"
+path.etc2="res://.godot/imported/girl with apple on head.jpg-0d64b6a7aa0c08a0f91dbf0a9b577c31.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl with apple on head.jpg"
-dest_files=["res://.godot/imported/girl with apple on head.jpg-0d64b6a7aa0c08a0f91dbf0a9b577c31.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl with apple on head.jpg-0d64b6a7aa0c08a0f91dbf0a9b577c31.s3tc.ctex", "res://.godot/imported/girl with apple on head.jpg-0d64b6a7aa0c08a0f91dbf0a9b577c31.etc2.ctex"]
 
 [params]
 

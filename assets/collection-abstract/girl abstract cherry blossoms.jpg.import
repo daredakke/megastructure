@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmt65fqu0r18h"
 path.s3tc="res://.godot/imported/girl abstract cherry blossoms.jpg-fd1771dae0c0d9ca5ec86f02dc0b52de.s3tc.ctex"
+path.etc2="res://.godot/imported/girl abstract cherry blossoms.jpg-fd1771dae0c0d9ca5ec86f02dc0b52de.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl abstract cherry blossoms.jpg"
-dest_files=["res://.godot/imported/girl abstract cherry blossoms.jpg-fd1771dae0c0d9ca5ec86f02dc0b52de.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl abstract cherry blossoms.jpg-fd1771dae0c0d9ca5ec86f02dc0b52de.s3tc.ctex", "res://.godot/imported/girl abstract cherry blossoms.jpg-fd1771dae0c0d9ca5ec86f02dc0b52de.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cago3xk1wieqk"
 path.s3tc="res://.godot/imported/girl bed night window.jpg-4d8b0814c2b9c195e04f65e73b9e4f03.s3tc.ctex"
+path.etc2="res://.godot/imported/girl bed night window.jpg-4d8b0814c2b9c195e04f65e73b9e4f03.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/girl bed night window.jpg"
-dest_files=["res://.godot/imported/girl bed night window.jpg-4d8b0814c2b9c195e04f65e73b9e4f03.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl bed night window.jpg-4d8b0814c2b9c195e04f65e73b9e4f03.s3tc.ctex", "res://.godot/imported/girl bed night window.jpg-4d8b0814c2b9c195e04f65e73b9e4f03.etc2.ctex"]
 
 [params]
 

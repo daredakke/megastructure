@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://u7170hlgewvp"
 path.s3tc="res://.godot/imported/sketch girl raining fish.jpg-8810dfcac325dd91d5c858013d825198.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girl raining fish.jpg-8810dfcac325dd91d5c858013d825198.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girl raining fish.jpg"
-dest_files=["res://.godot/imported/sketch girl raining fish.jpg-8810dfcac325dd91d5c858013d825198.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girl raining fish.jpg-8810dfcac325dd91d5c858013d825198.s3tc.ctex", "res://.godot/imported/sketch girl raining fish.jpg-8810dfcac325dd91d5c858013d825198.etc2.ctex"]
 
 [params]
 

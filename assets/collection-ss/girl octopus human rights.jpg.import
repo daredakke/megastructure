@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds321nmq704e5"
 path.s3tc="res://.godot/imported/girl octopus human rights.jpg-f8844fb0be6d06a1c1942360ca0552ad.s3tc.ctex"
+path.etc2="res://.godot/imported/girl octopus human rights.jpg-f8844fb0be6d06a1c1942360ca0552ad.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/girl octopus human rights.jpg"
-dest_files=["res://.godot/imported/girl octopus human rights.jpg-f8844fb0be6d06a1c1942360ca0552ad.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl octopus human rights.jpg-f8844fb0be6d06a1c1942360ca0552ad.s3tc.ctex", "res://.godot/imported/girl octopus human rights.jpg-f8844fb0be6d06a1c1942360ca0552ad.etc2.ctex"]
 
 [params]
 

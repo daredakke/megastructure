@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1h8g8vy5moak"
 path.s3tc="res://.godot/imported/girl standing amongst wheat red.jpg-f962dc1e1f1169fdb1b6a5d568a2c0bb.s3tc.ctex"
+path.etc2="res://.godot/imported/girl standing amongst wheat red.jpg-f962dc1e1f1169fdb1b6a5d568a2c0bb.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl standing amongst wheat red.jpg"
-dest_files=["res://.godot/imported/girl standing amongst wheat red.jpg-f962dc1e1f1169fdb1b6a5d568a2c0bb.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl standing amongst wheat red.jpg-f962dc1e1f1169fdb1b6a5d568a2c0bb.s3tc.ctex", "res://.godot/imported/girl standing amongst wheat red.jpg-f962dc1e1f1169fdb1b6a5d568a2c0bb.etc2.ctex"]
 
 [params]
 

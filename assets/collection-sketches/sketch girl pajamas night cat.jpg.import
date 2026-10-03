@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce2f02j72etw5"
 path.s3tc="res://.godot/imported/sketch girl pajamas night cat.jpg-643aaadea0d70019e024df49cbca996e.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girl pajamas night cat.jpg-643aaadea0d70019e024df49cbca996e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girl pajamas night cat.jpg"
-dest_files=["res://.godot/imported/sketch girl pajamas night cat.jpg-643aaadea0d70019e024df49cbca996e.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girl pajamas night cat.jpg-643aaadea0d70019e024df49cbca996e.s3tc.ctex", "res://.godot/imported/sketch girl pajamas night cat.jpg-643aaadea0d70019e024df49cbca996e.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cestndqnagto6"
 path.s3tc="res://.godot/imported/chito yuuri room chocolate.jpg-3be935efb10d2ec922c73db7407d9540.s3tc.ctex"
+path.etc2="res://.godot/imported/chito yuuri room chocolate.jpg-3be935efb10d2ec922c73db7407d9540.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ssr/chito yuuri room chocolate.jpg"
-dest_files=["res://.godot/imported/chito yuuri room chocolate.jpg-3be935efb10d2ec922c73db7407d9540.s3tc.ctex"]
+dest_files=["res://.godot/imported/chito yuuri room chocolate.jpg-3be935efb10d2ec922c73db7407d9540.s3tc.ctex", "res://.godot/imported/chito yuuri room chocolate.jpg-3be935efb10d2ec922c73db7407d9540.etc2.ctex"]
 
 [params]
 

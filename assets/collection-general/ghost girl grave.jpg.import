@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp7au7ts4tudy"
 path.s3tc="res://.godot/imported/ghost girl grave.jpg-c866766ba77264a2258232c56e1a4512.s3tc.ctex"
+path.etc2="res://.godot/imported/ghost girl grave.jpg-c866766ba77264a2258232c56e1a4512.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/ghost girl grave.jpg"
-dest_files=["res://.godot/imported/ghost girl grave.jpg-c866766ba77264a2258232c56e1a4512.s3tc.ctex"]
+dest_files=["res://.godot/imported/ghost girl grave.jpg-c866766ba77264a2258232c56e1a4512.s3tc.ctex", "res://.godot/imported/ghost girl grave.jpg-c866766ba77264a2258232c56e1a4512.etc2.ctex"]
 
 [params]
 

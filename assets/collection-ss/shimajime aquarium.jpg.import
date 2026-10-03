@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcvcsn50xtdj6"
 path.s3tc="res://.godot/imported/shimajime aquarium.jpg-813695688a0ee19e1d60a7d958ff1c55.s3tc.ctex"
+path.etc2="res://.godot/imported/shimajime aquarium.jpg-813695688a0ee19e1d60a7d958ff1c55.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimajime aquarium.jpg"
-dest_files=["res://.godot/imported/shimajime aquarium.jpg-813695688a0ee19e1d60a7d958ff1c55.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimajime aquarium.jpg-813695688a0ee19e1d60a7d958ff1c55.s3tc.ctex", "res://.godot/imported/shimajime aquarium.jpg-813695688a0ee19e1d60a7d958ff1c55.etc2.ctex"]
 
 [params]
 

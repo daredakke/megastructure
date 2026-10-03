@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxib0cx015xdk"
 path.s3tc="res://.godot/imported/sketch girl pondering fish.jpg-429a6d170943a43fbbd843d84febf5bd.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girl pondering fish.jpg-429a6d170943a43fbbd843d84febf5bd.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girl pondering fish.jpg"
-dest_files=["res://.godot/imported/sketch girl pondering fish.jpg-429a6d170943a43fbbd843d84febf5bd.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girl pondering fish.jpg-429a6d170943a43fbbd843d84febf5bd.s3tc.ctex", "res://.godot/imported/sketch girl pondering fish.jpg-429a6d170943a43fbbd843d84febf5bd.etc2.ctex"]
 
 [params]
 

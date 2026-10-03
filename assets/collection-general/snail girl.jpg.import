@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmee7q3pj1xad"
 path.s3tc="res://.godot/imported/snail girl.jpg-33a311230c664ce8037060d7ac44a645.s3tc.ctex"
+path.etc2="res://.godot/imported/snail girl.jpg-33a311230c664ce8037060d7ac44a645.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/snail girl.jpg"
-dest_files=["res://.godot/imported/snail girl.jpg-33a311230c664ce8037060d7ac44a645.s3tc.ctex"]
+dest_files=["res://.godot/imported/snail girl.jpg-33a311230c664ce8037060d7ac44a645.s3tc.ctex", "res://.godot/imported/snail girl.jpg-33a311230c664ce8037060d7ac44a645.etc2.ctex"]
 
 [params]
 

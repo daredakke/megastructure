@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctx5r7gkn2n8s"
 path.s3tc="res://.godot/imported/sketch sad majime.jpg-6ca903e5d5bd2ab5fa1a250c0c7d6480.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch sad majime.jpg-6ca903e5d5bd2ab5fa1a250c0c7d6480.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss-sketches/sketch sad majime.jpg"
-dest_files=["res://.godot/imported/sketch sad majime.jpg-6ca903e5d5bd2ab5fa1a250c0c7d6480.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch sad majime.jpg-6ca903e5d5bd2ab5fa1a250c0c7d6480.s3tc.ctex", "res://.godot/imported/sketch sad majime.jpg-6ca903e5d5bd2ab5fa1a250c0c7d6480.etc2.ctex"]
 
 [params]
 

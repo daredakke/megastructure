@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bimh7r51hi4k0"
 path.s3tc="res://.godot/imported/two girls close on bed.jpg-3d8f90a062de48d01ca4f9464dd241f6.s3tc.ctex"
+path.etc2="res://.godot/imported/two girls close on bed.jpg-3d8f90a062de48d01ca4f9464dd241f6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/two girls close on bed.jpg"
-dest_files=["res://.godot/imported/two girls close on bed.jpg-3d8f90a062de48d01ca4f9464dd241f6.s3tc.ctex"]
+dest_files=["res://.godot/imported/two girls close on bed.jpg-3d8f90a062de48d01ca4f9464dd241f6.s3tc.ctex", "res://.godot/imported/two girls close on bed.jpg-3d8f90a062de48d01ca4f9464dd241f6.etc2.ctex"]
 
 [params]
 

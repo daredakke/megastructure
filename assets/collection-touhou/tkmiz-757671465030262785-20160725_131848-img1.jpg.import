@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://tporypepf0ae"
 path.s3tc="res://.godot/imported/tkmiz-757671465030262785-20160725_131848-img1.jpg-0cd8db8261415f90a3a8bf1ca9cf805e.s3tc.ctex"
+path.etc2="res://.godot/imported/tkmiz-757671465030262785-20160725_131848-img1.jpg-0cd8db8261415f90a3a8bf1ca9cf805e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-touhou/tkmiz-757671465030262785-20160725_131848-img1.jpg"
-dest_files=["res://.godot/imported/tkmiz-757671465030262785-20160725_131848-img1.jpg-0cd8db8261415f90a3a8bf1ca9cf805e.s3tc.ctex"]
+dest_files=["res://.godot/imported/tkmiz-757671465030262785-20160725_131848-img1.jpg-0cd8db8261415f90a3a8bf1ca9cf805e.s3tc.ctex", "res://.godot/imported/tkmiz-757671465030262785-20160725_131848-img1.jpg-0cd8db8261415f90a3a8bf1ca9cf805e.etc2.ctex"]
 
 [params]
 

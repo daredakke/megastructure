@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5qguk01p3r5o"
 path.s3tc="res://.godot/imported/woman standing hat.jpg-c729274c996c6cc5176823f18f0a8f31.s3tc.ctex"
+path.etc2="res://.godot/imported/woman standing hat.jpg-c729274c996c6cc5176823f18f0a8f31.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/woman standing hat.jpg"
-dest_files=["res://.godot/imported/woman standing hat.jpg-c729274c996c6cc5176823f18f0a8f31.s3tc.ctex"]
+dest_files=["res://.godot/imported/woman standing hat.jpg-c729274c996c6cc5176823f18f0a8f31.s3tc.ctex", "res://.godot/imported/woman standing hat.jpg-c729274c996c6cc5176823f18f0a8f31.etc2.ctex"]
 
 [params]
 

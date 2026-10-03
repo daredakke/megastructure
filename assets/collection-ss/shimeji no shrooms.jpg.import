@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci0d8h8b0t5va"
 path.s3tc="res://.godot/imported/shimeji no shrooms.jpg-5be0737a7f51109360d2cdeae7abb615.s3tc.ctex"
+path.etc2="res://.godot/imported/shimeji no shrooms.jpg-5be0737a7f51109360d2cdeae7abb615.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss/shimeji no shrooms.jpg"
-dest_files=["res://.godot/imported/shimeji no shrooms.jpg-5be0737a7f51109360d2cdeae7abb615.s3tc.ctex"]
+dest_files=["res://.godot/imported/shimeji no shrooms.jpg-5be0737a7f51109360d2cdeae7abb615.s3tc.ctex", "res://.godot/imported/shimeji no shrooms.jpg-5be0737a7f51109360d2cdeae7abb615.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwn3i78fpjkkb"
 path.s3tc="res://.godot/imported/lost girl with fish.jpg-8b0a568b9c6ed2253569f996f29acb47.s3tc.ctex"
+path.etc2="res://.godot/imported/lost girl with fish.jpg-8b0a568b9c6ed2253569f996f29acb47.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/lost girl with fish.jpg"
-dest_files=["res://.godot/imported/lost girl with fish.jpg-8b0a568b9c6ed2253569f996f29acb47.s3tc.ctex"]
+dest_files=["res://.godot/imported/lost girl with fish.jpg-8b0a568b9c6ed2253569f996f29acb47.s3tc.ctex", "res://.godot/imported/lost girl with fish.jpg-8b0a568b9c6ed2253569f996f29acb47.etc2.ctex"]
 
 [params]
 

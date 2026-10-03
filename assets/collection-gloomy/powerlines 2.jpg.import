@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvm7r3iy5dxb5"
 path.s3tc="res://.godot/imported/powerlines 2.jpg-42e2ead6c63ef9895a8aa3ab173d6137.s3tc.ctex"
+path.etc2="res://.godot/imported/powerlines 2.jpg-42e2ead6c63ef9895a8aa3ab173d6137.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/powerlines 2.jpg"
-dest_files=["res://.godot/imported/powerlines 2.jpg-42e2ead6c63ef9895a8aa3ab173d6137.s3tc.ctex"]
+dest_files=["res://.godot/imported/powerlines 2.jpg-42e2ead6c63ef9895a8aa3ab173d6137.s3tc.ctex", "res://.godot/imported/powerlines 2.jpg-42e2ead6c63ef9895a8aa3ab173d6137.etc2.ctex"]
 
 [params]
 

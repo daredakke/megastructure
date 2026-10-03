@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://yi0ingbpgb5x"
 path.s3tc="res://.godot/imported/school girl riding mantis.jpg-34e0ce7c6458b468aaab5018a4af6a66.s3tc.ctex"
+path.etc2="res://.godot/imported/school girl riding mantis.jpg-34e0ce7c6458b468aaab5018a4af6a66.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/school girl riding mantis.jpg"
-dest_files=["res://.godot/imported/school girl riding mantis.jpg-34e0ce7c6458b468aaab5018a4af6a66.s3tc.ctex"]
+dest_files=["res://.godot/imported/school girl riding mantis.jpg-34e0ce7c6458b468aaab5018a4af6a66.s3tc.ctex", "res://.godot/imported/school girl riding mantis.jpg-34e0ce7c6458b468aaab5018a4af6a66.etc2.ctex"]
 
 [params]
 

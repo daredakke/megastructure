@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgrmr4gupfnii"
 path.s3tc="res://.godot/imported/girl with many fish.jpg-3e735a768325a750afdd491c3b70ee23.s3tc.ctex"
+path.etc2="res://.godot/imported/girl with many fish.jpg-3e735a768325a750afdd491c3b70ee23.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/girl with many fish.jpg"
-dest_files=["res://.godot/imported/girl with many fish.jpg-3e735a768325a750afdd491c3b70ee23.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl with many fish.jpg-3e735a768325a750afdd491c3b70ee23.s3tc.ctex", "res://.godot/imported/girl with many fish.jpg-3e735a768325a750afdd491c3b70ee23.etc2.ctex"]
 
 [params]
 

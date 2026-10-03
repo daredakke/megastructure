@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://fdo75gpdc66h"
 path.s3tc="res://.godot/imported/sketch cat girl fish.jpg-9e42a4a09317810a53456064723d7145.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch cat girl fish.jpg-9e42a4a09317810a53456064723d7145.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch cat girl fish.jpg"
-dest_files=["res://.godot/imported/sketch cat girl fish.jpg-9e42a4a09317810a53456064723d7145.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch cat girl fish.jpg-9e42a4a09317810a53456064723d7145.s3tc.ctex", "res://.godot/imported/sketch cat girl fish.jpg-9e42a4a09317810a53456064723d7145.etc2.ctex"]
 
 [params]
 

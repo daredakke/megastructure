@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp57rs7ogsnue"
 path.s3tc="res://.godot/imported/girl above conbini parking lot.jpg-a36a1ad25bf1a5680bf9bbd7487f59d9.s3tc.ctex"
+path.etc2="res://.godot/imported/girl above conbini parking lot.jpg-a36a1ad25bf1a5680bf9bbd7487f59d9.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-abstract/girl above conbini parking lot.jpg"
-dest_files=["res://.godot/imported/girl above conbini parking lot.jpg-a36a1ad25bf1a5680bf9bbd7487f59d9.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl above conbini parking lot.jpg-a36a1ad25bf1a5680bf9bbd7487f59d9.s3tc.ctex", "res://.godot/imported/girl above conbini parking lot.jpg-a36a1ad25bf1a5680bf9bbd7487f59d9.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5if0nrun612b"
 path.s3tc="res://.godot/imported/girl lying in zen garden.jpg-53db61a501b3d006919de4972462e3d7.s3tc.ctex"
+path.etc2="res://.godot/imported/girl lying in zen garden.jpg-53db61a501b3d006919de4972462e3d7.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-gloomy/girl lying in zen garden.jpg"
-dest_files=["res://.godot/imported/girl lying in zen garden.jpg-53db61a501b3d006919de4972462e3d7.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl lying in zen garden.jpg-53db61a501b3d006919de4972462e3d7.s3tc.ctex", "res://.godot/imported/girl lying in zen garden.jpg-53db61a501b3d006919de4972462e3d7.etc2.ctex"]
 
 [params]
 

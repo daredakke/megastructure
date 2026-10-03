@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3rphcowx8nne"
 path.s3tc="res://.godot/imported/metal-plate-rusted_1024.png-45cbf1cafea10458f9c0aceb08c14acf.s3tc.ctex"
+path.etc2="res://.godot/imported/metal-plate-rusted_1024.png-45cbf1cafea10458f9c0aceb08c14acf.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/textures/metal-plate-rusted_1024.png"
-dest_files=["res://.godot/imported/metal-plate-rusted_1024.png-45cbf1cafea10458f9c0aceb08c14acf.s3tc.ctex"]
+dest_files=["res://.godot/imported/metal-plate-rusted_1024.png-45cbf1cafea10458f9c0aceb08c14acf.s3tc.ctex", "res://.godot/imported/metal-plate-rusted_1024.png-45cbf1cafea10458f9c0aceb08c14acf.etc2.ctex"]
 
 [params]
 

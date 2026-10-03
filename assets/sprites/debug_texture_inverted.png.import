@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhuabp40tklo0"
 path.s3tc="res://.godot/imported/debug_texture_inverted.png-1ede68aeb9f9f53c7f33208cca81084f.s3tc.ctex"
+path.etc2="res://.godot/imported/debug_texture_inverted.png-1ede68aeb9f9f53c7f33208cca81084f.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/sprites/debug_texture_inverted.png"
-dest_files=["res://.godot/imported/debug_texture_inverted.png-1ede68aeb9f9f53c7f33208cca81084f.s3tc.ctex"]
+dest_files=["res://.godot/imported/debug_texture_inverted.png-1ede68aeb9f9f53c7f33208cca81084f.s3tc.ctex", "res://.godot/imported/debug_texture_inverted.png-1ede68aeb9f9f53c7f33208cca81084f.etc2.ctex"]
 
 [params]
 

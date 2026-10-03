@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqrx35ltakg7e"
 path.s3tc="res://.godot/imported/glasses girl proto majime.jpg-6afaa12c9ceab2ae17995c5dffe1ddd4.s3tc.ctex"
+path.etc2="res://.godot/imported/glasses girl proto majime.jpg-6afaa12c9ceab2ae17995c5dffe1ddd4.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-ss-sketches/glasses girl proto majime.jpg"
-dest_files=["res://.godot/imported/glasses girl proto majime.jpg-6afaa12c9ceab2ae17995c5dffe1ddd4.s3tc.ctex"]
+dest_files=["res://.godot/imported/glasses girl proto majime.jpg-6afaa12c9ceab2ae17995c5dffe1ddd4.s3tc.ctex", "res://.godot/imported/glasses girl proto majime.jpg-6afaa12c9ceab2ae17995c5dffe1ddd4.etc2.ctex"]
 
 [params]
 

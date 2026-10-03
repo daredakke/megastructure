@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfaj3oavn0w2r"
 path.s3tc="res://.godot/imported/Bench_courtyard_smooth-concrete-light.png-2e3e1e7fa0b96eedf5fd88bf3fc0cf14.s3tc.ctex"
+path.etc2="res://.godot/imported/Bench_courtyard_smooth-concrete-light.png-2e3e1e7fa0b96eedf5fd88bf3fc0cf14.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery/Bench_courtyard_smooth-concrete-light.png"
-dest_files=["res://.godot/imported/Bench_courtyard_smooth-concrete-light.png-2e3e1e7fa0b96eedf5fd88bf3fc0cf14.s3tc.ctex"]
+dest_files=["res://.godot/imported/Bench_courtyard_smooth-concrete-light.png-2e3e1e7fa0b96eedf5fd88bf3fc0cf14.s3tc.ctex", "res://.godot/imported/Bench_courtyard_smooth-concrete-light.png-2e3e1e7fa0b96eedf5fd88bf3fc0cf14.etc2.ctex"]
 
 [params]
 

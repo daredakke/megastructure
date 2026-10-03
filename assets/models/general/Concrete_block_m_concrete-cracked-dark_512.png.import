@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://drkubnsjye6q3"
 path.s3tc="res://.godot/imported/Concrete_block_m_concrete-cracked-dark_512.png-7403f19c74e195f0601f6f8b4d5f97ad.s3tc.ctex"
+path.etc2="res://.godot/imported/Concrete_block_m_concrete-cracked-dark_512.png-7403f19c74e195f0601f6f8b4d5f97ad.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/general/Concrete_block_m_concrete-cracked-dark_512.png"
-dest_files=["res://.godot/imported/Concrete_block_m_concrete-cracked-dark_512.png-7403f19c74e195f0601f6f8b4d5f97ad.s3tc.ctex"]
+dest_files=["res://.godot/imported/Concrete_block_m_concrete-cracked-dark_512.png-7403f19c74e195f0601f6f8b4d5f97ad.s3tc.ctex", "res://.godot/imported/Concrete_block_m_concrete-cracked-dark_512.png-7403f19c74e195f0601f6f8b4d5f97ad.etc2.ctex"]
 
 [params]
 

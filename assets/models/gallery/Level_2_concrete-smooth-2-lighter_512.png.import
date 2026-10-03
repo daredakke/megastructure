@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl0jvjifje50o"
 path.s3tc="res://.godot/imported/Level_2_concrete-smooth-2-lighter_512.png-062a89dc23e8226a901a83dd9ad712f6.s3tc.ctex"
+path.etc2="res://.godot/imported/Level_2_concrete-smooth-2-lighter_512.png-062a89dc23e8226a901a83dd9ad712f6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/gallery/Level_2_concrete-smooth-2-lighter_512.png"
-dest_files=["res://.godot/imported/Level_2_concrete-smooth-2-lighter_512.png-062a89dc23e8226a901a83dd9ad712f6.s3tc.ctex"]
+dest_files=["res://.godot/imported/Level_2_concrete-smooth-2-lighter_512.png-062a89dc23e8226a901a83dd9ad712f6.s3tc.ctex", "res://.godot/imported/Level_2_concrete-smooth-2-lighter_512.png-062a89dc23e8226a901a83dd9ad712f6.etc2.ctex"]
 
 [params]
 

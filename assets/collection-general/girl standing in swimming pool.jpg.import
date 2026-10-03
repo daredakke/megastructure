@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpxkqsf5sqnyw"
 path.s3tc="res://.godot/imported/girl standing in swimming pool.jpg-d511196deb4142c1104e660ac7411835.s3tc.ctex"
+path.etc2="res://.godot/imported/girl standing in swimming pool.jpg-d511196deb4142c1104e660ac7411835.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-general/girl standing in swimming pool.jpg"
-dest_files=["res://.godot/imported/girl standing in swimming pool.jpg-d511196deb4142c1104e660ac7411835.s3tc.ctex"]
+dest_files=["res://.godot/imported/girl standing in swimming pool.jpg-d511196deb4142c1104e660ac7411835.s3tc.ctex", "res://.godot/imported/girl standing in swimming pool.jpg-d511196deb4142c1104e660ac7411835.etc2.ctex"]
 
 [params]
 

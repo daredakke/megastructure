@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvy2f4iexseyl"
 path.s3tc="res://.godot/imported/sketch girl swimsuit sitting chainlink.jpg-4aca6c0b7a717f1f053983f5da87cb57.s3tc.ctex"
+path.etc2="res://.godot/imported/sketch girl swimsuit sitting chainlink.jpg-4aca6c0b7a717f1f053983f5da87cb57.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/collection-sketches/sketch girl swimsuit sitting chainlink.jpg"
-dest_files=["res://.godot/imported/sketch girl swimsuit sitting chainlink.jpg-4aca6c0b7a717f1f053983f5da87cb57.s3tc.ctex"]
+dest_files=["res://.godot/imported/sketch girl swimsuit sitting chainlink.jpg-4aca6c0b7a717f1f053983f5da87cb57.s3tc.ctex", "res://.godot/imported/sketch girl swimsuit sitting chainlink.jpg-4aca6c0b7a717f1f053983f5da87cb57.etc2.ctex"]
 
 [params]
 

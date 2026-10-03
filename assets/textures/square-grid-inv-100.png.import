@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://jwd835s5ii57"
 path.s3tc="res://.godot/imported/square-grid-inv-100.png-ca9641e795d75a58aaa03fbfc124dadd.s3tc.ctex"
+path.etc2="res://.godot/imported/square-grid-inv-100.png-ca9641e795d75a58aaa03fbfc124dadd.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/textures/square-grid-inv-100.png"
-dest_files=["res://.godot/imported/square-grid-inv-100.png-ca9641e795d75a58aaa03fbfc124dadd.s3tc.ctex"]
+dest_files=["res://.godot/imported/square-grid-inv-100.png-ca9641e795d75a58aaa03fbfc124dadd.s3tc.ctex", "res://.godot/imported/square-grid-inv-100.png-ca9641e795d75a58aaa03fbfc124dadd.etc2.ctex"]
 
 [params]
 
