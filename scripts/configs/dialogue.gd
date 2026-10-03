@@ -58,6 +58,7 @@ enum Keys {
 	Outside,
 	Reverb,
 	LedgeGrab,
+	InteriorSpaces,
 }
 
 static var char_names := {
@@ -716,6 +717,14 @@ static var lines := {
 				"line": "It's a quick and dirty solution since it requires you to hold forward to make it, but I don't think it feels that bad.",
 			},
 
+		],
+	},
+	Keys.InteriorSpaces: {
+		"start": [
+			{
+				"speaker": "",
+				"line": "I was thinking of adding something to these empty spaces on each level, like some tables and chairs perhaps, but alas I ran out of energy.",
+			},
 		],
 	},
 }

@@ -495,6 +495,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2105985, 0.9999976, 66.996
 dialogue_index = 3
 is_commentary = true
 
+[node name="InteriorSpaces" parent="Interactive/NPCs" unique_id=2118257439 instance=ExtResource("5_pgerh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.689026, 0.9999976, 66.99661)
+dialogue_index = 50
+is_commentary = true
+
 [node name="FlyingCatGirl" parent="Interactive/NPCs" unique_id=530804774 instance=ExtResource("5_pgerh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.209015, 0.9999976, 11.786311)
 dialogue_index = 4
@@ -1428,7 +1433,7 @@ picture_scale = 0.2
 metadata/_custom_type_script = "uid://by22ovgucgqm6"
 
 [node name="WallSprite41" type="Sprite3D" parent="GeneralPicturesWest" unique_id=597318784]
-transform = Transform3D(0.24969906, 1.5080487e-07, 0.01226309, 0, 0.25, -3.074365e-06, -0.01226309, 3.0706642e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
+transform = Transform3D(0.24969906, 1.5080488e-07, 0.01226309, 0, 0.25, -3.0743654e-06, -0.01226309, 3.0706647e-06, 0.24969906, -5.1463366, 2.7181249, -76.11523)
 texture = ExtResource("64_g2v2n")
 script = ExtResource("11_i7cp0")
 picture_scale = 0.25
